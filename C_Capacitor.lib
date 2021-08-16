@@ -4,11 +4,11 @@ EESchema-LIBRARY Version 2.4
 # C_0201
 #
 DEF C_0201 C 0 40 N Y 1 F N
-F0 "C" 100 75 50 H V C CNN
-F1 "C_0201" 150 -75 25 H V C CNN
+F0 "C" 100 100 50 H V C CNN
+F1 "C_0201" 175 -50 25 H V C CNN
 F2 "C_Capacitor:C_0201" -125 0 50 V I C CNN
-F3 "" 100 75 50 H I C CNN
-F4 "?nF" 150 0 50 H V C CNN "Capacitance"
+F3 "" 100 100 50 H I C CNN
+F4 "?nF,?V" 225 25 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -26,7 +26,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_0402" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_0402" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?nF" 150 0 50 H V C CNN "Capacitance"
+F4 "?nF,?V" 225 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -44,7 +44,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_0603" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_0603" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?nF" 150 0 50 H V C CNN "Capacitance"
+F4 "?nF, ?V" 225 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -62,7 +62,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_0805" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_0805" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?uF" 150 0 50 H V C CNN "Capacitance"
+F4 "?uF,?V" 200 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -80,7 +80,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_1206" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_1206" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?uF" 150 0 50 H V C CNN "Capacitance"
+F4 "?uF,?V" 200 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -98,7 +98,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_1210" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_1210" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?uF" 150 0 50 H V C CNN "Capacitance"
+F4 "?uF,?V" 200 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -116,7 +116,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_1812" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_1812" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?uF" 150 0 50 H V C CNN "Capacitance"
+F4 "?uF,?V" 200 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -134,7 +134,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_1825" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_1825" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?uF" 150 0 50 H V C CNN "Capacitance"
+F4 "?uF,?V" 200 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -152,7 +152,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_2220" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_2220" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?uF" 150 0 50 H V C CNN "Capacitance"
+F4 "?uF,?V" 200 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
@@ -170,7 +170,7 @@ F0 "C" 100 75 50 H V C CNN
 F1 "C_2225" 150 -75 25 H V C CNN
 F2 "C_Capacitor:C_2225" -125 0 50 V I C CNN
 F3 "" 100 75 50 H I C CNN
-F4 "?uF" 150 0 50 H V C CNN "Capacitance"
+F4 "?uF,?V" 200 0 50 H V C CNN "Capacitance"
 DRAW
 P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
