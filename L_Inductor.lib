@@ -1,0 +1,55 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Ferrite_0402
+#
+DEF Ferrite_0402 L 0 40 N N 1 F N
+F0 "L" 150 75 50 H V C CNN
+F1 "Ferrite_0402" 250 -75 25 H V C CNN
+F2 "L_Inductor:Ferrite_0402" -150 25 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "?R" 175 0 50 H V C CNN "Parameter"
+DRAW
+P 2 1 1 0 0 -50 0 -48 N
+P 2 1 1 0 0 50 0 51 N
+P 5 1 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ferrite_0603
+#
+DEF Ferrite_0603 L 0 40 N N 1 F N
+F0 "L" 150 75 50 H V C CNN
+F1 "Ferrite_0603" 250 -75 25 H V C CNN
+F2 "L_Inductor:Ferrite_0603" -150 25 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "?R" 175 0 50 H V C CNN "Parameter"
+DRAW
+P 2 1 1 0 0 -50 0 -48 N
+P 2 1 1 0 0 50 0 51 N
+P 5 1 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ferrite_0805
+#
+DEF Ferrite_0805 L 0 40 N N 1 F N
+F0 "L" 150 75 50 H V C CNN
+F1 "Ferrite_0805" 250 -75 25 H V C CNN
+F2 "L_Inductor:Ferrite_0805" -150 25 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "?R" 175 0 50 H V C CNN "Parameter"
+DRAW
+P 2 1 1 0 0 -50 0 -48 N
+P 2 1 1 0 0 50 0 51 N
+P 5 1 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
