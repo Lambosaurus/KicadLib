@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDN336P
+D P-MOSFET transistor, drain/source/gate
+K transistor PMOS P-MOS P-MOSFET
+F https://www.digikey.co.nz/en/products/detail/onsemi/FDN336P/965302
+$ENDCMP
+#
+#End Doc Library
