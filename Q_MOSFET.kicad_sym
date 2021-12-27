@@ -405,7 +405,7 @@
     (property "Value" "FQD11P06TM" (id 1) (at 2.54 -0.381 0)
       (effects (font (size 0.6096 0.6096)) (justify left))
     )
-    (property "Footprint" "Q_MOSFET:TO-252-2" (id 2) (at 12.7 -2.032 0)
+    (property "Footprint" "U_IC:SOT223_3" (id 2) (at 12.7 -2.032 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fqu11p06-d.pdf" (id 3) (at 0 -12.7 0)
