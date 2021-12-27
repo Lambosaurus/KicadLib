@@ -112,7 +112,7 @@
     (property "Value" "BAS3007ARPPE6327HTSA1" (id 1) (at 10.795 -1.905 0)
       (effects (font (size 0.635 0.635)))
     )
-    (property "Footprint" "U_IC:SOT143" (id 2) (at 10.795 -5.08 0)
+    (property "Footprint" "U_IC:SOT23_4" (id 2) (at 10.795 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 5.08 3.81 90)
