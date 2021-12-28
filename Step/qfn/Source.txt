@@ -1,3 +1,2 @@
-QFN12_05 to QFN48_05 and DFN8_065 to DFN10_05
-Karol Novak
-https://www.3dcontentcentral.com/Contributors.aspx?id=2046187
+QFN12_05 to QFN64_05 and DFN8_05
+Kicad libraries
