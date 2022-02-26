@@ -1,6 +1,6 @@
 (footprint "LQFP32_08_7x7" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F298B7)
+  (tedit 6219D506)
   (attr smd)
   (fp_text reference "REF**" (at 0 -5.85) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -10,7 +10,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 37dabdd4-5407-4af3-b2a7-34b002ef827a)
   )
-  (fp_rect (start -3.3 3.3) (end 3.3 -3.3) (layer "F.SilkS") (width 0.12) (fill none) (tstamp f0919a17-fbb1-4692-99c4-29078db562bd))
+  (fp_rect (start -3.3 3.3) (end 3.3 -3.3) (layer "F.SilkS") (width 0.15) (fill none) (tstamp f0919a17-fbb1-4692-99c4-29078db562bd))
   (fp_circle (center -3.9 -3.9) (end -3.8 -3.9) (layer "F.SilkS") (width 0.5) (fill none) (tstamp dad3cdc6-ad65-4fc2-a438-22738715d58d))
   (fp_poly (pts
       (xy -3.3 -2.1)
