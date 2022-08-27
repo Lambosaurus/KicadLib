@@ -1,6 +1,6 @@
 (footprint "SOT23_4" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A47AE9)
+  (tedit 630A1961)
   (descr "SOT23_4, SOT143")
   (tags "SOT23 SOT143")
   (attr smd)
@@ -36,11 +36,6 @@
   (pad "2" smd roundrect (at -1.15 0.95) (size 1.2 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 65bba264-2c3c-4c29-b317-ace99b3292ef))
   (pad "3" smd roundrect (at 1.15 0.95) (size 1.2 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1ce026d3-9575-405f-b43c-ff2ecd8b10ba))
   (pad "4" smd roundrect (at 1.15 -0.95) (size 1.2 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 925aa975-acb4-40c2-9c04-99557189f722))
-  (model "${LAMBO_LIB}/Step/sot23/SOT23-4.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -180))
-  )
   (model "${LAMBO_LIB}/Step/sot23/SOT23-4.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

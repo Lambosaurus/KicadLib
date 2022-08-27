@@ -1,6 +1,6 @@
 (footprint "TO252-2" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62C29220)
+  (tedit 630A19DC)
   (descr "TO252-2")
   (tags "TO252-2, TO252")
   (attr smd)
@@ -29,14 +29,9 @@
   (pad "1" smd roundrect (at 6.85 2.3) (size 2.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 21a7e865-c24c-47c9-95c0-c2ec9bcaeafd))
   (pad "2" smd roundrect (at 0 0) (size 7 7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 6a3ac14c-4a85-4667-966a-7d0148472c12))
   (pad "3" smd roundrect (at 6.85 -2.3) (size 2.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 65bba264-2c3c-4c29-b317-ace99b3292ef))
-  (model "${LAMBO_LIB}/Step/sot23/SOT23-6.stp"
-    (offset (xyz 0 0 0))
+  (model "${LAMBO_LIB}/Step/to/TO252.step"
+    (offset (xyz 4.5 -3.25 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -180))
-  )
-  (model "${LAMBO_LIB}/Step/sot23/SOT23-6.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 -90))
   )
 )
