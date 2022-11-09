@@ -1,6 +1,6 @@
 (footprint "Crystal_SMD4_3.2x2.5" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 63259D7A)
+  (tedit 636B2AD0)
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.4 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -33,7 +33,7 @@
   (pad "2" smd roundrect (at 1.15 0.9) (size 1.3 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8a650ebf-3f78-4ca4-a26b-a5028693e36d))
   (pad "3" smd roundrect (at 1.15 -0.9) (size 1.3 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 730b670c-9bcf-4dcd-9a8d-fcaa61fb0955))
   (pad "4" smd roundrect (at -1.15 -0.9) (size 1.3 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp abe07c9a-17c3-43b5-b7a6-ae867ac27ea7))
-  (model "${LAMBO_LIB}/Step/xtal/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+  (model "${LAMBO_LIB}/Step/xtal/Crystal_SMD_4Pin_3.2x2.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

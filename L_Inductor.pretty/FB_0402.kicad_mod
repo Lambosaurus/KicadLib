@@ -1,6 +1,6 @@
 (footprint "FB_0402" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6219D2FA)
+  (tedit 6326CBBC)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -1.2) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -27,7 +27,7 @@
   (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2904c703-ae82-4d76-85d3-cfc7aa518669))
   (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp b3f487ff-b47c-4488-ba8c-08e7b412da21))
   (model "${LAMBO_LIB}/Step/ind/IND0402.step"
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 0 0.225))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
