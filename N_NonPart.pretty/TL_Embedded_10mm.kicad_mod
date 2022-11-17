@@ -1,6 +1,6 @@
-(footprint "TL_Embedded" (version 20211014) (generator pcbnew)
+(footprint "TL_Embedded_10mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62653721)
+  (tedit 63746C38)
   (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "~" (at 0 -5.6 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))

@@ -1,6 +1,6 @@
 (footprint "SOT223_3" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6219D58D)
+  (tedit 63745B39)
   (descr "SOT223_3, Standard")
   (tags "SOT223")
   (attr smd)
@@ -16,7 +16,7 @@
     (effects (font (size 0.8 0.8) (thickness 0.12)))
     (tstamp c5a1761e-3391-4e74-90c9-947fd66e1fc6)
   )
-  (fp_line (start -3.9 -3.3) (end -2.4 -3.3) (layer "F.SilkS") (width 0.15) (tstamp b278c6f4-5009-48d4-af08-74b28d07711f))
+  (fp_line (start -3.9 -3.4) (end -2.4 -3.4) (layer "F.SilkS") (width 0.15) (tstamp b278c6f4-5009-48d4-af08-74b28d07711f))
   (fp_rect (start -1.7 3.2) (end 1.7 -3.2) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 1214da2f-202f-4aba-925e-67384a880b73))
   (fp_poly (pts
       (xy -1.7 -2)

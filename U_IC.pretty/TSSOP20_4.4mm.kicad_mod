@@ -1,6 +1,6 @@
 (footprint "TSSOP20_4.4mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 636B028F)
+  (tedit 63745B14)
   (attr through_hole)
   (fp_text reference "REF**" (at -4.1 0 90) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -14,7 +14,7 @@
     (effects (font (size 0.5 0.5) (thickness 0.075)))
     (tstamp c658b109-8708-4539-861e-76420f175676)
   )
-  (fp_line (start -3.3 3.3) (end -3.3 2.5) (layer "F.SilkS") (width 0.15) (tstamp afd7b33e-4013-4fca-bb55-de9cde044c09))
+  (fp_line (start -3.4 3.3) (end -3.4 2.5) (layer "F.SilkS") (width 0.15) (tstamp afd7b33e-4013-4fca-bb55-de9cde044c09))
   (fp_rect (start -3 -1.6) (end 3 1.6) (layer "F.SilkS") (width 0.15) (fill none) (tstamp d8623b90-5df2-4e9b-90e7-62c11b30e5ed))
   (fp_poly (pts
       (xy -1.9 1.6)
