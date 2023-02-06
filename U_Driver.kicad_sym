@@ -128,7 +128,7 @@
     (property "Value" "EG2122" (id 1) (at 0 -8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" ".U_IC:SOIC_8" (id 2) (at 0 -11.43 0)
+    (property "Footprint" "U_IC:SOIC_8" (id 2) (at 0 -11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -5.08 6.35 0)

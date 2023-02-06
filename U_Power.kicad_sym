@@ -158,7 +158,7 @@
     (property "Value" "MAX662ACSA+T" (id 1) (at 9.398 -9.906 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" ".U_IC:SOIC_8" (id 2) (at 6.858 -12.446 0)
+    (property "Footprint" "U_IC:SOIC_8" (id 2) (at 6.858 -12.446 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX662A.pdf" (id 3) (at -6.38 -9.01 0)
