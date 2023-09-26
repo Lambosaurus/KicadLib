@@ -382,11 +382,11 @@
       )
     )
   )
-  (symbol "USBLC6-2P6" (pin_names hide) (in_bom yes) (on_board yes)
+  (symbol "USBLC6-2SC6" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -5.08 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "USBLC6-2P6" (at 7.62 -8.255 0)
+    (property "Value" "USBLC6-2SC6" (at 7.62 -8.255 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "U_IC:SOT23_6" (at 0 -17.145 0)
@@ -401,7 +401,7 @@
     (property "ki_description" "TVS DIODE 5.25VWM 17VC SOT23-6" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "USBLC6-2P6_0_0"
+    (symbol "USBLC6-2SC6_0_0"
       (rectangle (start -2.54 -4.445) (end 2.54 4.445)
         (stroke (width 0) (type default))
         (fill (type none))
@@ -415,7 +415,7 @@
         (fill (type none))
       )
     )
-    (symbol "USBLC6-2P6_0_1"
+    (symbol "USBLC6-2SC6_0_1"
       (rectangle (start -6.35 6.35) (end 6.35 -6.35)
         (stroke (width 0.254) (type default))
         (fill (type background))
@@ -559,7 +559,7 @@
         (fill (type outline))
       )
     )
-    (symbol "USBLC6-2P6_1_1"
+    (symbol "USBLC6-2SC6_1_1"
       (pin passive line (at -8.89 1.27 0) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
