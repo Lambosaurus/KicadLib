@@ -19,7 +19,11 @@ def get_layer_names(layers: int) -> list[str]:
     return names
 
 def run_command(args: list[str]):
-    return subprocess.check_output(args).decode('ascii').strip()
+    try:
+        return subprocess.check_output(args).decode('ascii').strip()
+    except subprocess.CalledProcessError as e:
+        print(e.stdout.decode('ascii'))
+        raise e
 
 def clean_directory(dir: str):
     # Remove output directory (and its contents) and recreate it
@@ -65,7 +69,7 @@ def export_pcb_ncdrill(input_pcb: str, output_dir: str):
         "--output", output_dir + "/",
         "--format", "excellon",
         "--excellon-zeros-format", "suppressleading",
-        "--units", "mm",
+        "--excellon-units", "mm",
         "--drill-origin", "absolute",
         "--excellon-separate-th",
         "--excellon-min-header",
