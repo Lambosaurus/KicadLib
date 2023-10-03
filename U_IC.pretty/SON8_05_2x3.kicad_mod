@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 5f2cdf18-76f4-4139-8f2a-2f56e68bf4b8)
   )
-  (fp_text value "SON8_05_2x3" (at 0 2.1 unlocked) (layer "F.Fab")
+  (fp_text value "SON8_05_2x3" (at 0 2.1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5d9c070f-a85a-4897-aacf-018b886deaaf)
   )
