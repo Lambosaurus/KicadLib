@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp b408c808-78ad-465a-8557-a7f5a848cfc2)
   )
-  (fp_text value "10118193-0001LF" (at 0 3.9 unlocked) (layer "F.Fab")
+  (fp_text value "10118193-0001LF" (at 0 3.9 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7cc6aa3b-9366-41c7-a4c2-7cdc9183a865)
   )
