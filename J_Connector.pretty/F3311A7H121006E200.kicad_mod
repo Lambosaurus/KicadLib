@@ -57,9 +57,9 @@
     (solder_mask_margin 0.102) (tstamp 26b850be-0484-4bad-a51d-bb240cecd671))
   (pad "6" smd rect (at 1.25 -1.72) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp aed78df0-cba6-4ee0-9ef2-90eaf974ea6f))
-  (pad "S1" smd rect (at -2.25 0.78) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "S" smd rect (at -2.25 0.78) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp b2541fb4-bf78-4ab5-bb72-17104f249bfa))
-  (pad "S2" smd rect (at 2.25 0.78) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "S" smd rect (at 2.25 0.78) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp be8214cc-781c-49df-b469-e391362cbafb))
   (model ":LAMBO_LIB:Step/conn/F3311A7H121006E200.step"
     (offset (xyz 0 0 0))
