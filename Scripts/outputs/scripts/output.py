@@ -9,13 +9,13 @@ KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
 KICAD_PYTHON = os.path.join(KICAD_ROOT, "python.exe")
 IBOM_SCRIPT = os.path.expandvars("%USERPROFILE%/Documents/KiCad/7.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
 
-SCRIPT_VERSION = "v1.2"
+SCRIPT_VERSION = "v1.3"
 
 def get_layer_names(layers: int) -> list[str]:
     names = ["F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "Edge.Cuts"]
     if layers > 2:
-        for i in range(1, layers - 2):
-            names.append(f"In{i}.Cu")
+        for i in range(layers - 2):
+            names.append(f"In{i + 1}.Cu")
     return names
 
 def run_command(args: list[str]):
