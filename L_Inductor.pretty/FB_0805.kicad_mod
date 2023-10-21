@@ -35,7 +35,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4a333138-062a-4541-87e1-d6ef03b1e3dd))
   (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1ba339fd-3eed-4093-adef-1f8b6939e3c2))
   (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a4d622ec-e75f-4ce0-9338-865fac55dc34))
-  (model "${LAMBO_LIB}/Step/ind/IND0805.step"
+  (model "${LAMBO_LIB}/Step/ind/FB0805.step"
     (offset (xyz 0 0 0.625))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
