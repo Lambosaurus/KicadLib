@@ -6,7 +6,7 @@
     (property "Value" "BG95MxLA" (at 20.32 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 20.32 82.55 0)
+    (property "Footprint" "U_Module:BG95" (at 20.32 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.quectel.com/wp-content/uploads/pdfupload/Quectel_BG95_Series_LPWA_Specification_V1.5.pdf" (at 20.32 82.55 0)
