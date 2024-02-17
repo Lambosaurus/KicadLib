@@ -9,7 +9,7 @@ KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
 KICAD_PYTHON = os.path.join(KICAD_ROOT, "python.exe")
 IBOM_SCRIPT = os.path.expandvars("%USERPROFILE%/Documents/KiCad/7.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
 
-SCRIPT_VERSION = "v1.3"
+SCRIPT_VERSION = "v1.4"
 
 def get_layer_names(layers: int) -> list[str]:
     names = ["F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "Edge.Cuts"]
@@ -110,7 +110,8 @@ def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
 
 def export_pcb_image(input_pcb: str, output_file: str):
     print("Currently image export is not supported")
-    shutil.copyfile("scripts/template.png", output_file)
+    template_path = os.path.join(os.path.dirname(__file__), "template.png")
+    shutil.copyfile(template_path, output_file)
     run_command([
         "mspaint", output_file
     ])
