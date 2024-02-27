@@ -181,7 +181,7 @@
         )
         (width 0.01) (fill yes))
     ) (tstamp 2260002b-19fe-466a-b2ef-2f1f6b6123e5))
-  (model ":LAMBO_LIB:Step/conn/62684-502100ALF.step"
+  (model ":LAMBO_LIB:Step/conn/flat-flex/62684-502100ALF.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

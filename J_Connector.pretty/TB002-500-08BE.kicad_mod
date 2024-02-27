@@ -65,7 +65,7 @@
     (solder_mask_margin 0.102) (tstamp 28846e7c-5223-4a40-8070-c56ea6f8d38d))
   (pad "8" thru_hole circle (at 17.5 0) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 82053ef9-f837-4338-947c-8429053ddbf8))
-  (model "${LAMBO_LIB}/Step/conn/CUI_DEVICES_TB002-500-08BE.step"
+  (model "${LAMBO_LIB}/Step/conn/screw-term/CUI_DEVICES_TB002-500-08BE.step"
     (offset (xyz -10 4.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
