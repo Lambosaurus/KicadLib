@@ -93,7 +93,7 @@
         (name "VOUT" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at -11.43 2.54 0) (length 2.54)
+      (pin power_in line (at -11.43 2.54 0) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
