@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 555c3b51-d82b-4caa-9e64-3cf410908e71)
   )
-  (fp_text value "TB002-500-02BE" (at 0 4.9 unlocked) (layer "F.Fab")
+  (fp_text value "TB002-500-02BE" (at 0 4.9 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d1f7a3d1-0740-4854-9873-1b319e6b6919)
   )

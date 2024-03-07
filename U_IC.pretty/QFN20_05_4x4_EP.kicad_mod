@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9c3666ff-48f7-42fc-87ea-b19fd9bff60f)
   )
-  (fp_text value "QFN20_4x4_05_EP" (at 0 3.6) (layer "F.Fab")
+  (fp_text value "QFN20_4x4_05_EP" (at 0 3.6) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a109695a-7a5a-4ff1-81f1-c62e064d8fdd)
   )
