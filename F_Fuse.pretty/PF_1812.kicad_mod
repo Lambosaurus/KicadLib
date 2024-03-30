@@ -1,11 +1,11 @@
-(footprint "F_1812" (version 20221018) (generator pcbnew)
+(footprint "PF_1812" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0.1 -2.6 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 13665c82-2f68-4f62-94b8-e96157db0e04)
   )
-  (fp_text value "F_1812" (at 0 3.1 unlocked) (layer "F.Fab") hide
+  (fp_text value "PF_1812" (at 0 3.1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ca8d5674-89db-48b6-828f-646686db6ed1)
   )
@@ -35,7 +35,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 41bdc7a2-ab69-4794-bc6e-8dd0e3af1eef))
   (pad "1" smd roundrect (at -2.1875 0.05) (size 1.125 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222) (tstamp 5620a395-8d7e-41f1-a206-5fbfd5be9386))
   (pad "2" smd roundrect (at 2.0875 0.05) (size 1.125 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222) (tstamp 832d2da6-cc04-4f91-bf1c-8b6eca107b31))
-  (model "${LAMBO_LIB}/Step/fuse/F_1812.step"
+  (model "${LAMBO_LIB}/Step/fuse/POLY1812.step"
     (offset (xyz 0 0 0.415))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
