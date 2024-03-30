@@ -309,7 +309,7 @@
     (property "Value" "NLCV32T-4R7M-PFR" (at 11.43 -0.635 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "L_Inductor:FB_1210" (at 0.635 -9.525 0)
+    (property "Footprint" "L_Inductor:L_1210" (at 0.635 -9.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 18.415 2.54 0)
