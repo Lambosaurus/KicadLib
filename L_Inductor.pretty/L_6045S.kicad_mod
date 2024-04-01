@@ -38,8 +38,8 @@
   (pad "1" smd roundrect (at -2.25 0) (size 1.7 5.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 760bc6ab-c074-43c9-99fd-f5cceb0ef085))
   (pad "2" smd roundrect (at 2.25 0) (size 1.7 5.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 92b8ec8d-6645-437b-a25a-fa98a8ce4b5b))
   (model "${LAMBO_LIB}/Step/ind/6045S.step"
-    (offset (xyz 0 0 -0.1))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )
