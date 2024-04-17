@@ -180,7 +180,7 @@
     (property "Value" "Radio_FS2A" (at 10.16 -2.54 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" ".A_Assembly:Radio_FS2A" (at 20.32 -5.08 0)
+    (property "Footprint" "A_Assembly:Radio_FS2A" (at 20.32 -5.08 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
