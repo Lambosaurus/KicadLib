@@ -2,3 +2,9 @@
 *.bck
 
 *.bak
+
+Step/.DS_Store
+
+Step/ind/.DS_Store
+
+.DS_Store
