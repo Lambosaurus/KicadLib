@@ -5,9 +5,13 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7782ef42-80f2-4eac-974b-fa55f062b162)
   )
-  (fp_text value "7499210121A" (at -0.1 0 unlocked) (layer "F.Fab") hide
+  (fp_text value "7499210121A" (at 0 13.3 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8b8283ec-b16e-4a63-88d1-a7161820b3d9)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 20f58d9a-1587-4724-a1d5-83706b66431e)
   )
   (fp_line (start -8 -10) (end -8 1.7)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 6b705b7c-fa56-439c-a7d9-42ec32e6948e))
