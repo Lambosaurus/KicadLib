@@ -1,13 +1,12 @@
-(footprint "Relay_SPDT_Panasonic_JW1_FormC" (version 20221018) (generator pcbnew)
+(footprint "JW1_SPDT_FORMC" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Panasonic Relay SPDT, http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok")
-  (tags "Panasonic Relay SPDT")
+  (descr "Panasonic Relay SPDT JW1 FormC")
   (attr through_hole)
   (fp_text reference "REF**" (at 11.7 -11.55 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1fe0940c-00ea-4520-95bc-66764d107316)
   )
-  (fp_text value "Relay_SPDT_Panasonic_JW1_FormC" (at 12 3.9 180) (layer "F.Fab") hide
+  (fp_text value "JW1_SPDT_FORMC" (at 12 3.9 180) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f3d6603b-0fb8-44b2-9d80-7b838ed82819)
   )
@@ -51,10 +50,10 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b5b9ac13-874e-435d-a776-dcc7476e7d31))
   (pad "A1" thru_hole roundrect (at 0 0 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp e1aa83c2-eb0e-4ff0-9762-bce9fd13235f))
   (pad "A2" thru_hole oval (at 0 -7.6 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp ef283747-26d4-4da4-b05f-47eb2d040ac1))
-  (pad "B1" thru_hole oval (at 20 -7.6 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 55ad6f0e-c8b4-4c03-aaff-88db1a0b6cb9))
+  (pad "B1" thru_hole oval (at 23.5 0 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 0cff0291-1fc8-4f7d-a52c-6461e6c41bda))
   (pad "B2" thru_hole oval (at 16.5 0 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp f5a7e9f1-98ab-4bcc-bb84-cc2d02965550))
-  (pad "B3" thru_hole oval (at 23.5 0 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 0cff0291-1fc8-4f7d-a52c-6461e6c41bda))
-  (model "${LAMBO_LIB}/Step/relay/Relay_SPDT_Panasonic_JW1_FormC.step"
+  (pad "B3" thru_hole oval (at 20 -7.6 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 55ad6f0e-c8b4-4c03-aaff-88db1a0b6cb9))
+  (model "${LAMBO_LIB}/Step/relay/SPDT_JW1_FormC.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
