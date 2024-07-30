@@ -1,6 +1,6 @@
 (footprint "Mount_M5" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -6.4 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6fc49b93-842f-4814-8ca6-1e11c16fa8fa)
