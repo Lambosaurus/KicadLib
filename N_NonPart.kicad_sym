@@ -462,14 +462,14 @@
       )
     )
   )
-  (symbol "PCIE-Mini" (pin_names hide) (in_bom no) (on_board yes)
-    (property "Reference" "N" (at 0 -2.54 0)
+  (symbol "PCIe-Mini" (pin_names hide) (in_bom no) (on_board yes)
+    (property "Reference" "N" (at 0 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "" (at -11.43 -3.81 0)
+    (property "Value" "PCIe-Mini" (at 0 -1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "N_NonPart:PCIe-Mini" (at 0 -5.08 0)
+    (property "Footprint" "N_NonPart:PCIe-Mini" (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -11.43 -3.81 0)
@@ -478,7 +478,7 @@
     (property "ki_description" "PCIE MINI CARD EDGE" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "PCIE-Mini_0_1"
+    (symbol "PCIe-Mini_0_1"
       (polyline
         (pts
           (xy -3.81 2.54)
@@ -896,7 +896,7 @@
         (fill (type none))
       )
     )
-    (symbol "PCIE-Mini_1_1"
+    (symbol "PCIe-Mini_1_1"
       (rectangle (start -3.81 71.12) (end 3.81 0)
         (stroke (width 0) (type default))
         (fill (type background))
