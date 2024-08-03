@@ -980,6 +980,9 @@
     (property "Params" "50V,1A,500mV" (at 0 -3.81 0)
       (effects (font (size 0.635 0.635)))
     )
+    (property "ki_description" "GENERIC SCHOTTKY" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "D_Generic_Schottky_1_1"
       (polyline
         (pts
@@ -1049,6 +1052,9 @@
     (property "Params" "50V,1A,700mV" (at 0 -3.81 0)
       (effects (font (size 0.635 0.635)))
     )
+    (property "ki_description" "GENERIC RECTIFIER" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "D_Generic_Silicon_1_1"
       (polyline
         (pts
@@ -1093,6 +1099,9 @@
     )
     (property "Params" "5VWM" (at 0 -3.81 0)
       (effects (font (size 0.635 0.635)))
+    )
+    (property "ki_description" "GENERIC TVS UNIDIR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "D_Generic_TVS_1_1"
       (polyline
@@ -1142,6 +1151,9 @@
     )
     (property "Params" "5VWM" (at 0 -3.81 0)
       (effects (font (size 0.635 0.635)))
+    )
+    (property "ki_description" "GENERIC TVS BIDIR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "D_Generic_TVS_Bidir_1_1"
       (polyline
@@ -1201,6 +1213,9 @@
     )
     (property "Params" "5.0V" (at 0 -3.81 0)
       (effects (font (size 0.6096 0.6096)))
+    )
+    (property "ki_description" "GENERIC ZENER" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)

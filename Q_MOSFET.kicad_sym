@@ -1175,6 +1175,9 @@
     (property "Datasheet" "" (at -1.27 -12.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_description" "GENERIC NFET" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Q_Generic_NFET_0_1"
       (circle (center 0 -1.778) (radius 0.254)
         (stroke (width 0) (type default))
@@ -1385,6 +1388,9 @@
     (property "Datasheet" "" (at -1.27 -12.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_description" "GENERIC NFET GATE-PROTECTION-DIODE" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Q_Generic_NFET_Z_0_1"
       (circle (center -3.175 0) (radius 0.254)
         (stroke (width 0) (type default))
@@ -1397,6 +1403,14 @@
       (circle (center 0 -1.778) (radius 0.254)
         (stroke (width 0) (type default))
         (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.81 0)
+          (xy -2.286 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1432,7 +1446,7 @@
       )
       (polyline
         (pts
-          (xy 0 2.54)
+          (xy 0 3.81)
           (xy 0 1.778)
         )
         (stroke (width 0) (type default))
@@ -1448,18 +1462,18 @@
       )
       (polyline
         (pts
-          (xy 0 -3.175)
-          (xy -3.175 -3.175)
-          (xy -3.175 0)
+          (xy 0 -3.81)
+          (xy 0 0)
+          (xy -1.778 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0 -2.54)
-          (xy 0 0)
-          (xy -1.778 0)
+          (xy 0 -3.175)
+          (xy -3.175 -3.175)
+          (xy -3.175 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -1530,15 +1544,15 @@
         (stroke (width 0) (type default))
         (fill (type outline))
       )
-      (pin input line (at -5.08 0 0) (length 2.6924)
+      (pin input line (at -5.08 0 0) (length 1.27)
         (name "G" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -5.08 90) (length 2.54)
+      (pin passive line (at 0 -5.08 90) (length 1.27)
         (name "S" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 5.08 270) (length 2.54)
+      (pin passive line (at 0 5.08 270) (length 1.27)
         (name "D" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -1572,6 +1586,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -1.27 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "GENERIC PFET" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Q_Generic_PFET_0_1"
@@ -1767,7 +1784,14 @@
     (property "Datasheet" "" (at -1.27 -12.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_description" "GENERIC PFET GATE-PROTECTION-DIODE" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "Q_Generic_PFET_Z_0_1"
+      (circle (center -3.175 0) (radius 0.254)
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
       (circle (center 0 -3.175) (radius 0.254)
         (stroke (width 0) (type default))
         (fill (type outline))
@@ -1775,6 +1799,14 @@
       (circle (center 0 -1.778) (radius 0.254)
         (stroke (width 0) (type default))
         (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.81 0)
+          (xy -2.286 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1810,7 +1842,7 @@
       )
       (polyline
         (pts
-          (xy 0 2.54)
+          (xy 0 3.81)
           (xy 0 1.778)
         )
         (stroke (width 0) (type default))
@@ -1826,18 +1858,18 @@
       )
       (polyline
         (pts
-          (xy 0 -3.175)
-          (xy -3.175 -3.175)
-          (xy -3.175 0)
+          (xy 0 -3.81)
+          (xy 0 0)
+          (xy -1.778 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0 -2.54)
-          (xy 0 0)
-          (xy -1.778 0)
+          (xy 0 -3.175)
+          (xy -3.175 -3.175)
+          (xy -3.175 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -1908,15 +1940,15 @@
         (stroke (width 0) (type default))
         (fill (type outline))
       )
-      (pin input line (at -5.08 0 0) (length 2.6924)
+      (pin input line (at -5.08 0 0) (length 1.27)
         (name "G" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -5.08 90) (length 2.54)
+      (pin passive line (at 0 -5.08 90) (length 1.27)
         (name "S" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 5.08 270) (length 2.54)
+      (pin passive line (at 0 5.08 270) (length 1.27)
         (name "D" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
