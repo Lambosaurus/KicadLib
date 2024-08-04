@@ -9,7 +9,7 @@ KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
 KICAD_PYTHON = os.path.join(KICAD_ROOT, "python.exe")
 IBOM_SCRIPT = os.path.expandvars("%USERPROFILE%/Documents/KiCad/7.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
 
-SCRIPT_VERSION = "v1.4"
+SCRIPT_VERSION = "v1.5"
 
 def get_layer_names(layers: int) -> list[str]:
     names = ["F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "Edge.Cuts"]
@@ -40,6 +40,7 @@ def export_sch_pdf(input_sch: str, output_pdf: str):
         ])
 
 def export_sch_bom(input_sch: str, output_csv: str) -> list[str]:
+    os.makedirs( os.path.dirname(output_csv) )
     output_xml = output_csv.replace(".csv", ".xml")
     run_command([
         KICAD_CLI, "sch", "export", "python-bom",
@@ -77,6 +78,14 @@ def export_pcb_ncdrill(input_pcb: str, output_dir: str):
         "--map-format", "gerberx2",
     ])
 
+def fix_pos_header(header: str):
+    header = header.replace("Ref", "Designator")
+    header = header.replace("PosX", "Mid X")
+    header = header.replace("PosY", "Mid Y")
+    header = header.replace("Rot", "Rotation")
+    header = header.replace("Side", "Layer")
+    return header
+
 def export_pcb_pos(input_pcb: str, output_file: str):
     run_command([
         KICAD_CLI, "pcb", "export", "pos",
@@ -84,7 +93,16 @@ def export_pcb_pos(input_pcb: str, output_file: str):
         "--output", output_file,
         "--units", "mm",
         "--side", "both",
+        "--format", "csv",
     ])
+
+    with open(output_file, "r+") as f:
+        f.seek(0)
+        lines = f.readlines()
+        lines[0] = fix_pos_header(lines[0])
+        f.seek(0)
+        f.writelines(lines)
+        f.truncate()
 
 
 def export_pcb_step(input_pcb: str, output_file: str):
@@ -141,7 +159,7 @@ if __name__ == "__main__":
     export_sch_pdf(INPUT_SCH, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".pdf"))
 
     print("Generating BOM")
-    dnf_list = export_sch_bom(INPUT_SCH, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".csv"))
+    dnf_list = export_sch_bom(INPUT_SCH, os.path.join(OUTPUT_DIR, "Assembly" , OUTPUT_NAME + "_bom.csv"))
 
     print("Generating IBOM")
     export_pcb_ibom(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".ibom.html"), dnf_list)
@@ -153,7 +171,7 @@ if __name__ == "__main__":
     export_pcb_ncdrill(INPUT_PCB, os.path.join(OUTPUT_DIR, "NC Drill"))
 
     print("Generating position report")
-    export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".pos"))
+    export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, "Assembly", OUTPUT_NAME + "_pos.csv"))
 
     print("Generating PCB Image")
     export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"))

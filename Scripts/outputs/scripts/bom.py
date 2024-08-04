@@ -76,10 +76,10 @@ def write_csv(filename: str, components: list[Component]):
         def write_line(items: list[any]):
             f.write( ",".join([(str(item) if type(item) is int else f'"{item}"' ) for item in items]) + "\n" )
 
-        write_line(["Id", "Designator", "Footprint", "Quantity", "Designation", "Supplier and ref"])
+        write_line(["Id", "Value", "Designator", "Quantity", "Footprint"])
         
         for i, c in enumerate(components):
-            write_line([ i+1, c.ref, c.footprint, c.quantity, c.value, "" ])
+            write_line([ i+1, c.value, c.ref, c.quantity, c.footprint ])
 
 def load_components(input_xml: str) -> list[Component]:
     info = BomInfo()
