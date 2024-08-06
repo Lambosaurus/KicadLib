@@ -3,13 +3,13 @@ import os, sys, shutil
 import bom
 
 # You may need to edit this
-KICAD_ROOT = "C:/Program Files/KiCad/7.0/bin"
+KICAD_ROOT = "C:/Program Files/KiCad/8.0/bin"
 
 KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
 KICAD_PYTHON = os.path.join(KICAD_ROOT, "python.exe")
-IBOM_SCRIPT = os.path.expandvars("%USERPROFILE%/Documents/KiCad/7.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
+IBOM_SCRIPT = os.path.expandvars("%USERPROFILE%/Documents/KiCad/8.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
 
-SCRIPT_VERSION = "v1.5"
+SCRIPT_VERSION = "v1.6"
 
 def get_layer_names(layers: int) -> list[str]:
     names = ["F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "Edge.Cuts"]
