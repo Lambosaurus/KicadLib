@@ -1,408 +1,1248 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "C_Generic" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_Generic" (at 5.08 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-    (symbol "C_Generic_1_1"
-      (polyline
-        (pts
-          (xy -1.524 -0.508)
-          (xy 1.524 -0.508)
-        )
-        (stroke (width 0.3302) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.524 0.508)
-          (xy 1.524 0.508)
-        )
-        (stroke (width 0.3048) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 2.032)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 2.032)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "C_0201" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_0201" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_0201" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_0402" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_0402" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_0402" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_0603" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_0603" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_0603" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_0805" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_0805" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_0805" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_1206" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_1206" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_1206" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_1210" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_1210" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_1210" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_1812" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_1812" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_1812" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_1825" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_1825" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_1825" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_2220" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_2220" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_2220" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_2225" (extends "C_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100n" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_2225" (at -3.175 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_2225" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_xmm_SMD_Generic" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -6.0452 -0.1778 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_xmm_SMD" (at 5.715 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-    (symbol "C_xmm_SMD_Generic_0_1"
-      (polyline
-        (pts
-          (xy -1.5748 0.4572)
-          (xy 1.4732 0.4572)
-        )
-        (stroke (width 0.3048) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.1938 1.3208)
-          (xy -0.6858 1.3208)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.9398 1.0668)
-          (xy -0.9398 1.5748)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 1.524 -0.8635) (mid 0 -0.4749) (end -1.524 -0.8635)
-        (stroke (width 0.3048) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "C_xmm_SMD_Generic_1_1"
-      (pin passive line (at 0 2.54 270) (length 2.032)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 2.032)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "C_10mm_SMD" (extends "C_xmm_SMD_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_10mm_SMD" (at -3.175 -0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_10mm_SMD" (at 6.35 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_16mm_SMD" (extends "C_xmm_SMD_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_16mm_SMD" (at -3.175 -0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_16mm_SMD" (at 6.35 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_18mm_SMD" (extends "C_xmm_SMD_Generic")
-    (property "Reference" "C" (at 2.54 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 1.905 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "C_Capacitor:C_18mm_SMD" (at -3.175 -0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_18mm_SMD" (at 5.715 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_3mm_SMD" (extends "C_xmm_SMD_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_3mm_SMD" (at -3.81 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_3mm_SMD" (at 5.715 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_4mm_SMD" (extends "C_xmm_SMD_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_4mm_SMD" (at -3.175 -0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_4mm_SMD" (at 5.715 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_5mm_SMD" (extends "C_xmm_SMD_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_5mm_SMD" (at -3.175 -0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_5mm_SMD" (at 5.715 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_6.3mm_SMD" (extends "C_xmm_SMD_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_6.3mm_SMD" (at -3.175 -0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_6.3mm_SMD" (at 6.35 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "C_8mm_SMD" (extends "C_xmm_SMD_Generic")
-    (property "Reference" "C" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "C_Capacitor:C_8mm_SMD" (at -3.175 -0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "C_8mm_SMD" (at 5.715 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "C_Generic"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_Generic"
+			(at 5.08 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(symbol "C_Generic_1_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_xmm_SMD_Generic"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -6.0452 -0.1778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_xmm_SMD"
+			(at 5.715 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(symbol "C_xmm_SMD_Generic_0_1"
+			(polyline
+				(pts
+					(xy -1.5748 0.4572) (xy 1.4732 0.4572)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.1938 1.3208) (xy -0.6858 1.3208)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.9398 1.0668) (xy -0.9398 1.5748)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.524 -0.8635)
+				(mid 0 -0.4749)
+				(end -1.524 -0.8635)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_xmm_SMD_Generic_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_0201"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_0201"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_0201"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_0402"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_0402"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_0402"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_0603"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_0603"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_0603"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_0805"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_0805"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_0805"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_10mm_SMD"
+		(extends "C_xmm_SMD_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_10mm_SMD"
+			(at -3.175 -0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_10mm_SMD"
+			(at 6.35 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_1206"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_1206"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_1206"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_1210"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_1210"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_1210"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_16mm_SMD"
+		(extends "C_xmm_SMD_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_16mm_SMD"
+			(at -3.175 -0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_16mm_SMD"
+			(at 6.35 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_1812"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_1812"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_1812"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_1825"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_1825"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_1825"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_18mm_SMD"
+		(extends "C_xmm_SMD_Generic")
+		(property "Reference" "C"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 1.905 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_18mm_SMD"
+			(at -3.175 -0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_18mm_SMD"
+			(at 5.715 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_2220"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_2220"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_2220"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_2225"
+		(extends "C_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_2225"
+			(at -3.175 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_2225"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_3mm_SMD"
+		(extends "C_xmm_SMD_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_3mm_SMD"
+			(at -3.81 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_3mm_SMD"
+			(at 5.715 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_4mm_SMD"
+		(extends "C_xmm_SMD_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_4mm_SMD"
+			(at -3.175 -0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_4mm_SMD"
+			(at 5.715 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_5mm_SMD"
+		(extends "C_xmm_SMD_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_5mm_SMD"
+			(at -3.175 -0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_5mm_SMD"
+			(at 5.715 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_6.3mm_SMD"
+		(extends "C_xmm_SMD_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_6.3mm_SMD"
+			(at -3.175 -0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_6.3mm_SMD"
+			(at 6.35 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "C_8mm_SMD"
+		(extends "C_xmm_SMD_Generic")
+		(property "Reference" "C"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C_Capacitor:C_8mm_SMD"
+			(at -3.175 -0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "C_8mm_SMD"
+			(at 5.715 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
 )

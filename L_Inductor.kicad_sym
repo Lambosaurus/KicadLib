@@ -1,384 +1,1143 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "FB_Generic" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 2.54 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "600R" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -3.81 0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at -6.35 0.635 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "FB_Generic_0_1"
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 -0.7874)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.889)
-          (xy 0 1.2954)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.8288 0.2794)
-          (xy -1.1176 1.4986)
-          (xy 1.8288 -0.2032)
-          (xy 1.1176 -1.4224)
-          (xy -1.8288 0.2794)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "FB_Generic_1_1"
-      (pin passive line (at 0 2.54 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "BLM18KG601SN1D" (extends "FB_Generic")
-    (property "Reference" "L" (at 3.175 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BLM18KG601SN1D" (at 11.43 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:FB_0603" (at -6.35 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.murata.com/products/productdata/8796738650142/ENFA0003.pdf" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Params" "600R,100MHz" (at 6.35 -1.905 0)
-      (effects (font (size 0.63 0.63)))
-    )
-    (property "ki_description" "FERRITE BEAD 600 OHM 0603 1LN" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "FB_0402" (extends "FB_Generic")
-    (property "Reference" "L" (at 2.54 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "600R" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:FB_0402" (at -3.81 0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at -6.35 0.635 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "FB_0402" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "FB_0603" (extends "FB_Generic")
-    (property "Reference" "L" (at 2.54 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "600R" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:FB_0603" (at -3.81 0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at -6.35 0.635 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "FB_0603" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "FB_0805" (extends "FB_Generic")
-    (property "Reference" "L" (at 2.54 1.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "600R" (at 4.445 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:FB_0805" (at -3.81 0.635 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at -6.35 0.635 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "FB_0805" (at 4.445 -1.905 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "L_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10n" (at 3.175 -0.635 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:L_0603" (at 10.16 -2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 18.415 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "L_0603" (at 2.54 -2.54 0)
-      (effects (font (size 0.635 0.635)))
-    )
-    (symbol "L_0603_0_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "L_0603_1_1"
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "L_4.2x4.2" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10n" (at 3.175 -0.635 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:L_4.2x4.2" (at 11.1485 -3.8398 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 18.415 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "L_4.2x4.2" (at 3.7694 -2.24 0)
-      (effects (font (size 0.635 0.635)))
-    )
-    (symbol "L_4.2x4.2_0_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "L_4.2x4.2_1_1"
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "L_Generic" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "VALUE" (at 1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 18.415 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 18.415 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "L_Generic_0_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "L_Generic_1_1"
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "7447709220" (extends "L_Generic")
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "7447709220" (at 1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "L_Inductor:L_12x12" (at 0 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/7447709220.pdf" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Params" "22u,5.3A,28mohm" (at 1.27 -2.54 0)
-      (effects (font (size 0.63 0.63)) (justify left))
-    )
-    (property "ki_keywords" "FIXED IND 2.2UH 600MA 160MOHM SM" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "FIXED IND 2.2UH 600MA 160MOHM SM" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "ASPI-4030S-100M-T" (extends "L_Generic")
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "ASPI-4030S-100M-T" (at 11.9069 -0.6863 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:L_4030S" (at 0 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-4030S.pdf" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Params" "10u,1.5A" (at 3.81 -2.54 0)
-      (effects (font (size 0.63 0.63)))
-    )
-    (property "ki_keywords" "FIXED IND 10UH 1.5A 100 MOHM SMD" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "FIXED IND 10UH 1.5A 100 MOHM SMD" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "ASPI-6045S-330M-T" (extends "L_Generic")
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "ASPI-6045S-330M-T" (at 11.9069 -0.6863 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:L_6045S" (at 0 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-6045S.pdf" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Params" "33u,1.45A" (at 3.81 -2.54 0)
-      (effects (font (size 0.63 0.63)))
-    )
-    (property "ki_keywords" "FIXED IND 33UH 1.45A 137MOHM SMD" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "FIXED IND 33UH 1.45A 137MOHM SMD" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "L_0402" (extends "L_Generic")
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10n" (at 3.175 -0.635 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:L_0402" (at 10.16 -2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 18.415 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Size" "L_0402" (at 2.54 -2.54 0)
-      (effects (font (size 0.635 0.635)))
-    )
-  )
-  (symbol "MLZ2012M2R2HT000" (extends "L_Generic")
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MLZ2012M2R2HT000" (at 1.27 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "L_Inductor:FB_0805" (at 0 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Params" "2u2,400mA" (at 1.27 -2.54 0)
-      (effects (font (size 0.63 0.63)) (justify left))
-    )
-    (property "ki_keywords" "FIXED IND 2.2UH 600MA 160MOHM SM" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "FIXED IND 2.2UH 600MA 160MOHM SM" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "NLCV32T-4R7M-PFR" (extends "L_Generic")
-    (property "Reference" "L" (at 1.905 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "NLCV32T-4R7M-PFR" (at 11.43 -0.635 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "L_Inductor:L_1210" (at 0.635 -9.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 18.415 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Params" "4u7,900mA" (at 3.81 -2.54 0)
-      (effects (font (size 0.63 0.63)))
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "FB_Generic"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600R"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -3.81 0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.35 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FB_Generic_0_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -0.7874)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.889) (xy 0 1.2954)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FB_Generic_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "L_0603"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 3.175 -0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:L_0603"
+			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 18.415 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "L_0603"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(symbol "L_0603_0_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_0603_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "L_4.2x4.2"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 3.175 -0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:L_4.2x4.2"
+			(at 11.1485 -3.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 18.415 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "L_4.2x4.2"
+			(at 3.7694 -2.24 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(symbol "L_4.2x4.2_0_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_4.2x4.2_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "L_Generic"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VALUE"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 18.415 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 18.415 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "L_Generic_0_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_Generic_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "7447709220"
+		(extends "L_Generic")
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7447709220"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "L_Inductor:L_12x12"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/7447709220.pdf"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 2.2UH 600MA 160MOHM SM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "22u,5.3A,28mohm"
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 0.63 0.63)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "FIXED IND 2.2UH 600MA 160MOHM SM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "ASPI-4030S-100M-T"
+		(extends "L_Generic")
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASPI-4030S-100M-T"
+			(at 11.9069 -0.6863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:L_4030S"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-4030S.pdf"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 10UH 1.5A 100 MOHM SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "10u,1.5A"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 0.63 0.63)
+				)
+			)
+		)
+		(property "ki_keywords" "FIXED IND 10UH 1.5A 100 MOHM SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "ASPI-6045S-330M-T"
+		(extends "L_Generic")
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASPI-6045S-330M-T"
+			(at 11.9069 -0.6863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:L_6045S"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-6045S.pdf"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 33UH 1.45A 137MOHM SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "33u,1.45A"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 0.63 0.63)
+				)
+			)
+		)
+		(property "ki_keywords" "FIXED IND 33UH 1.45A 137MOHM SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "BLM18KG601SN1D"
+		(extends "FB_Generic")
+		(property "Reference" "L"
+			(at 3.175 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM18KG601SN1D"
+			(at 11.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:FB_0603"
+			(at -6.35 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdata/8796738650142/ENFA0003.pdf"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FERRITE BEAD 600 OHM 0603 1LN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "600R,100MHz"
+			(at 6.35 -1.905 0)
+			(effects
+				(font
+					(size 0.63 0.63)
+				)
+			)
+		)
+	)
+	(symbol "FB_0402"
+		(extends "FB_Generic")
+		(property "Reference" "L"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600R"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:FB_0402"
+			(at -3.81 0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.35 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "FB_0402"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "FB_0603"
+		(extends "FB_Generic")
+		(property "Reference" "L"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600R"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:FB_0603"
+			(at -3.81 0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.35 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "FB_0603"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "FB_0805"
+		(extends "FB_Generic")
+		(property "Reference" "L"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600R"
+			(at 4.445 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:FB_0805"
+			(at -3.81 0.635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.35 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "FB_0805"
+			(at 4.445 -1.905 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "L_0402"
+		(extends "L_Generic")
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 3.175 -0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:L_0402"
+			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 18.415 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "L_0402"
+			(at 2.54 -2.54 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "MLZ2012M2R2HT000"
+		(extends "L_Generic")
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MLZ2012M2R2HT000"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "L_Inductor:FB_0805"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 2.2UH 600MA 160MOHM SM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "2u2,400mA"
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 0.63 0.63)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "FIXED IND 2.2UH 600MA 160MOHM SM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "NLCV32T-4R7M-PFR"
+		(extends "L_Generic")
+		(property "Reference" "L"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NLCV32T-4R7M-PFR"
+			(at 11.43 -0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L_Inductor:L_1210"
+			(at 0.635 -9.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 18.415 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "4u7,900mA"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 0.63 0.63)
+				)
+			)
+		)
+	)
 )
