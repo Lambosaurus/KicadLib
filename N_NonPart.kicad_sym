@@ -4657,8 +4657,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "N_NonPart:ToolingHole_1mm"
+			(at 0.254 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,8 +4675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "TOOLING HOLE 1MM"
+			(at 0 -6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
