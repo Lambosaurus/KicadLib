@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 0686F2500-01
-D FUSE BRD MNT 2.5A 63VDC 0603
-K FUSE SLOW
-$ENDCMP
-#
-#End Doc Library
