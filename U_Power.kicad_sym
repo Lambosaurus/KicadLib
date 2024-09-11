@@ -3834,7 +3834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Params" "0.7V,1A"
+		(property "Params" "0.6V,1A"
 			(at 6.35 -10.16 0)
 			(effects
 				(font
