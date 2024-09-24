@@ -41,8 +41,9 @@ class BomInfo(ContentHandler):
             if self._element == "value":
                 self._component.value = content
             elif self._element == "footprint":
-                lib, footprint = content.split(':', maxsplit=1)
-                self._component.footprint = footprint
+                if ':' in content:
+                    lib, content = content.split(':', maxsplit=1)
+                self._component.footprint = content
 
     def get_components(self) -> list[Component]:
         return self.components
