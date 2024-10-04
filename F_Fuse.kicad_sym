@@ -1936,7 +1936,7 @@
 			)
 		)
 		(property "Description" "PTC RESET FUSE 24V 14MA 0603"
-			(at 0 0 0)
+			(at -0.254 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
