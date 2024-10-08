@@ -565,7 +565,7 @@
 			)
 		)
 	)
-	(symbol "W25Q80DVUXIE TR"
+	(symbol "W25Q80DVUXIE"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -620,7 +620,7 @@
 				)
 			)
 		)
-		(symbol "W25Q80DVUXIE TR_0_1"
+		(symbol "W25Q80DVUXIE_0_1"
 			(rectangle
 				(start -8.89 17.78)
 				(end 8.89 0)
@@ -633,7 +633,7 @@
 				)
 			)
 		)
-		(symbol "W25Q80DVUXIE TR_1_1"
+		(symbol "W25Q80DVUXIE_1_1"
 			(pin input line
 				(at -11.43 15.24 0)
 				(length 2.54)
