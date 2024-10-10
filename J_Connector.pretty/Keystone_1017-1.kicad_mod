@@ -1,0 +1,151 @@
+(footprint "Keystone_1017-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6cf8133d-e0f7-4c90-bdae-a167b983627b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Keystone_1017-1"
+		(at 0 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f99b163-9eb5-4524-9f0c-d36cf560dbae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5091df8-c926-44d1-a6d3-aa50811c156d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4279b8eb-8bd4-4341-beb5-2f3c04d930a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "825c47cf-c817-4733-9438-13f2775a8599")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 1.8)
+		(end -3.5 3.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd40bdd4-c180-4cea-bc27-1f1cf1070402")
+	)
+	(fp_line
+		(start -3.5 3.9)
+		(end 3.5 3.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e591702d-485b-4274-a447-ee5136ab7602")
+	)
+	(fp_line
+		(start 3.5 1.8)
+		(end 3.5 3.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5d968619-82ea-4cb7-8ca2-db7442f30f61")
+	)
+	(fp_rect
+		(start -4.1 -1.6)
+		(end 4.1 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "00e78c86-04b9-45b0-a4a5-369e6152c445")
+	)
+	(fp_rect
+		(start -3.2 -0.4)
+		(end 3.2 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9d8160ee-2137-42d6-b1ad-d574d5751e8b")
+	)
+	(fp_rect
+		(start -3.2 -0.4)
+		(end 3.2 3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a3c0af7b-3f04-4afa-ae88-4cba81923d20")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 8 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(uuid "4b928e2d-b418-42af-8bdd-acd432f957df")
+	)
+	(model "${LAMBO_LIB}/Step/conn/keystone_1017-1.step"
+		(offset
+			(xyz 0 0.2 -4.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
