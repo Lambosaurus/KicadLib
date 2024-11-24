@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "LED BLUE DIFFUSED 0603 SMD"
-			(at 0 0 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +203,7 @@
 			)
 		)
 		(property "Description" "LED RED DIFFUSED 0603 SMD"
-			(at 0 0 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +362,7 @@
 			)
 		)
 		(property "Description" "LED GREEN DIFFUSED 0603 SMD"
-			(at 0 0 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,7 +521,7 @@
 			)
 		)
 		(property "Description" "LED YELLOW DIFFUSED 0603 SMD"
-			(at 0 0 0)
+			(at -0.254 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR CHIP SMD"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Description" "LED RED CLEAR CHIP SMD"
-			(at 0 0 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2298,7 @@
 			)
 		)
 		(property "Description" "LED YELLOW CLEAR CHIP SMD"
-			(at 0 0 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,6 +2415,165 @@
 			)
 		)
 	)
+	(symbol "LTST-C190TBKT"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190TBKT"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.63 0.63)
+				)
+			)
+		)
+		(property "Footprint" "DS_LED:DS_0603"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED BLUE CLEAR CHIP SMD"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "DS_0603"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(symbol "LTST-C190TBKT_1_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -1.397) (xy -3.302 -2.921) (xy -2.54 -2.921) (xy -3.302 -2.921) (xy -3.302 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 194 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.397) (xy -2.032 -2.921) (xy -1.27 -2.921) (xy -2.032 -2.921) (xy -2.032 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 194 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LTST-C195KGJRKT"
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -2455,7 +2614,7 @@
 			)
 		)
 		(property "Description" "LED GREEN/RED CLEAR CHIP SMD"
-			(at 0 0 0)
+			(at -0.254 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2984,7 @@
 			)
 		)
 		(property "Description" "LED RGB DIFFUSED CHIP SMD"
-			(at 0 0 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
