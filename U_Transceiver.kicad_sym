@@ -6339,7 +6339,7 @@
 			(pin input line
 				(at -2.54 54.61 0)
 				(length 2.54)
-				(name "SCSn"
+				(name "~{CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6411,7 +6411,7 @@
 			(pin output line
 				(at -2.54 41.91 0)
 				(length 2.54)
-				(name "INTn"
+				(name "~{INT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6429,7 +6429,7 @@
 			(pin input line
 				(at -2.54 39.37 0)
 				(length 2.54)
-				(name "RSTn"
+				(name "~{RST}"
 					(effects
 						(font
 							(size 1.27 1.27)

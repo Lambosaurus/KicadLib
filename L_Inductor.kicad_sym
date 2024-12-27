@@ -615,7 +615,7 @@
 				(justify left)
 			)
 		)
-		(property "ki_keywords" "FIXED IND 2.2UH 600MA 160MOHM SM"
+		(property "ki_keywords" "FIXED IND 22UH 5.3A 28MOHM"
 			(at 0 0 0)
 			(effects
 				(font

@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "DIODE GEN PURP 75V 250MA SOD123"
-			(at 0 0 0)
+			(at -0.254 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 50V 5A SMC"
-			(at 0 0 0)
+			(at 0.254 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +616,7 @@
 			)
 		)
 		(property "Description" "DIODE ARR SCHOTT 30V 200MA SOT23"
-			(at 0 0 0)
+			(at 0.254 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +793,7 @@
 			)
 		)
 		(property "Description" "DIODE ARR SCHOTT 30V 200MA SOT23"
-			(at 0 0 0)
+			(at -0.254 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1147,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 30V 100MA SOD323"
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1268,7 @@
 			)
 		)
 		(property "Description" "DIODE ZENER 3.6V 200MW SOD323"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1809,7 @@
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_323"
-			(at 0 -5.08 0)
+			(at 0 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 -3.81 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1827,7 @@
 			)
 		)
 		(property "Description" "DIODE ZENER 5.6V 500MW SOD323F"
-			(at 0 0 0)
+			(at 0.254 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1959,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf"
-			(at -1.27 -7.62 0)
+			(at -1.27 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1968,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 100V 1A SOD123FL"
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2056,7 @@
 			)
 		)
 	)
-	(symbol "DSS16UTR"
+	(symbol "DSS16U"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -2097,8 +2097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SCHOTTKY 60V SOD-123FL"
-			(at 0 0 0)
+		(property "Description" "DIODE SCHOTTKY 60V 1A SOD123FL"
+			(at 0.254 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2123,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DSS16UTR_1_1"
+		(symbol "DSS16U_1_1"
 			(polyline
 				(pts
 					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
@@ -2847,7 +2847,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/RB520S40-AU.pdf"
-			(at 0 -7.62 0)
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2856,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 40V 250MA SOD523"
-			(at 0 0 0)
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2986,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 30V 30MA SOD523"
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3275,7 @@
 			)
 		)
 		(property "Value" "SK34A"
-			(at 0 -3.81 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3283,7 @@
 			)
 		)
 		(property "Footprint" "D_Diode:D_SMA"
-			(at 0 -5.08 0)
+			(at 0 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3301,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 40V 3A SMA"
-			(at 0 -6.858 0)
+			(at 0 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3431,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 36VWM 58.1VC SMA"
-			(at 0 0 0)
+			(at 0 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Params" "36VWM 58VC"
+		(property "Params" "36VWM,58VC"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -3572,7 +3572,7 @@
 			)
 		)
 		(property "Description" "DIODE ZENER 4.3V 500MW SOD80"
-			(at 0 0 0)
+			(at 0 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf"
-			(at -1.27 3.175 0)
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3762,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 20V 1A SOD123FL"
-			(at 0 0 0)
+			(at -0.508 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)

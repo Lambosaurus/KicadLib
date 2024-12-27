@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 6.35 0)
+			(at -7.62 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "AP2139AK-3.3TRG1"
-			(at 11.43 -3.81 0)
+			(at 11.43 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_5"
-			(at 8.89 -6.35 0)
+			(at 8.89 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2138-9.pdf"
-			(at -3.84 -15.36 0)
+			(at -3.81 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 250MA SOT23-5"
-			(at 0 0 0)
+			(at 0.03 -16.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 			)
 		)
 		(property "Params" "3.3V, 250mA"
-			(at 6.35 -5.08 0)
+			(at 6.35 -2.54 0)
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -59,8 +59,8 @@
 		)
 		(symbol "AP2139AK-3.3TRG1_0_1"
 			(rectangle
-				(start -8.89 -2.54)
-				(end 8.89 5.08)
+				(start -8.89 7.62)
+				(end 8.89 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -72,7 +72,7 @@
 		)
 		(symbol "AP2139AK-3.3TRG1_1_1"
 			(pin power_in line
-				(at -11.43 2.54 0)
+				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -90,7 +90,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -5.08 90)
+				(at 0 -2.54 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -108,9 +108,9 @@
 				)
 			)
 			(pin input line
-				(at -11.43 0 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
-				(name "nSHDN"
+				(name "~{SHDN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -126,7 +126,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 11.43 0 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -144,7 +144,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 2.54 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -168,7 +168,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.35 13.97 0)
+			(at -6.096 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +202,7 @@
 			)
 		)
 		(property "Description" "IC LDO ADJ 250mA SOT23-5"
-			(at 0 0 0)
+			(at 0.254 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,8 +229,8 @@
 		)
 		(symbol "AP2205-W5-7_0_1"
 			(rectangle
-				(start -7.62 12.7)
-				(end 7.62 0)
+				(start -8.89 10.16)
+				(end 8.89 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -242,7 +242,7 @@
 		)
 		(symbol "AP2205-W5-7_1_1"
 			(pin power_in line
-				(at -10.16 10.16 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -278,7 +278,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -296,7 +296,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 2.54 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "ADJ"
 					(effects
@@ -314,7 +314,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 10.16 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -338,7 +338,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 5.08 0)
+			(at -7.874 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +346,7 @@
 			)
 		)
 		(property "Value" "AP3012KTR-G1"
-			(at 10.16 -6.35 0)
+			(at 10.16 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +354,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_5"
-			(at 1.27 -17.78 0)
+			(at 0.508 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,7 +363,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP3012.pdf"
-			(at 1.27 -19.05 0)
+			(at 0.508 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -372,7 +372,7 @@
 			)
 		)
 		(property "Description" "IC REG BOOST ADJ 500MA SOT23-5"
-			(at 0 0 0)
+			(at -0.254 -18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +381,7 @@
 			)
 		)
 		(property "Params" "1.25V,500mA"
-			(at 6.35 -7.62 0)
+			(at 6.35 -3.81 0)
 			(effects
 				(font
 					(size 0.63 0.63)
@@ -399,8 +399,8 @@
 		)
 		(symbol "AP3012KTR-G1_0_1"
 			(rectangle
-				(start -8.89 3.81)
-				(end 8.89 -3.81)
+				(start -8.89 10.16)
+				(end 8.89 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -412,7 +412,7 @@
 		)
 		(symbol "AP3012KTR-G1_1_1"
 			(pin power_out line
-				(at 11.43 1.27 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -430,7 +430,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -6.35 90)
+				(at 0 -2.54 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -448,7 +448,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -1.27 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -466,9 +466,9 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -1.27 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
-				(name "nSHDN"
+				(name "~{SHDN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -484,7 +484,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 1.27 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -508,7 +508,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 5.08 0)
+			(at -7.366 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,7 +516,7 @@
 			)
 		)
 		(property "Value" "AP3015KTR-G1"
-			(at 10.16 -6.35 0)
+			(at 9.398 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -524,7 +524,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_5"
-			(at 1.27 -17.78 0)
+			(at 0 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -533,7 +533,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP3015_A.pdf"
-			(at 1.27 -17.78 0)
+			(at 1.27 -15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +542,7 @@
 			)
 		)
 		(property "Description" "IC REG BOOST ADJ 300MA SOT23-5"
-			(at 0 0 0)
+			(at 0.762 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +551,7 @@
 			)
 		)
 		(property "Params" "1.25V,300mA"
-			(at 6.35 -7.62 0)
+			(at 8.128 -3.302 0)
 			(effects
 				(font
 					(size 0.63 0.63)
@@ -569,8 +569,8 @@
 		)
 		(symbol "AP3015KTR-G1_0_1"
 			(rectangle
-				(start -8.89 -3.81)
-				(end 8.89 3.81)
+				(start -8.89 10.16)
+				(end 8.89 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -582,7 +582,7 @@
 		)
 		(symbol "AP3015KTR-G1_1_1"
 			(pin power_out line
-				(at 11.43 1.27 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -600,7 +600,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -6.35 90)
+				(at 0 -2.54 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -618,7 +618,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -1.27 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -636,9 +636,9 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -1.27 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
-				(name "nSHDN"
+				(name "~{SHDN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -654,7 +654,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 1.27 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -678,7 +678,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 13.97 0)
+			(at -7.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +686,7 @@
 			)
 		)
 		(property "Value" "AP62301WU-7"
-			(at 7.62 -1.27 0)
+			(at 8.89 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +694,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_6"
-			(at 7.62 -5.08 0)
+			(at -0.762 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +703,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf"
-			(at 8.89 -7.62 0)
+			(at -1.27 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +712,7 @@
 			)
 		)
 		(property "Description" "IC REG BUCK ADJ 3A TSOT26"
-			(at 0 0 0)
+			(at -0.254 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +721,7 @@
 			)
 		)
 		(property "Params" "0.8V,3A"
-			(at 7.62 -2.54 0)
+			(at 8.89 -3.048 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -730,8 +730,8 @@
 		)
 		(symbol "AP62301WU-7_0_1"
 			(rectangle
-				(start 0 12.7)
-				(end 15.24 0)
+				(start -8.89 12.7)
+				(end 8.89 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -743,7 +743,7 @@
 		)
 		(symbol "AP62301WU-7_1_1"
 			(pin power_in line
-				(at -2.54 2.54 0)
+				(at 0 -2.54 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -761,7 +761,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 7.62 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -779,7 +779,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 10.16 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -797,7 +797,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 2.54 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -815,7 +815,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 7.62 0)
+				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -833,7 +833,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 10.16 180)
+				(at 11.43 10.16 180)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -857,7 +857,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.4756 16.8372 0)
+			(at -6.35 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +891,7 @@
 			)
 		)
 		(property "Description" "IC REG BUCK ADJ 600MA TSOT26"
-			(at 0 0 0)
+			(at 0 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,8 +918,8 @@
 		)
 		(symbol "AP64060WU-7_0_1"
 			(rectangle
-				(start -7.62 15.24)
-				(end 7.62 0)
+				(start -8.89 12.7)
+				(end 8.89 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -931,7 +931,7 @@
 		)
 		(symbol "AP64060WU-7_1_1"
 			(pin input line
-				(at 10.16 12.7 180)
+				(at 11.43 10.16 180)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -967,7 +967,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 2.54 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -985,7 +985,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1003,7 +1003,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 7.62 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -1021,7 +1021,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 7.62 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -1045,7 +1045,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 10.16 0)
+			(at -8.89 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1053,7 @@
 			)
 		)
 		(property "Value" "AP64351SP-13"
-			(at 11.43 -8.255 0)
+			(at 11.43 -1.651 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1061,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOIC_8_EP"
-			(at 1.27 -13.97 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1070,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64351.pdf"
-			(at 1.27 -12.065 0)
+			(at -0.254 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +1079,7 @@
 			)
 		)
 		(property "Description" "IC REG BUCK ADJ 3.5A 8SO"
-			(at 0 0 0)
+			(at -0.762 -18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1088,7 @@
 			)
 		)
 		(property "Params" "0.8V,3.5A"
-			(at 6.35 -10.16 0)
+			(at 6.35 -3.556 0)
 			(effects
 				(font
 					(size 0.63 0.63)
@@ -1106,8 +1106,8 @@
 		)
 		(symbol "AP64351SP-13_0_1"
 			(rectangle
-				(start -6.35 8.89)
-				(end 8.89 -6.35)
+				(start -10.16 15.24)
+				(end 10.16 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -1119,7 +1119,7 @@
 		)
 		(symbol "AP64351SP-13_1_1"
 			(pin output line
-				(at 11.43 6.35 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -1137,7 +1137,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 6.35 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -1155,7 +1155,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 3.81 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1173,7 +1173,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 1.27 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "SS"
 					(effects
@@ -1191,7 +1191,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -1.27 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -1209,7 +1209,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -3.81 180)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "COMP"
 					(effects
@@ -1227,7 +1227,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -3.81 0)
+				(at -1.27 -2.54 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1245,7 +1245,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 3.81 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -1263,7 +1263,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -8.89 90)
+				(at 1.27 -2.54 90)
 				(length 2.54)
 				(name "EP"
 					(effects
@@ -1287,7 +1287,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.985 21.59 0)
+			(at -9.652 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1321,7 @@
 			)
 		)
 		(property "Description" "IC REG BUCK ADJ 5A SOIC8"
-			(at 0 0 0)
+			(at -0.254 -22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,8 +1348,8 @@
 		)
 		(symbol "AP64500SP-13_0_1"
 			(rectangle
-				(start -10.16 20.32)
-				(end 10.16 0)
+				(start -11.43 15.24)
+				(end 11.43 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -1361,7 +1361,7 @@
 		)
 		(symbol "AP64500SP-13_1_1"
 			(pin input line
-				(at 12.7 17.78 180)
+				(at 13.97 12.7 180)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -1379,7 +1379,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 17.78 0)
+				(at -13.97 12.7 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -1397,7 +1397,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 12.7 0)
+				(at -13.97 10.16 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1415,7 +1415,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -13.97 5.08 0)
 				(length 2.54)
 				(name "RT/CLK"
 					(effects
@@ -1433,7 +1433,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 7.62 180)
+				(at 13.97 5.08 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -1451,7 +1451,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 2.54 180)
+				(at -13.97 2.54 0)
 				(length 2.54)
 				(name "COMP"
 					(effects
@@ -1469,7 +1469,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 90)
+				(at -1.27 -2.54 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1487,7 +1487,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 12.7 180)
+				(at 13.97 10.16 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -1505,9 +1505,9 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -2.54 90)
+				(at 1.27 -2.54 90)
 				(length 2.54)
-				(name "GND"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1563,7 +1563,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR, ADJ, 5A, TO252-2"
-			(at 0 0 0)
+			(at 0.254 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1688,7 @@
 			)
 		)
 		(property "Description" "AC/DC CONVERTER 12V 5W"
-			(at 0 0 0)
+			(at 8.636 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1893,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 8.89 0)
+			(at -8.128 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1901,7 @@
 			)
 		)
 		(property "Value" "LM317EMPX/NOPB"
-			(at 11.43 -1.27 0)
+			(at 1.016 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT223_3"
-			(at 8.89 -3.81 0)
+			(at 0.254 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm117.pdf"
-			(at -3.84 -15.36 0)
+			(at -2.794 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1927,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR ADJ 1.5A 1500mA SOT223"
-			(at 0 0 0)
+			(at 0 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1936,7 @@
 			)
 		)
 		(property "Params" "ADJ, 1.5A"
-			(at 6.35 -2.54 0)
+			(at 0.762 -3.556 0)
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -1945,8 +1945,8 @@
 		)
 		(symbol "LM317EMPX/NOPB_0_1"
 			(rectangle
-				(start -8.89 0)
-				(end 8.89 7.62)
+				(start -8.89 10.16)
+				(end 8.89 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -1958,7 +1958,7 @@
 		)
 		(symbol "LM317EMPX/NOPB_1_1"
 			(pin power_in line
-				(at 0 -2.54 90)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "ADJ"
 					(effects
@@ -1976,7 +1976,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 5.08 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -1994,7 +1994,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 5.08 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -2052,7 +2052,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 100MA SOT23"
-			(at 0 0 0)
+			(at 0.254 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2159,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_3"
-			(at 8.89 -3.81 0)
+			(at 0.254 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 5.0V 100MA SOT23"
-			(at 0 0 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +2302,7 @@
 			)
 		)
 		(property "Description" "IC REG CTRLR MULT TOPOLOGY 10DFN"
-			(at 0 0 0)
+			(at 13.462 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2554,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX662A.pdf"
-			(at -5.08 -13.97 0)
+			(at -5.08 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2563,7 @@
 			)
 		)
 		(property "Description" "IC REG CHARG PUMP 12V 30MA 8SOIC"
-			(at 0 0 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2778,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 300MA SOT23-5"
-			(at 0 0 0)
+			(at 0.508 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2847,7 @@
 			(pin input line
 				(at -11.43 0 0)
 				(length 2.54)
-				(name "nSHDN"
+				(name "~{SHDN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2939,7 +2939,7 @@
 			)
 		)
 		(property "Description" "IC BATT CNTL LI-ION 1CEL SOT23-5"
-			(at 0 0 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3109,7 @@
 			)
 		)
 		(property "Description" "IC REG BOOST ADJ 3.5A 12MLF"
-			(at 0 0 0)
+			(at 9.652 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3380,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 11.43 0)
+			(at -7.62 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3414,7 @@
 			)
 		)
 		(property "Description" "IC BUCK-BOOST 3.3V 1A SOT563"
-			(at 0 0 0)
+			(at -0.254 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3432,7 @@
 		)
 		(symbol "MP28600GTF-33_0_1"
 			(rectangle
-				(start -8.89 10.16)
+				(start -8.89 12.7)
 				(end 8.89 0)
 				(stroke
 					(width 0.1524)
@@ -3445,7 +3445,7 @@
 		)
 		(symbol "MP28600GTF-33_1_1"
 			(pin power_in line
-				(at -11.43 5.08 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -3463,7 +3463,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 7.62 0)
+				(at -11.43 10.16 0)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -3593,7 +3593,7 @@
 			)
 		)
 		(property "Description" "IC REG BUCK 5V 1A 8SOIC"
-			(at 0 0 0)
+			(at 0.254 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3826,7 @@
 			)
 		)
 		(property "Description" "SMPS Buck LGA3x3 Integrated inductor 22VIN"
-			(at 0 0 0)
+			(at 12.192 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4068,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 300MA 5TSOP"
-			(at 0 0 0)
+			(at 0 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4229,7 @@
 			)
 		)
 		(property "Description" "IC REG BUCK-BST 3.3V 300MA 12DFN"
-			(at 0 0 0)
+			(at 0.508 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4509,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 6.35 0)
+			(at -7.62 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +4543,7 @@
 			)
 		)
 		(property "Description" "IC REG BUCK ADJ 3A TSOT23-6"
-			(at 0 0 0)
+			(at 0.508 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4570,7 @@
 		)
 		(symbol "RT6214BHGJ6F_0_1"
 			(rectangle
-				(start -8.89 5.08)
+				(start -8.89 7.62)
 				(end 8.89 -5.08)
 				(stroke
 					(width 0.1524)
@@ -4601,7 +4601,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 0 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "LX"
 					(effects
@@ -4655,7 +4655,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 0 0)
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -4673,7 +4673,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 2.54 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -4697,7 +4697,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.4756 16.8372 0)
+			(at -6.35 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4731,7 @@
 			)
 		)
 		(property "Description" "IC REG BUCK ADJ 3.5A TSOT-23-6 "
-			(at 0 0 0)
+			(at 0.254 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,8 +4758,8 @@
 		)
 		(symbol "RT7295AGJ6F_0_1"
 			(rectangle
-				(start -7.62 15.24)
-				(end 7.62 0)
+				(start -8.89 12.7)
+				(end 8.89 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -4771,7 +4771,7 @@
 		)
 		(symbol "RT7295AGJ6F_1_1"
 			(pin input line
-				(at 10.16 12.7 180)
+				(at 11.43 10.16 180)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -4807,7 +4807,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 2.54 180)
+				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -4825,7 +4825,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -4843,7 +4843,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 7.62 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -4861,7 +4861,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 7.62 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -4920,7 +4920,7 @@
 			)
 		)
 		(property "Description" "IC REG BOOST ADJ 5.25A 16WQFN"
-			(at 0 0 0)
+			(at 0.254 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5307,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 5.0V 500MA SOT223"
-			(at 0 0 0)
+			(at 0.254 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5414,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT223_3"
-			(at 8.89 -3.81 0)
+			(at 0 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5432,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 500MA SOT223"
-			(at 0 0 0)
+			(at 0 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)

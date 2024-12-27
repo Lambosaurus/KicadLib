@@ -3813,7 +3813,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 60V 115MA SOT23-3"
-			(at 0 0 0)
+			(at 0 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
