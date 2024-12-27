@@ -1631,7 +1631,7 @@
 			)
 		)
 	)
-	(symbol "LM324BIPWR"
+	(symbol "LM2902A"
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
@@ -1643,7 +1643,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324BIPWR"
+		(property "Value" "LM2902A-TR"
 			(at 7.366 -4.064 0)
 			(effects
 				(font
@@ -1660,7 +1660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm324.pdf"
+		(property "Datasheet" "https://static.3peak.com/res/doc/ds/Datasheet_LM2904A-LM2902A.pdf"
 			(at -0.254 -16.256 0)
 			(effects
 				(font
@@ -1669,7 +1669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "QUAD, 36-V, 1.2-MHZ, 3-MV OFFSET"
+		(property "Description" "IC OPAMP 4 CIRCUIT 14-TSSOP"
 			(at 0 -18.542 0)
 			(effects
 				(font
@@ -1686,7 +1686,7 @@
 				)
 			)
 		)
-		(symbol "LM324BIPWR_1_1"
+		(symbol "LM2902A_1_1"
 			(polyline
 				(pts
 					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0) (xy -2.54 3.81)
@@ -1790,7 +1790,7 @@
 				)
 			)
 		)
-		(symbol "LM324BIPWR_2_1"
+		(symbol "LM2902A_2_1"
 			(polyline
 				(pts
 					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0) (xy -2.54 3.81)
@@ -1858,7 +1858,7 @@
 				)
 			)
 		)
-		(symbol "LM324BIPWR_3_1"
+		(symbol "LM2902A_3_1"
 			(polyline
 				(pts
 					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0) (xy -2.54 3.81)
@@ -1926,7 +1926,7 @@
 				)
 			)
 		)
-		(symbol "LM324BIPWR_4_1"
+		(symbol "LM2902A_4_1"
 			(polyline
 				(pts
 					(xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0) (xy -2.54 3.81)
