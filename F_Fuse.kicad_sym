@@ -1899,6 +1899,60 @@
 			)
 		)
 	)
+	(symbol "0ZCM0002FF2G"
+		(extends "F_Generic_Polyfuse")
+		(property "Reference" "F"
+			(at 2.54 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0ZCM0002FF2G"
+			(at 9.398 -0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "F_Fuse:PF_0603"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcm-series.pdf"
+			(at 0 -13.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTC RESET FUSE 60V 20MA 0603"
+			(at 0.254 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "20mA, 60V"
+			(at 4.826 -2.286 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+			)
+		)
+	)
 	(symbol "PRG18BB221MB1RB"
 		(extends "F_Generic_Polyfuse")
 		(property "Reference" "F"

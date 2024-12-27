@@ -3870,6 +3870,54 @@
 			)
 		)
 	)
+	(symbol "BSS84-7-F"
+		(extends "Q_Generic_PFET")
+		(property "Reference" "Q"
+			(at 2.54 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS84-7-F"
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "U_IC:SOT23_3"
+			(at 0 -17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BSS84.pdf"
+			(at 0 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET P-CH 50V 130MA SOT23-3"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "DMG1012UW-7"
 		(extends "Q_Generic_NFET_Z")
 		(property "Reference" "Q"
