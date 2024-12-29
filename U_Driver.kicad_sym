@@ -342,7 +342,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "FLAG"
@@ -437,7 +437,7 @@
 			)
 		)
 		(property "Description" "20-V, 1-A H-BRIDGE MOTOR DRIVER"
-			(at 0 0 0)
+			(at 0 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +662,7 @@
 			)
 		)
 		(property "Description" "35V, 21A BRUSHED DC MOTOR DRIVER"
-			(at 0 0 0)
+			(at 0 -28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1013,7 @@
 			)
 		)
 		(property "Description" "IC HALF-BRIDGE DRVR PWM 8WSON"
-			(at 0 0 0)
+			(at -0.254 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1472,7 @@
 			)
 		)
 		(property "Description" "GATE DRIVE IC"
-			(at 0 0 0)
+			(at 0 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1688,7 @@
 			)
 		)
 		(property "Description" "IC GATE DRVR HALF-BRIDGE 8SOIC"
-			(at 0 0 0)
+			(at 0.508 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2145,7 @@
 			)
 		)
 		(property "Description" "50V/3A BRUSHED MOTOR DRIVER"
-			(at 0 0 0)
+			(at 0.254 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2579,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at -2.54 15.24 0)
 				(length 2.54)
 				(name "~{FAULT}"

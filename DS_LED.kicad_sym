@@ -18,15 +18,15 @@
 			)
 		)
 		(property "Value" "150060BS55040"
-			(at 0 -5.08 0)
+			(at 0 -5.842 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0603"
-			(at 0 -7.62 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150060BS55040.pdf"
-			(at 0 -10.16 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "LED BLUE DIFFUSED 0603 SMD"
-			(at 0 -12.954 0)
+			(at 0 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,15 +177,15 @@
 			)
 		)
 		(property "Value" "150060RS55040"
-			(at 0 -5.08 0)
+			(at 0 -5.842 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0603"
-			(at 0 -7.62 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,7 +194,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150060RS55040.pdf"
-			(at 0 -10.16 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +203,7 @@
 			)
 		)
 		(property "Description" "LED RED DIFFUSED 0603 SMD"
-			(at 0 -12.954 0)
+			(at 0 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,15 +336,15 @@
 			)
 		)
 		(property "Value" "150060VS55040"
-			(at 0 -5.08 0)
+			(at 0 -5.842 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0603"
-			(at 0 -7.62 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -353,7 +353,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150060VS55040.pdf"
-			(at 0 -10.16 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +362,7 @@
 			)
 		)
 		(property "Description" "LED GREEN DIFFUSED 0603 SMD"
-			(at 0 -12.954 0)
+			(at 0 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,15 +495,15 @@
 			)
 		)
 		(property "Value" "150060YS55040"
-			(at 0 -5.08 0)
+			(at 0 -5.842 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0603"
-			(at 0 -7.62 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +512,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150060YS55040.pdf"
-			(at 0 -10.16 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,7 +521,7 @@
 			)
 		)
 		(property "Description" "LED YELLOW DIFFUSED 0603 SMD"
-			(at -0.254 -12.7 0)
+			(at -0.254 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +653,7 @@
 				)
 			)
 		)
-		(property "Value" "DS_0402"
+		(property "Value" "LED,RED"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1954,15 +1954,15 @@
 			)
 		)
 		(property "Value" "LTST-C190KGKT"
-			(at 0 -5.08 0)
+			(at 0 -5.842 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0603"
-			(at 0 -7.62 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
-			(at 0 -10.16 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR CHIP SMD"
-			(at 0 -12.7 0)
+			(at 0 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,15 +2113,15 @@
 			)
 		)
 		(property "Value" "LTST-C190KRKT"
-			(at 0 -5.08 0)
+			(at 0 -5.842 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0603"
-			(at 0 -7.62 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2130,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
-			(at 0 -10.16 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Description" "LED RED CLEAR CHIP SMD"
-			(at 0 -12.446 0)
+			(at 0 -13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,15 +2272,15 @@
 			)
 		)
 		(property "Value" "LTST-C190KSKT"
-			(at 0 -5.08 0)
+			(at 0 -6.096 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0603"
-			(at 0 -7.62 0)
+			(at 0 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2289,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0189/LTST-C190KSKT.pdf"
-			(at 0 -10.16 0)
+			(at 0 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2298,7 @@
 			)
 		)
 		(property "Description" "LED YELLOW CLEAR CHIP SMD"
-			(at 0 -12.446 0)
+			(at 0 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,15 +2431,15 @@
 			)
 		)
 		(property "Value" "LTST-C190TBKT"
-			(at 0 -5.08 0)
+			(at 0 -6.096 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0603"
-			(at 0 -7.62 0)
+			(at 0 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2448,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
-			(at 0 -10.16 0)
+			(at 0 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2457,7 @@
 			)
 		)
 		(property "Description" "LED BLUE CLEAR CHIP SMD"
-			(at 0 -12.7 0)
+			(at 0 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2588,7 @@
 			)
 		)
 		(property "Value" "LTST-C195KGJRKT"
-			(at 0 -8.89 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2596,7 @@
 			)
 		)
 		(property "Footprint" "DS_LED:DS_0606"
-			(at 1.27 -11.43 0)
+			(at 1.27 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2605,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1134/LTST-C195KGJRKT.pdf"
-			(at 0 -13.97 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2614,7 @@
 			)
 		)
 		(property "Description" "LED GREEN/RED CLEAR CHIP SMD"
-			(at -0.254 -16.51 0)
+			(at -0.254 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

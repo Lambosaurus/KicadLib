@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "A_Assembly:Arduino_Nano_WithMountingHoles"
-			(at 0 0 0)
+			(at 0 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf"
-			(at 0 0 0)
+			(at -0.254 -41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano v2.x"
-			(at 0 0 0)
+			(at 0 -39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1724,7 @@
 			)
 		)
 		(property "Footprint" "A_Assembly:Arduino_Nano_WithMountingHoles"
-			(at 0 0 0)
+			(at 0 -40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1734,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
-			(at 0 0 0)
+			(at 0 -36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1743,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano v3.x"
-			(at 0 0 0)
+			(at 0 -38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)

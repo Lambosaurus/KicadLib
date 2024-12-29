@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect EC10 SWD + UART"
-			(at 0 0 0)
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +3973,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect TC2050 SWD + UART"
-			(at 0 0 0)
+			(at -0.254 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4186,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect TC2050 SWD + UART"
-			(at 0 0 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4399,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect TC2050 SWD + UART"
-			(at 0 0 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4684,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect TC2050 SWD + UART"
-			(at 0 0 0)
+			(at -0.254 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)

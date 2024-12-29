@@ -21,12 +21,12 @@
 			(at 0.635 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_123"
-			(at 0.635 -5.715 0)
+			(at 0.635 -6.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "DIODE GEN PURP 75V 250MA SOD123"
-			(at -0.254 -8.128 0)
+			(at -0.254 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Params" "75V,150mA,720mV"
-			(at 0.635 -3.81 0)
+			(at 0.508 -4.318 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -148,15 +148,15 @@
 			)
 		)
 		(property "Value" "B550C"
-			(at 0.635 -2.54 0)
+			(at 0.381 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SMC"
-			(at 0.635 -5.715 0)
+			(at 0.381 -6.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 50V 5A SMC"
-			(at 0.254 -8.128 0)
+			(at 0 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,7 +183,7 @@
 			)
 		)
 		(property "Params" "50V,5A,700mV"
-			(at 0.635 -3.81 0)
+			(at 0.381 -4.318 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -278,15 +278,15 @@
 			)
 		)
 		(property "Value" "BAS3007ARPPE6327HTSA1"
-			(at 10.795 -1.905 0)
+			(at 17.272 -1.778 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_4"
-			(at 10.795 -5.08 0)
+			(at 0.254 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -304,7 +304,7 @@
 			)
 		)
 		(property "Description" "BRIDGE RECT 1P 30V 900mA SOT143-4"
-			(at 0 0 0)
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -313,7 +313,7 @@
 			)
 		)
 		(property "Params" "30V,900mA,500mV"
-			(at 8.89 -3.175 0)
+			(at 9.398 -3.556 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -593,12 +593,12 @@
 			(at 0.635 -5.08 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_3"
-			(at 0.635 -8.255 0)
+			(at 0.635 -8.509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +607,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BAT54_A_C_S.pdf"
-			(at 0 -10.16 0)
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +616,7 @@
 			)
 		)
 		(property "Description" "DIODE ARR SCHOTT 30V 200MA SOT23"
-			(at 0.254 -12.446 0)
+			(at 0.254 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +625,7 @@
 			)
 		)
 		(property "Params" "30V,100mA"
-			(at 0.635 -6.35 0)
+			(at 0.635 -6.604 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -770,12 +770,12 @@
 			(at 0 -5.08 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_3"
-			(at 0.635 -8.255 0)
+			(at 0.635 -8.763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +784,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BAT54_A_C_S.pdf"
-			(at 0 -10.16 0)
+			(at 0 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +793,7 @@
 			)
 		)
 		(property "Description" "DIODE ARR SCHOTT 30V 200MA SOT23"
-			(at -0.254 -12.192 0)
+			(at -0.254 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +802,7 @@
 			)
 		)
 		(property "Params" "30V,100mA"
-			(at 0 -6.35 0)
+			(at 0 -6.858 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -936,7 +936,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 2.54 2.54 90)
+			(at 3.556 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,10 +944,10 @@
 			)
 		)
 		(property "Value" "BAT54S-7-F"
-			(at 0 -8.128 0)
+			(at 9.144 0.254 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -979,7 +979,7 @@
 			)
 		)
 		(property "Params" "30V,100mA"
-			(at 0 -9.398 0)
+			(at 5.842 -1.524 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -989,7 +989,7 @@
 		(symbol "BAT54S-7-F_0_1"
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 -1.27)
+					(xy 0 2.54) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1003,7 +1003,7 @@
 		(symbol "BAT54S-7-F_1_1"
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy 1.27 -1.27) (xy 0 -3.81) (xy -1.27 -1.27)
+					(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 0 -5.08) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -1015,7 +1015,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 3.81) (xy 1.27 3.81) (xy 0 1.27) (xy -1.27 3.81)
+					(xy -1.27 5.08) (xy 1.27 5.08) (xy 0 2.54) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -1027,7 +1027,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -4.445) (xy -1.27 -4.445) (xy -1.27 -3.81) (xy 1.27 -3.81) (xy 1.27 -3.175) (xy 0.635 -3.175)
+					(xy -0.635 -5.715) (xy -1.27 -5.715) (xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.445) (xy 0.635 -4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -1039,7 +1039,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 0.635) (xy -1.27 0.635) (xy -1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.905) (xy 0.635 1.905)
+					(xy -0.635 1.905) (xy -1.27 1.905) (xy -1.27 2.54) (xy 1.27 2.54) (xy 1.27 3.175) (xy 0.635 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -1047,10 +1047,21 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.45)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin passive line
-				(at 0 6.35 270)
+				(at 0 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1068,7 +1079,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -6.35 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1086,8 +1097,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 180)
-				(length 2.54)
+				(at 0 0 0)
+				(length 0)
 				(name "~"
 					(effects
 						(font
@@ -1124,12 +1135,12 @@
 			(at 0.635 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_323"
-			(at 0.635 -5.715 0)
+			(at 0.381 -6.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1149,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85667/bat54ws.pdf"
-			(at 0 -7.62 0)
+			(at -0.254 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1158,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 30V 100MA SOD323"
-			(at 0 -10.16 0)
+			(at -0.254 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +1167,7 @@
 			)
 		)
 		(property "Params" "30V,100mA"
-			(at 0.635 -3.81 0)
+			(at 0.381 -4.318 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1242,15 +1253,15 @@
 			)
 		)
 		(property "Value" "BZT52C3V6S-7-F"
-			(at 0.635 -2.54 0)
+			(at 0.635 -3.556 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_323"
-			(at 0 -5.08 0)
+			(at 0 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,8 +1269,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 -3.81 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/804/BZT52C2V0S-BZT52C39S.pdf"
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1279,7 @@
 			)
 		)
 		(property "Description" "DIODE ZENER 3.6V 200MW SOD323"
-			(at 0 -7.62 0)
+			(at 0 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1288,7 @@
 			)
 		)
 		(property "Params" "3V6"
-			(at 0 -3.81 0)
+			(at 0 -4.826 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1408,7 +1419,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 3.3VWM 10VC SOT23"
-			(at 0 0 0)
+			(at -0.254 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1610,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT23_3"
-			(at 0 -8.89 0)
+			(at 0 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1619,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0L2B3SO.pdf"
-			(at 0 -11.43 0)
+			(at 0 -11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1628,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 5VWM 14VC SOT23"
-			(at 0 0 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +1637,7 @@
 			)
 		)
 		(property "Params" "5VWM,14VC"
-			(at 0 -6.35 0)
+			(at 0 -6.858 0)
 			(effects
 				(font
 					(size 0.63 0.63)
@@ -1801,10 +1812,10 @@
 			)
 		)
 		(property "Value" "DDZ5V6BSF"
-			(at 0.635 -2.54 0)
+			(at -0.254 -3.302 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1817,8 +1828,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 -5.08 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31987.pdf"
+			(at 0 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1847,7 @@
 			)
 		)
 		(property "Params" "5V6"
-			(at 0 -3.81 0)
+			(at 0 -4.826 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1942,15 +1953,15 @@
 			)
 		)
 		(property "Value" "DSS110U"
-			(at 0.635 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_123"
-			(at 0.635 -5.715 0)
+			(at 0.381 -5.969 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1970,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf"
-			(at -1.27 -7.874 0)
+			(at -1.524 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1979,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 100V 1A SOD123FL"
-			(at 0 -10.16 0)
+			(at -0.254 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1988,7 @@
 			)
 		)
 		(property "Params" "100V,1A,800mV"
-			(at 0.635 -3.81 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -2072,15 +2083,15 @@
 			)
 		)
 		(property "Value" "DSS16UTR"
-			(at 0.635 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_123"
-			(at 0.635 -5.715 0)
+			(at 0.381 -6.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2109,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 60V 1A SOD123FL"
-			(at 0.254 -7.874 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2118,7 @@
 			)
 		)
 		(property "Params" "60V,1A,670mV"
-			(at 0.635 -3.81 0)
+			(at 0.254 -4.318 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -2205,7 +2216,7 @@
 			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2228,7 +2239,7 @@
 			)
 		)
 		(property "Description" "GENERIC SCHOTTKY"
-			(at 0 0 0)
+			(at 0 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2337,7 @@
 			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2349,7 +2360,7 @@
 			)
 		)
 		(property "Description" "GENERIC RECTIFIER"
-			(at 0 0 0)
+			(at 0 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2458,7 @@
 			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2470,7 +2481,7 @@
 			)
 		)
 		(property "Description" "GENERIC TVS UNIDIR"
-			(at 0 0 0)
+			(at 0 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2579,7 @@
 			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2591,7 +2602,7 @@
 			)
 		)
 		(property "Description" "GENERIC TVS BIDIR"
-			(at 0 0 0)
+			(at 0 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2712,7 @@
 			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2724,7 +2735,7 @@
 			)
 		)
 		(property "Description" "GENERIC ZENER"
-			(at 0 0 0)
+			(at -0.254 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,12 +2844,12 @@
 			(at 0.635 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_523"
-			(at 0.635 -5.715 0)
+			(at 0.381 -6.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2858,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/RB520S40-AU.pdf"
-			(at 0 -7.874 0)
+			(at -0.254 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2867,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 40V 250MA SOD523"
-			(at 0 -10.414 0)
+			(at -0.254 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2876,7 @@
 			)
 		)
 		(property "Params" "40V,250mA,600mV"
-			(at 0.635 -3.81 0)
+			(at 0.381 -4.318 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -2963,12 +2974,12 @@
 			(at 0.635 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_523"
-			(at 0.635 -5.715 0)
+			(at 0.381 -6.477 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2988,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/pdf/datasheet/rb751s40t1-d.pdf"
-			(at 0 -7.62 0)
+			(at -0.254 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2997,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 30V 30MA SOD523"
-			(at 0 -10.16 0)
+			(at -0.254 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3006,7 @@
 			)
 		)
 		(property "Params" "30V,30mA,370mV"
-			(at 0.635 -3.81 0)
+			(at 0.381 -4.572 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -3093,7 +3104,7 @@
 			(at 0 -5.715 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3116,7 +3127,7 @@
 			)
 		)
 		(property "Description" "DIODE ARRAY SCHOTTKY 50V 3CP"
-			(at 0 0 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,15 +3416,15 @@
 			)
 		)
 		(property "Value" "SMAJ36A-13-F"
-			(at 0.635 -2.54 0)
+			(at 0.635 -3.302 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SMA"
-			(at 0 -5.08 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3442,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 36VWM 58.1VC SMA"
-			(at 0 -7.112 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3451,7 @@
 			)
 		)
 		(property "Params" "36VWM,58VC"
-			(at 0 -3.81 0)
+			(at 0 -4.826 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -3546,15 +3557,15 @@
 			)
 		)
 		(property "Value" "TZMB4V3-GS08"
-			(at 0.635 -2.54 0)
+			(at 0.762 -3.683 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_80"
-			(at 0 -5.08 0)
+			(at 0.127 -6.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3574,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/84122/tzm.pdf"
-			(at -0.635 -6.985 0)
+			(at -0.508 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3583,7 @@
 			)
 		)
 		(property "Description" "DIODE ZENER 4.3V 500MW SOD80"
-			(at 0 -9.398 0)
+			(at 0.127 -10.541 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3592,7 @@
 			)
 		)
 		(property "Params" "4.3V"
-			(at 0 -3.81 0)
+			(at 0.127 -4.953 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -3739,12 +3750,12 @@
 			(at 0 -2.54 0)
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "D_Diode:D_SOD_123"
-			(at 0.635 -5.715 0)
+			(at 0.635 -6.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3764,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf"
-			(at 0 -10.414 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3773,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 20V 1A SOD123FL"
-			(at -0.508 -8.128 0)
+			(at -0.508 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3782,7 @@
 			)
 		)
 		(property "Params" "20V,1A,500mV"
-			(at 0 -3.81 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 0.635 0.635)

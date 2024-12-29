@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "RELAY GEN PURPOSE SPST 22A 12V"
-			(at 0 0 0)
+			(at -0.254 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -338,7 +338,7 @@
 			)
 		)
 		(property "Description" "RELAY GEN PURPOSE SPDT 10A 12V"
-			(at 0 0 0)
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)

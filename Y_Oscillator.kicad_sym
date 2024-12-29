@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Description" "CERAMIC RES 16.0000MHZ 15PF SMD"
-			(at 0 0 0)
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +228,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
-			(at -1.905 6.35 0)
+			(at -2.032 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,10 +236,10 @@
 			)
 		)
 		(property "Value" "ECS-120-20-33-CKM-TR"
-			(at 0.635 4.445 0)
+			(at 0 4.826 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -262,7 +262,7 @@
 			)
 		)
 		(property "Description" "CRYSTAL 12.0000MHZ 20PF SMD"
-			(at 0 0 0)
+			(at 0 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +489,7 @@
 			(at 0 4.445 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -512,7 +512,7 @@
 			)
 		)
 		(property "Description" "CRYSTAL 16.0000MHZ 10PF SMD"
-			(at 0 0 0)
+			(at 0 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -728,7 +728,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
-			(at -1.905 6.35 0)
+			(at -1.778 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,10 +736,10 @@
 			)
 		)
 		(property "Value" "ECS-240-12-37B-CKY-TR"
-			(at 0 4.445 0)
+			(at 0 4.826 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -762,7 +762,7 @@
 			)
 		)
 		(property "Description" "CRYSTAL 24.0000MHZ 12PF SMD"
-			(at 0 0 0)
+			(at 0.254 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +978,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
-			(at -1.905 6.35 0)
+			(at -1.778 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,10 +986,10 @@
 			)
 		)
 		(property "Value" "ECS-250-10-37B-CTN-TR"
-			(at 0 4.445 0)
+			(at 0.127 4.953 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1012,7 +1012,7 @@
 			)
 		)
 		(property "Description" "CRYSTAL 25.0000MHZ 10PF SMD"
-			(at 0 0 0)
+			(at -0.254 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1228,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
-			(at -1.905 6.35 0)
+			(at -2.032 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,10 +1236,10 @@
 			)
 		)
 		(property "Value" "ECS-80-12-33-JGN-TR"
-			(at 0.635 4.445 0)
+			(at 0.508 4.572 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1262,7 +1262,7 @@
 			)
 		)
 		(property "Description" "CRYSTAL 8.0000MHZ 12PF SMD"
-			(at 0 0 0)
+			(at 0.254 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,15 +1487,15 @@
 			)
 		)
 		(property "Value" "SC32S-7PF20PPM"
-			(at 0 4.445 0)
+			(at 0 4.572 0)
 			(effects
 				(font
-					(size 0.63 0.63)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "Y_Oscillator:Crystal_SMD2_3.2x1.5"
-			(at -0.635 -20.955 0)
+			(at 0.635 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1504,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sii.co.jp/en/quartz/files/2013/03/SC-32S_Leaflet_e20151217.pdf"
-			(at -1.27 -23.495 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1513,7 @@
 			)
 		)
 		(property "Description" "CRYSTAL 32.7680KHZ 7PF SMD"
-			(at 0 0 0)
+			(at 0.254 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

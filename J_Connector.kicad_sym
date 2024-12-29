@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "CONN MICRO SIM CARD PUSH-PULL "
-			(at 0 0 0)
+			(at 7.874 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +371,7 @@
 			)
 		)
 		(property "Description" "CONN RCPT USB2.0 MICRO B SMD R/A"
-			(at 0 0 0)
+			(at 0.254 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +652,7 @@
 			)
 		)
 		(property "Description" "BATT CONT SPRING AA"
-			(at 0 0 0)
+			(at -0.254 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +744,7 @@
 			)
 		)
 		(property "Description" "NANOSIM SOCKET 1.11H P/PULL TYPE"
-			(at 0 0 0)
+			(at 8.382 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +1049,7 @@
 			)
 		)
 		(property "Value" "1775862-2"
-			(at -1.27 -10.16 0)
+			(at -0.254 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1057,7 @@
 			)
 		)
 		(property "Footprint" "J_Connector:1775862-2"
-			(at -3.81 -12.7 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=8-1773459-7_EXPRESS_MINI_CARD_QRG&DocType=DS&DocLang=English"
-			(at -3.81 -15.24 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +1075,7 @@
 			)
 		)
 		(property "Description" "CONN PCI EXP MIN FML 52POS 0.031"
-			(at 0 0 0)
+			(at 0.254 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3489,7 @@
 			)
 		)
 		(property "Description" "BATT CONT SPRING AA 1 CEL PC PIN"
-			(at 0 0 0)
+			(at 0 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6094,7 @@
 			)
 		)
 		(property "Description" "CONN FPC TOP 50POS 0.5MM R/A"
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8257,7 @@
 			)
 		)
 		(property "Footprint" "J_Connector:7499210121A"
-			(at -3.81 -6.35 0)
+			(at -0.254 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8266,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/7499111121A.pdf"
-			(at 11.43 -10.16 0)
+			(at 0.254 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8275,7 @@
 			)
 		)
 		(property "Description" "CONN JACK 1PORT 1000 BASE-T PCB"
-			(at 0 0 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,7 +8985,7 @@
 			)
 		)
 		(property "Description" "CONN JACK 1PORT 100 BASE-T PCB"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +9770,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve"
-			(at 0 0 0)
+			(at -0.254 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9983,7 +9983,7 @@
 			)
 		)
 		(property "Description" "JST CONN HEADER SMD 2POS 2MM"
-			(at 0 0 0)
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10662,7 @@
 			)
 		)
 		(property "Description" "MICRO SD PUSH-PUSH, SMT, 1.40MM"
-			(at 0 0 0)
+			(at 7.112 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13594,7 +13594,7 @@
 			)
 		)
 		(property "Description" "CONN JACK STEREO 3.5MM SMD R/A"
-			(at 0 0 0)
+			(at 0.254 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15267,7 +15267,7 @@
 			)
 		)
 		(property "Footprint" "J_Connector:USB_Mini_TH_Vertical"
-			(at 20.32 -11.43 0)
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15285,7 +15285,7 @@
 			)
 		)
 		(property "Description" "CONN RCPT USB2.0 MINI B TH VERT"
-			(at 0 0 0)
+			(at 0 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15553,7 +15553,7 @@
 			)
 		)
 		(property "Footprint" "J_Connector:USB_B_TH_Horizontal"
-			(at 20.32 -10.16 0)
+			(at 0 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15571,7 +15571,7 @@
 			)
 		)
 		(property "Description" "CONN RCPT USB2.0 TYPEB 4POS R/A"
-			(at 0 0 0)
+			(at 0.254 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15820,7 +15820,7 @@
 			)
 		)
 		(property "Footprint" "J_Connector:USB_Mini_SMD_Horizontal"
-			(at 20.32 -11.43 0)
+			(at 0.508 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15838,7 +15838,7 @@
 			)
 		)
 		(property "Description" "CONN RCPT USB2.0 MINI B SMD R/A"
-			(at 0 0 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16129,7 +16129,7 @@
 			)
 		)
 		(property "Description" "CONN RCP USB2.0 TYP C 24P SMD RA"
-			(at 0 0 0)
+			(at 0 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

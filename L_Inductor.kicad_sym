@@ -152,7 +152,7 @@
 			)
 		)
 		(property "Footprint" "L_Inductor:L_0603"
-			(at 10.16 -2.54 0)
+			(at 0 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -298,7 +298,7 @@
 			)
 		)
 		(property "Footprint" "L_Inductor:L_4.2x4.2"
-			(at 11.1485 -3.8398 0)
+			(at -3.048 -0.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +598,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 2.2UH 600MA 160MOHM SM"
-			(at 0 0 0)
+			(at 0 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +662,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 10UH 1.5A 100 MOHM SMD"
-			(at 0 0 0)
+			(at -0.254 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +725,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 33UH 1.45A 137MOHM SMD"
-			(at 0 0 0)
+			(at -0.254 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +770,7 @@
 			)
 		)
 		(property "Footprint" "L_Inductor:FB_0603"
-			(at -6.35 0 90)
+			(at 0 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -788,7 +788,7 @@
 			)
 		)
 		(property "Description" "FERRITE BEAD 600 OHM 0603 1LN"
-			(at 0 0 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +986,7 @@
 			)
 		)
 		(property "Footprint" "L_Inductor:L_0402"
-			(at 10.16 -2.54 0)
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1059,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 2.2UH 600MA 160MOHM SM"
-			(at 0 0 0)
+			(at 0 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)

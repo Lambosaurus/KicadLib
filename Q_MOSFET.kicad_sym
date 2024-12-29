@@ -21,7 +21,7 @@
 			(at 2.54 -0.635 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 0 0 0)
+			(at 0 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,7 +270,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 2.54 1.27 0)
+			(at 2.54 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,13 +282,13 @@
 			(at 2.54 -0.381 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "U_IC:SOT223_4"
-			(at 8.89 -1.905 0)
+			(at 0.254 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -306,7 +306,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 100V 680MA SOT223-4"
-			(at 0 0 0)
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +548,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 2.54 1.27 0)
+			(at 2.794 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +556,7 @@
 			)
 		)
 		(property "Value" "DMC2400UV-7"
-			(at 8.89 -1.27 0)
+			(at 9.144 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +582,7 @@
 			)
 		)
 		(property "Description" "MOSFET N/P-CH 20V SOT563"
-			(at 0 0 0)
+			(at -0.254 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1009,7 @@
 			)
 		)
 		(property "Value" "DMN601VK-7"
-			(at 8.89 -1.27 0)
+			(at 8.636 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1017,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOT563"
-			(at 7.62 -3.81 0)
+			(at 0 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1035,7 @@
 			)
 		)
 		(property "Description" "MOSFET 2N-CH 60V 0.305A SOT-563"
-			(at 0 0 0)
+			(at -0.508 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1316,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 6.2931 3.8366 0)
+			(at 5.334 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,10 +1325,10 @@
 			)
 		)
 		(property "Value" "HXY304DF"
-			(at 6.3946 2.1118 0)
+			(at 5.4355 4.1172 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -1352,7 +1352,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET Dual transistor"
-			(at 0 0 0)
+			(at 0 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1785,7 @@
 			(at 2.54 -0.635 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -1809,7 +1809,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 0 0 0)
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 			)
 		)
 		(property "Description" "MOSFET 2N-CH 20V 220MA SOT963"
-			(at 0 0 0)
+			(at 0 -13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2360,7 @@
 			(at 2.54 -0.381 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -2384,7 +2384,7 @@
 			)
 		)
 		(property "Description" "GENERIC NFET"
-			(at 0 0 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +2600,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 2.54 1.27 0)
+			(at 2.286 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2612,7 @@
 			(at 2.54 -0.381 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -2636,7 +2636,7 @@
 			)
 		)
 		(property "Description" "GENERIC NFET GATE-PROTECTION-DIODE"
-			(at 0 0 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2946,7 @@
 			(at 2.54 -1.27 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -2970,7 +2970,7 @@
 			)
 		)
 		(property "Description" "GENERIC PFET"
-			(at 0 0 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3198,7 @@
 			(at 2.54 -1.27 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -3222,7 +3222,7 @@
 			)
 		)
 		(property "Description" "GENERIC PFET GATE-PROTECTION-DIODE"
-			(at 0 0 0)
+			(at 0 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3520,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 2.54 1.27 0)
+			(at 2.286 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,10 +3529,10 @@
 			)
 		)
 		(property "Value" "VS3522AE"
-			(at 2.54 -0.381 0)
+			(at 2.54 -0.254 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -3556,7 +3556,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor"
-			(at 0 0 0)
+			(at 0 -16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3777,7 @@
 	(symbol "2N7002-7-F"
 		(extends "Q_Generic_NFET")
 		(property "Reference" "Q"
-			(at 2.54 1.27 0)
+			(at 2.54 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3789,7 @@
 			(at 2.54 -0.381 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -3825,7 +3825,7 @@
 	(symbol "AON2290"
 		(extends "Q_Generic_NFET")
 		(property "Reference" "Q"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3837,7 @@
 			(at 2.54 -0.381 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -3861,7 +3861,7 @@
 			)
 		)
 		(property "Description" "MOSFET N CH 100V 4.5A DFN 2X2B"
-			(at 0 0 0)
+			(at 0.254 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,10 +3882,10 @@
 			)
 		)
 		(property "Value" "BSS84-7-F"
-			(at 2.54 -1.27 0)
+			(at 2.54 -1.016 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -3921,7 +3921,7 @@
 	(symbol "DMG1012UW-7"
 		(extends "Q_Generic_NFET_Z")
 		(property "Reference" "Q"
-			(at 2.54 1.27 0)
+			(at 2.286 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,10 +3930,10 @@
 			)
 		)
 		(property "Value" "DMG1012UW-7"
-			(at 2.54 -0.381 0)
+			(at 2.286 -0.508 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -3957,7 +3957,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 20V 1A SOT323"
-			(at 0 0 0)
+			(at 0 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3969,7 @@
 	(symbol "DMG1013UW-7"
 		(extends "Q_Generic_PFET_Z")
 		(property "Reference" "Q"
-			(at 2.54 1.27 0)
+			(at 2.286 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,10 +3978,10 @@
 			)
 		)
 		(property "Value" "DMG1013UW-7"
-			(at 2.54 -1.27 0)
+			(at 2.286 -0.508 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4005,7 +4005,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 20V 820MA SOT323"
-			(at 0 0 0)
+			(at 0.254 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,10 +4026,10 @@
 			)
 		)
 		(property "Value" "DMN2011UFDE-7"
-			(at 2.54 -0.381 0)
+			(at 2.54 -0.762 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4053,7 +4053,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 20V 11.7A 6UDFN"
-			(at 0 0 0)
+			(at -0.508 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4077,7 @@
 			(at 2.54 -1.27 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4101,7 +4101,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 20V 600MA SOT23-3"
-			(at 0 0 0)
+			(at -0.254 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,10 +4122,10 @@
 			)
 		)
 		(property "Value" "DMP3028LFDE-13"
-			(at 2.54 -1.27 0)
+			(at 2.54 -1.016 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4149,7 +4149,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 30V 6.8A 6UDFN"
-			(at 0 0 0)
+			(at 0 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,10 +4170,10 @@
 			)
 		)
 		(property "Value" "FDN335N"
-			(at 2.54 -0.381 0)
+			(at 2.54 -0.762 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4197,7 +4197,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 20V 1.7A SUPERSOT3"
-			(at 0 0 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,10 +4218,10 @@
 			)
 		)
 		(property "Value" "FDN336P"
-			(at 2.54 -1.27 0)
+			(at 2.54 -1.016 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4245,7 +4245,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 20V 1.3A SUPERSOT3"
-			(at 0 0 0)
+			(at -0.254 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,10 +4266,10 @@
 			)
 		)
 		(property "Value" "FQD11P06TM"
-			(at 2.54 -1.27 0)
+			(at 2.54 -1.016 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4293,7 +4293,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 60V 9.4A DPAK"
-			(at 0 0 0)
+			(at 0 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,10 +4314,10 @@
 			)
 		)
 		(property "Value" "GT045N10M"
-			(at 2.54 -0.381 0)
+			(at 2.54 -0.762 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -4341,7 +4341,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 100V 120A TO-263"
-			(at 0 0 0)
+			(at -0.254 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

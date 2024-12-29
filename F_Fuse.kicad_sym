@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,10 +18,10 @@
 			)
 		)
 		(property "Value" "0685T1000-01"
-			(at 1.905 0 0)
+			(at 1.778 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "FUSE BRD MNT 1.0A 63VAC/VDC 1206"
-			(at 0 0 0)
+			(at 0 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +54,7 @@
 			)
 		)
 		(property "Params" "1A, 63V, Slow"
-			(at 1.905 -1.27 0)
+			(at 2.032 -1.778 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -200,7 +200,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,10 +208,10 @@
 			)
 		)
 		(property "Value" "0685T2000-01"
-			(at 1.905 0 0)
+			(at 1.778 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -235,7 +235,7 @@
 			)
 		)
 		(property "Description" "FUSE BRD MNT 2.0A 63VAC/VDC 1206"
-			(at 0 0 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +244,7 @@
 			)
 		)
 		(property "Params" "2A, 63V, Slow"
-			(at 1.905 -1.27 0)
+			(at 2.032 -1.778 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -390,7 +390,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -398,10 +398,10 @@
 			)
 		)
 		(property "Value" "0685T2500-01"
-			(at 1.905 0 0)
+			(at 1.778 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -425,7 +425,7 @@
 			)
 		)
 		(property "Description" "FUSE BRD MNT 2.5A 63VAC/VDC 1206"
-			(at 0 0 0)
+			(at 0 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,7 +434,7 @@
 			)
 		)
 		(property "Params" "2.5A, 63V, Slow"
-			(at 1.905 -1.27 0)
+			(at 2.032 -1.778 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -580,7 +580,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,10 +588,10 @@
 			)
 		)
 		(property "Value" "0685T3000-01"
-			(at 1.905 0 0)
+			(at 1.778 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -606,7 +606,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"
-			(at 0 -11.43 0)
+			(at 0 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,7 +615,7 @@
 			)
 		)
 		(property "Description" "FUSE BRD MNT 3.0A 63VAC/VDC 1206"
-			(at 0 0 0)
+			(at 0.254 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +624,7 @@
 			)
 		)
 		(property "Params" "3A, 63V, Slow"
-			(at 1.905 -1.27 0)
+			(at 2.032 -1.778 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -770,7 +770,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,10 +778,10 @@
 			)
 		)
 		(property "Value" "0685T5000-01"
-			(at 1.905 0 0)
+			(at 1.778 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -805,7 +805,7 @@
 			)
 		)
 		(property "Description" "FUSE BOARD MNT 5A 63VAC/VDC 1206"
-			(at 0 0 0)
+			(at 0 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,7 +814,7 @@
 			)
 		)
 		(property "Params" "5A, 63V, Slow"
-			(at 1.905 -1.27 0)
+			(at 2.032 -1.778 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -960,7 +960,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.286 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,10 +968,10 @@
 			)
 		)
 		(property "Value" "0686F0500-01"
-			(at 1.905 0 0)
+			(at 1.778 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -995,7 +995,7 @@
 			)
 		)
 		(property "Description" "FUSE BRD MNT 0.5A 63VDC 0603"
-			(at 0 0 0)
+			(at 0 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1004,7 @@
 			)
 		)
 		(property "Params" "0.5A, 63V, Fast"
-			(at 1.905 -1.27 0)
+			(at 1.905 -1.778 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1150,7 +1150,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,10 +1158,10 @@
 			)
 		)
 		(property "Value" "0ZCF0250FF2C"
-			(at 5.715 0 0)
+			(at 8.89 -0.254 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1184,7 +1184,7 @@
 			)
 		)
 		(property "Description" "PTC RESET FUSE 16V 2.5A 2920"
-			(at 0 0 0)
+			(at -0.254 -15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1193,7 @@
 			)
 		)
 		(property "Params" "2.5A, 16V"
-			(at 4.445 -1.27 0)
+			(at 4.318 -1.778 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1293,7 +1293,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.286 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1304,7 @@
 			(at 1.905 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -1337,7 +1337,7 @@
 			)
 		)
 		(property "Params" "1A, 25V, Slow"
-			(at 1.905 -1.27 0)
+			(at 2.032 -1.524 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1474,7 +1474,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,10 +1482,10 @@
 			)
 		)
 		(property "Value" "VALUE"
-			(at 3.81 0 0)
+			(at 4.826 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1517,7 +1517,7 @@
 			)
 		)
 		(property "Params" "1A, 24V"
-			(at 4.445 -1.27 0)
+			(at 4.064 -1.524 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1608,7 +1608,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1619,7 @@
 			(at 1.905 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -1643,7 +1643,7 @@
 			)
 		)
 		(property "Description" "FUSE BOARD MNT 500MA 50VDC 0603"
-			(at 0 0 0)
+			(at 0.254 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +1652,7 @@
 			)
 		)
 		(property "Params" "0.5A, 50V, Slow"
-			(at 1.905 -1.27 0)
+			(at 2.032 -1.524 0)
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -1810,7 +1810,7 @@
 			)
 		)
 		(property "Footprint" "F_Fuse:0678L"
-			(at 8.89 -5.08 0)
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1828,7 @@
 			)
 		)
 		(property "Description" "FUSE BRD MT 30A 250VAC 72VDC SMD"
-			(at 0 0 0)
+			(at 0.254 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1848,7 @@
 	(symbol "0ZCG0030FF2C"
 		(extends "F_Generic_Polyfuse")
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,10 +1856,10 @@
 			)
 		)
 		(property "Value" "0ZCG0030FF2C"
-			(at 5.08 0 0)
+			(at 9.144 -0.254 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1882,7 +1882,7 @@
 			)
 		)
 		(property "Description" "PTC RESET FUSE 30V 300MA 1812"
-			(at 0 0 0)
+			(at 0.254 -15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1891,7 @@
 			)
 		)
 		(property "Params" "300mA, 30V"
-			(at 5.08 -1.27 0)
+			(at 5.08 -2.032 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1910,7 +1910,7 @@
 			)
 		)
 		(property "Value" "0ZCM0002FF2G"
-			(at 9.398 -0.762 0)
+			(at 9.144 -0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1956,7 @@
 	(symbol "PRG18BB221MB1RB"
 		(extends "F_Generic_Polyfuse")
 		(property "Reference" "F"
-			(at 2.54 1.27 0)
+			(at 2.54 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,10 +1964,10 @@
 			)
 		)
 		(property "Value" "PRG18BB221MB1RB"
-			(at 6.35 0 0)
+			(at 11.43 0 0)
 			(effects
 				(font
-					(size 0.6096 0.6096)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1999,7 +1999,7 @@
 			)
 		)
 		(property "Params" "14mA, 24V, 220R"
-			(at 6.35 -1.27 0)
+			(at 6.35 -1.778 0)
 			(effects
 				(font
 					(size 0.635 0.635)
