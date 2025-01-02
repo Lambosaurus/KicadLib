@@ -3790,6 +3790,60 @@
 			)
 		)
 	)
+	(symbol "PMEG40T30ERX"
+		(extends "D_Generic_Schottky")
+		(property "Reference" "D"
+			(at -1.27 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG40T30ERX"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "D_Diode:D_SOD_123"
+			(at 0 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG40T30ER.pdf"
+			(at 0 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 40V 3A SOD123W"
+			(at 0.254 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "40V,3A,460mV"
+			(at -0.254 -4.318 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+	)
 	(symbol "SK220A"
 		(extends "D_Generic_Schottky")
 		(property "Reference" "D"
