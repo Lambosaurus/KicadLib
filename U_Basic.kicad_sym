@@ -1632,9 +1632,9 @@
 		)
 	)
 	(symbol "LM2902A"
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(property "Reference" "U"
 			(at 1.524 4.064 0)
 			(effects
@@ -4148,7 +4148,7 @@
 			)
 		)
 		(property "Description" "IC INVERTER 1CH 1-INP SOT23-5"
-			(at 0 0 0)
+			(at 0 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5349,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 5.25VWM 17VC SOT23-6"
-			(at 0 0 0)
+			(at 0 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
