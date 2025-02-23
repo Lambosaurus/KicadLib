@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.762 6.858 0)
+			(at 0.508 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,24 +49,24 @@
 				(hide yes)
 			)
 		)
-		(symbol "CMI-1275C-050_0_0"
+		(symbol "CMI-1275C-050_1_0"
 			(rectangle
-				(start 0 5.08)
-				(end 3.556 0)
+				(start 0 8.89)
+				(end 5.08 0)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
 		(symbol "CMI-1275C-050_1_1"
 			(arc
-				(start 5.08 1.27)
-				(mid 5.6061 2.54)
-				(end 5.08 3.81)
+				(start 6.35 2.54)
+				(mid 7.1391 4.445)
+				(end 6.35 6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -76,9 +76,9 @@
 				)
 			)
 			(arc
-				(start 6.35 0)
-				(mid 7.4021 2.54)
-				(end 6.35 5.08)
+				(start 7.62 1.27)
+				(mid 8.9351 4.445)
+				(end 7.62 7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -88,7 +88,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 3.81 0)
+				(at -2.54 6.35 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -106,7 +106,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 1.27 0)
+				(at -2.54 2.54 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -116,6 +116,235 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SMT-0827-S-HT-R"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0.762 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMT-0827-S-HT-R"
+			(at 1.27 -4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "U_Transducer:SMT_0827_S_HT_R"
+			(at 1.27 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://api.puiaudio.com/filename/SMT-0827-S-HT-R.PDF"
+			(at 1.016 -6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BUZZER MAGNETIC 3.6V 0.3X0.3 SMD"
+			(at 1.27 -8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMT-0827-S-HT-R_0_0"
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 1.905 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 7.62) (xy 2.286 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 8.128) (xy 1.778 7.112)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 2.54) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMT-0827-S-HT-R_0_1"
+			(arc
+				(start 1.905 2.54)
+				(mid 2.54 3.175)
+				(end 1.905 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 3.81)
+				(mid 2.54 4.445)
+				(end 1.905 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 5.08)
+				(mid 2.54 5.715)
+				(end 1.905 6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMT-0827-S-HT-R_1_0"
+			(rectangle
+				(start 0 8.89)
+				(end 5.08 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SMT-0827-S-HT-R_1_1"
+			(arc
+				(start 6.35 2.54)
+				(mid 7.1391 4.445)
+				(end 6.35 6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.62 1.27)
+				(mid 8.9351 4.445)
+				(end 7.62 7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 6.35 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -2.54 90)
+				(length 2.54) hide
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
 					(effects
 						(font
 							(size 1.27 1.27)
