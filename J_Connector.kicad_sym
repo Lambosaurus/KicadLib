@@ -19768,7 +19768,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -10.16 25.4 0)
+			(at -9.652 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19777,7 +19777,7 @@
 			)
 		)
 		(property "Value" "USB4145-03-0170-C"
-			(at 10.16 22.86 0)
+			(at 10.668 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19786,7 +19786,7 @@
 			)
 		)
 		(property "Footprint" "J_Connector:UCB_C_USB4145-03-0170-C"
-			(at 0 -33.02 0)
+			(at 0 -40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19795,7 +19795,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/USB4145%20-%20Product%20Drawing.pdf"
-			(at 0 -35.56 0)
+			(at 0 -42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19804,7 +19804,7 @@
 			)
 		)
 		(property "Description" "USB 2.0 TYPE-C RECPT VERT SMT 1"
-			(at 0 -38.1 0)
+			(at 0 -45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20013,8 +20013,8 @@
 		)
 		(symbol "USB4145-03-0170-C_1_1"
 			(rectangle
-				(start -10.16 21.59)
-				(end 10.16 -21.59)
+				(start -10.16 26.67)
+				(end 10.16 -26.67)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -20024,7 +20024,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -24.13 90)
+				(at 0 -29.21 90)
 				(length 2.54)
 				(name "SHIELD"
 					(effects
@@ -20042,7 +20042,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 19.05 180)
+				(at 15.24 24.13 180)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -20060,7 +20060,25 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 16.51 180)
+				(at 15.24 21.59 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 19.05 180)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -20070,6 +20088,24 @@
 					)
 				)
 				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 16.51 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20249,7 +20285,43 @@
 						)
 					)
 				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -21.59 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -24.13 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
 					(effects
 						(font
 							(size 1.27 1.27)
