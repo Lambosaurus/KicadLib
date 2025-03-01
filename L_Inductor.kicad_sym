@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "FB_Generic"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -55,7 +59,7 @@
 		(symbol "FB_Generic_0_1"
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -0.7874)
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 				)
 				(stroke
 					(width 0)
@@ -79,7 +83,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					(xy 0 -1.27) (xy 0 -0.7874)
 				)
 				(stroke
 					(width 0)
@@ -128,10 +132,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "L_0603"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -188,32 +197,8 @@
 		)
 		(symbol "L_0603_0_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -225,8 +210,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -274,10 +283,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "L_4.2x4.2"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -334,32 +348,8 @@
 		)
 		(symbol "L_4.2x4.2_0_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -371,8 +361,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -420,10 +434,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "L_7.2x6.6"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -480,32 +499,8 @@
 		)
 		(symbol "L_7.2x6.6_0_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -517,8 +512,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -566,10 +585,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "L_Generic"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -619,32 +643,8 @@
 		)
 		(symbol "L_Generic_0_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -656,8 +656,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -705,6 +729,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "7447709220"
 		(extends "L_Generic")

@@ -1,9 +1,11 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "CSTNE16M0V530000R0"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,11 +70,12 @@
 			)
 		)
 		(symbol "CSTNE16M0V530000R0_0_1"
-			(rectangle
-				(start -1.143 2.54)
-				(end 1.143 -2.54)
+			(polyline
+				(pts
+					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+				)
 				(stroke
-					(width 0.3048)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -82,54 +85,6 @@
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -2.032 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.032 -1.27) (xy -2.032 1.27)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.81) (xy 0 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.032 -1.27) (xy 2.032 1.27)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.032 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -153,10 +108,57 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					(xy -2.032 -1.27) (xy -2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 0 -3.556)
 				)
 				(stroke
 					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -1.27) (xy 2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
 					(type default)
 				)
 				(fill
@@ -220,10 +222,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECS-120-20-33-CKM-TR"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -288,20 +295,9 @@
 			)
 		)
 		(symbol "ECS-120-20-33-CKM-TR_0_1"
-			(rectangle
-				(start -1.143 2.54)
-				(end 1.143 -2.54)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -2.54 -3.556)
+					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -325,6 +321,30 @@
 			)
 			(polyline
 				(pts
+					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy -2.54 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -2.032 -1.27) (xy -2.032 1.27)
 				)
 				(stroke
@@ -335,12 +355,11 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.032 -1.27) (xy 2.032 1.27)
-				)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
 				(stroke
-					(width 0.508)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -361,31 +380,19 @@
 			)
 			(polyline
 				(pts
+					(xy 2.032 -1.27) (xy 2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.54 -3.81) (xy 2.54 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -408,6 +415,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -451,29 +476,16 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -5.08 90)
-				(length 1.27)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECS-160-10-37-RWM-TR"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -538,20 +550,9 @@
 			)
 		)
 		(symbol "ECS-160-10-37-RWM-TR_0_1"
-			(rectangle
-				(start -1.143 2.54)
-				(end 1.143 -2.54)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -2.54 -3.556)
+					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -575,6 +576,30 @@
 			)
 			(polyline
 				(pts
+					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy -2.54 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -2.032 -1.27) (xy -2.032 1.27)
 				)
 				(stroke
@@ -585,12 +610,11 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.032 -1.27) (xy 2.032 1.27)
-				)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
 				(stroke
-					(width 0.508)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -611,31 +635,19 @@
 			)
 			(polyline
 				(pts
+					(xy 2.032 -1.27) (xy 2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.54 -3.81) (xy 2.54 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -658,6 +670,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -701,29 +731,16 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -5.08 90)
-				(length 1.27)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECS-240-12-37B-CKY-TR"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -788,20 +805,9 @@
 			)
 		)
 		(symbol "ECS-240-12-37B-CKY-TR_0_1"
-			(rectangle
-				(start -1.143 2.54)
-				(end 1.143 -2.54)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -2.54 -3.556)
+					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -825,6 +831,30 @@
 			)
 			(polyline
 				(pts
+					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy -2.54 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -2.032 -1.27) (xy -2.032 1.27)
 				)
 				(stroke
@@ -835,12 +865,11 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.032 -1.27) (xy 2.032 1.27)
-				)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
 				(stroke
-					(width 0.508)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -861,31 +890,19 @@
 			)
 			(polyline
 				(pts
+					(xy 2.032 -1.27) (xy 2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.54 -3.81) (xy 2.54 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -908,6 +925,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -951,29 +986,16 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -5.08 90)
-				(length 1.27)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECS-250-10-37B-CTN-TR"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1038,20 +1060,9 @@
 			)
 		)
 		(symbol "ECS-250-10-37B-CTN-TR_0_1"
-			(rectangle
-				(start -1.143 2.54)
-				(end 1.143 -2.54)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -2.54 -3.556)
+					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1075,6 +1086,30 @@
 			)
 			(polyline
 				(pts
+					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy -2.54 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -2.032 -1.27) (xy -2.032 1.27)
 				)
 				(stroke
@@ -1085,12 +1120,11 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.032 -1.27) (xy 2.032 1.27)
-				)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
 				(stroke
-					(width 0.508)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1111,31 +1145,19 @@
 			)
 			(polyline
 				(pts
+					(xy 2.032 -1.27) (xy 2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.54 -3.81) (xy 2.54 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1158,6 +1180,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1201,29 +1241,16 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -5.08 90)
-				(length 1.27)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECS-80-12-33-JGN-TR"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1288,20 +1315,9 @@
 			)
 		)
 		(symbol "ECS-80-12-33-JGN-TR_0_1"
-			(rectangle
-				(start -1.143 2.54)
-				(end 1.143 -2.54)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -2.54 -3.556)
+					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1325,6 +1341,30 @@
 			)
 			(polyline
 				(pts
+					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy -2.54 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -2.032 -1.27) (xy -2.032 1.27)
 				)
 				(stroke
@@ -1335,12 +1375,11 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.032 -1.27) (xy 2.032 1.27)
-				)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
 				(stroke
-					(width 0.508)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1361,31 +1400,19 @@
 			)
 			(polyline
 				(pts
+					(xy 2.032 -1.27) (xy 2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.54 -3.81) (xy 2.54 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1408,6 +1435,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1451,30 +1496,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -5.08 90)
-				(length 1.27)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SC32S-7PF20PPM"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1539,17 +1571,6 @@
 			)
 		)
 		(symbol "SC32S-7PF20PPM_0_1"
-			(rectangle
-				(start -1.143 2.54)
-				(end 1.143 -2.54)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
@@ -1568,6 +1589,17 @@
 				)
 				(stroke
 					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
+				(stroke
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1637,5 +1669,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

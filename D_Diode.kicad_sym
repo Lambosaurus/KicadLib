@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "1N4148W"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -131,11 +135,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "B550C"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -202,7 +211,7 @@
 		(symbol "B550C_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -214,7 +223,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -261,11 +270,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAS3007ARPPE6327HTSA1"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -344,7 +358,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy -2.54 -1.27)
+					(xy -2.56 3.84) (xy -2.56 5.12) (xy 2.56 5.12) (xy 2.56 3.84)
 				)
 				(stroke
 					(width 0.1524)
@@ -356,7 +370,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 3.81 0)
+					(xy -2.54 1.27) (xy -2.54 -1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -380,7 +394,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.56 3.84) (xy -2.56 5.12) (xy 2.56 5.12) (xy 2.56 3.84)
+					(xy 2.54 0) (xy 3.81 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -406,43 +420,7 @@
 		(symbol "BAS3007ARPPE6327HTSA1_1_1"
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -3.81 -3.81) (xy -2.54 -1.27) (xy -1.27 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy -3.81 1.27) (xy -2.54 3.81) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -3.81) (xy 1.27 -3.81) (xy 2.54 -1.27) (xy 3.81 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 1.27) (xy 1.27 1.27) (xy 2.54 3.81) (xy 3.81 1.27)
+					(xy -1.905 4.445) (xy -1.27 4.445) (xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 3.175) (xy -3.175 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -466,7 +444,31 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 4.445) (xy -1.27 4.445) (xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 3.175) (xy -3.175 3.175)
+					(xy -1.27 1.27) (xy -3.81 1.27) (xy -2.54 3.81) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.81) (xy -3.81 -3.81) (xy -2.54 -1.27) (xy -1.27 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 4.445) (xy 3.81 4.445) (xy 3.81 3.81) (xy 1.27 3.81) (xy 1.27 3.175) (xy 1.905 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -490,7 +492,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 4.445) (xy 3.81 4.445) (xy 3.81 3.81) (xy 1.27 3.81) (xy 1.27 3.175) (xy 1.905 3.175)
+					(xy 3.81 1.27) (xy 1.27 1.27) (xy 2.54 3.81) (xy 3.81 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -500,22 +502,16 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 3.81 -3.81) (xy 1.27 -3.81) (xy 2.54 -1.27) (xy 3.81 -3.81)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin passive line
@@ -529,24 +525,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -572,12 +550,53 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAT54A-7-F"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -649,19 +668,7 @@
 		(symbol "BAT54A-7-F_1_1"
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.27 -3.81) (xy -1.27 -2.54) (xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 3.81) (xy 1.27 1.27) (xy -1.27 2.54) (xy 1.27 3.81)
+					(xy -1.905 3.175) (xy -1.905 3.81) (xy -1.27 3.81) (xy -1.27 1.27) (xy -0.635 1.27) (xy -0.635 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -685,7 +692,19 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 3.175) (xy -1.905 3.81) (xy -1.27 3.81) (xy -1.27 1.27) (xy -0.635 1.27) (xy -0.635 1.905)
+					(xy 1.27 3.81) (xy 1.27 1.27) (xy -1.27 2.54) (xy 1.27 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 -3.81) (xy -1.27 -2.54) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -750,11 +769,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAT54C-7-F"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -826,18 +850,6 @@
 		(symbol "BAT54C-7-F_1_1"
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -1.27 -1.27) (xy 1.27 -2.54) (xy -1.27 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.27 1.27) (xy -1.27 3.81) (xy 1.27 2.54) (xy -1.27 1.27)
 				)
 				(stroke
@@ -850,7 +862,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -3.175) (xy 1.905 -3.81) (xy 1.27 -3.81) (xy 1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 -1.905)
+					(xy -1.27 -3.81) (xy -1.27 -1.27) (xy 1.27 -2.54) (xy -1.27 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -863,6 +875,18 @@
 			(polyline
 				(pts
 					(xy 1.905 1.905) (xy 1.905 1.27) (xy 1.27 1.27) (xy 1.27 3.81) (xy 0.635 3.81) (xy 0.635 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -3.175) (xy 1.905 -3.81) (xy 1.27 -3.81) (xy 1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -927,11 +951,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAT54S-7-F"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1003,18 +1032,6 @@
 		(symbol "BAT54S-7-F_1_1"
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 0 -5.08) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.27 5.08) (xy 1.27 5.08) (xy 0 2.54) (xy -1.27 5.08)
 				)
 				(stroke
@@ -1027,7 +1044,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -5.715) (xy -1.27 -5.715) (xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.445) (xy 0.635 -4.445)
+					(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 0 -5.08) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -1040,6 +1057,18 @@
 			(polyline
 				(pts
 					(xy -0.635 1.905) (xy -1.27 1.905) (xy -1.27 2.54) (xy 1.27 2.54) (xy 1.27 3.175) (xy 0.635 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -5.715) (xy -1.27 -5.715) (xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.445) (xy 0.635 -4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -1079,24 +1108,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 0 0)
 				(length 0)
 				(name "~"
@@ -1114,12 +1125,35 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAT54WS-7-F"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1177,7 +1211,7 @@
 		(symbol "BAT54WS-7-F_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -1189,7 +1223,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1236,11 +1270,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BZT52C3V6S-7-F"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1377,11 +1416,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CPDUR5V0-HF"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1393,7 +1437,7 @@
 				)
 			)
 		)
-		(property "Value" "5V 5A"
+		(property "Value" "CPDUR5V0-HF"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1428,13 +1472,12 @@
 				(hide yes)
 			)
 		)
-		(property "Params" "5V 5A"
+		(property "Params" "5V,5A"
 			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CPDUR5V0-HF_1_1"
@@ -1452,7 +1495,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					(xy 0 1.27) (xy -0.635 1.27) (xy 0 1.27) (xy 0 -1.27) (xy 0.635 -1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1464,7 +1507,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy -0.635 1.27) (xy 0 1.27) (xy 0 -1.27) (xy 0.635 -1.27) (xy 0 -1.27)
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1511,10 +1554,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "D1213A-02SOL-7"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1595,18 +1643,6 @@
 		(symbol "D1213A-02SOL-7_1_1"
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -3.81) (xy 0 -2.54) (xy -2.54 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 3.81) (xy -2.54 1.27) (xy 0 2.54) (xy -2.54 3.81)
 				)
 				(stroke
@@ -1619,7 +1655,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 -1.27) (xy 0 -1.27) (xy 0 -3.81) (xy -0.635 -3.81)
+					(xy -2.54 -1.27) (xy -2.54 -3.81) (xy 0 -2.54) (xy -2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1643,7 +1679,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 -3.81) (xy 0 -2.54) (xy 2.54 -1.27)
+					(xy 0.635 -1.27) (xy 0 -1.27) (xy 0 -3.81) (xy -0.635 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1656,6 +1692,18 @@
 			(polyline
 				(pts
 					(xy 2.54 3.81) (xy 2.54 1.27) (xy 0 2.54) (xy 2.54 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 2.54 -3.81) (xy 0 -2.54) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1720,10 +1768,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "D5V0L2B3SO-7"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1804,18 +1857,6 @@
 		(symbol "D5V0L2B3SO-7_1_1"
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -3.81) (xy 0 -2.54) (xy -2.54 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 3.81) (xy -2.54 1.27) (xy 0 2.54) (xy -2.54 3.81)
 				)
 				(stroke
@@ -1828,7 +1869,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 -1.27) (xy 0 -1.27) (xy 0 -3.81) (xy -0.635 -3.81)
+					(xy -2.54 -1.27) (xy -2.54 -3.81) (xy 0 -2.54) (xy -2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1852,7 +1893,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 -3.81) (xy 0 -2.54) (xy 2.54 -1.27)
+					(xy 0.635 -1.27) (xy 0 -1.27) (xy 0 -3.81) (xy -0.635 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1865,6 +1906,18 @@
 			(polyline
 				(pts
 					(xy 2.54 3.81) (xy 2.54 1.27) (xy 0 2.54) (xy 2.54 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 2.54 -3.81) (xy 0 -2.54) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1929,11 +1982,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "DDZ5V6BSF"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2070,11 +2128,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "DSS110U"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2141,7 +2204,7 @@
 		(symbol "DSS110U_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -2153,7 +2216,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2200,11 +2263,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "DSS16U"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2271,7 +2339,7 @@
 		(symbol "DSS16U_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -2283,7 +2351,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2330,11 +2398,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "D_Generic_Schottky"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2392,7 +2465,7 @@
 		(symbol "D_Generic_Schottky_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -2404,7 +2477,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2451,11 +2524,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "D_Generic_Silicon"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2572,11 +2650,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "D_Generic_TVS"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2634,7 +2717,7 @@
 		(symbol "D_Generic_TVS_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.27 1.27) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2646,7 +2729,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -1.27 -1.27)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2693,11 +2776,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "D_Generic_TVS_Bidir"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2767,7 +2855,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					(xy 0 1.27) (xy -0.635 1.27) (xy 0 1.27) (xy 0 -1.27) (xy 0.635 -1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2779,7 +2867,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy -0.635 1.27) (xy 0 1.27) (xy 0 -1.27) (xy 0.635 -1.27) (xy 0 -1.27)
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2826,11 +2914,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "D_Generic_Zener"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2958,11 +3051,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RB520S40-AU"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3029,7 +3127,7 @@
 		(symbol "RB520S40-AU_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -3041,7 +3139,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -3088,11 +3186,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RB751S40T1G"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3159,7 +3262,7 @@
 		(symbol "RB751S40T1G_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -3171,7 +3274,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -3218,11 +3321,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SB05W05C"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3303,18 +3411,6 @@
 		(symbol "SB05W05C_1_1"
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -1.27 -1.27) (xy 1.27 -2.54) (xy -1.27 -3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.27 1.27) (xy -1.27 3.81) (xy 1.27 2.54) (xy -1.27 1.27)
 				)
 				(stroke
@@ -3327,7 +3423,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -3.175) (xy 1.905 -3.81) (xy 1.27 -3.81) (xy 1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 -1.905)
+					(xy -1.27 -3.81) (xy -1.27 -1.27) (xy 1.27 -2.54) (xy -1.27 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -3340,6 +3436,18 @@
 			(polyline
 				(pts
 					(xy 1.905 1.905) (xy 1.905 1.27) (xy 1.27 1.27) (xy 1.27 3.81) (xy 0.635 3.81) (xy 0.635 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -3.175) (xy 1.905 -3.81) (xy 1.27 -3.81) (xy 1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 -1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -3404,10 +3512,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SK34A"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3474,7 +3587,7 @@
 		(symbol "SK34A_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0.254)
@@ -3486,7 +3599,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -3533,11 +3646,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SMAJ36A-13-F"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3674,11 +3792,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TZMB4V3-GS08"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3815,6 +3938,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1N4007FL"
 		(extends "D_Generic_Silicon")
