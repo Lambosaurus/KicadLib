@@ -1,21 +1,116 @@
-(footprint "Pad_4x3" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 61F27AC5)
-  (descr "SMD rectangular pad as test Point, square 4.0mm side length")
-  (tags "test point SMD pad rectangle square")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0.2 -2.3) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 651e2142-8592-4f7b-95e2-08f5c0f856ac)
-  )
-  (fp_text value "Pad_4x3" (at 0 3.1) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 54178168-8e05-4a05-a4be-ac83781bd437)
-  )
-  (fp_line (start -2.1 -1.6) (end -2.1 1.6) (layer "F.CrtYd") (width 0.05) (tstamp 5ee805d1-f259-459b-a4ab-bbdea94e689f))
-  (fp_line (start 2.1 1.6) (end 2.1 -1.6) (layer "F.CrtYd") (width 0.05) (tstamp cdc2d0a4-25f3-4b93-8352-37278cc8186f))
-  (fp_line (start -2.1 -1.6) (end 2.1 -1.6) (layer "F.CrtYd") (width 0.05) (tstamp e1d03133-1b70-4a1f-b317-77af500c31dc))
-  (fp_line (start 2.1 1.6) (end -2.1 1.6) (layer "F.CrtYd") (width 0.05) (tstamp f2366daf-122c-4d9b-bd8f-fffa40acaaac))
-  (pad "1" smd roundrect (at 0 0) (size 4 3) (layers "F.Cu" "B.SilkS" "F.Mask") (roundrect_rratio 0.25)
-    (solder_mask_margin 0.05) (tstamp c966c02c-da63-43c8-8d03-b6b9c2f8fc9d))
+(footprint "Pad_4x3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD rectangular pad as test Point, square 4.0mm side length")
+	(tags "test point SMD pad rectangle square")
+	(property "Reference" "REF**"
+		(at 0.35 -2.35 0)
+		(layer "F.SilkS")
+		(uuid "071b308d-1174-4ba2-a2c5-79c37f8d14c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pad_4x3"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "517ba78c-9306-4f82-b907-b3d239f1b4c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e1afc90-7848-4e58-8473-8fb62ad4d503")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "575add68-faf2-41a8-ae59-12571d71c0a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85b61256-d254-4474-9386-5e2b9d931ded")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.1 -1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7b328e8-a43c-4ad7-b7db-24a0c9c770ff")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07bebfc9-dc5b-404b-9981-95c74c11d4b2")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e8f38e3-cf2d-4669-996e-87c350cfda6e")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "450dba92-a99c-4303-95b2-e5aed8ffef0f")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 4 3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "5ac08615-8bf5-40b0-975b-7c63bd56dfd7")
+	)
 )
