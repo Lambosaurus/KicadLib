@@ -1,6 +1,6 @@
 import subprocess
 import os, sys, shutil
-import bom
+import bom, image
 
 # You may need to edit this
 KICAD_ROOT = "C:/Program Files/KiCad/9.0/bin"
@@ -9,7 +9,7 @@ KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
 KICAD_PYTHON = os.path.join(KICAD_ROOT, "python.exe")
 IBOM_SCRIPT = os.path.expandvars("%USERPROFILE%/Documents/KiCad/9.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
 
-SCRIPT_VERSION = "v1.9"
+SCRIPT_VERSION = "v1.10"
 
 def get_layer_names(layers: int) -> list[str]:
     names = ["F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "Edge.Cuts"]
@@ -134,10 +134,11 @@ def export_pcb_image(input_pcb: str, output_file: str):
         "--quality", "user",
         "--perspective",
         "--zoom", "0.9",
-        "--width", "1600",
-        "--height", "1200",
+        "--width", "2000",
+        "--height", "2000",
         "--background", "transparent",
     ])
+    image.crop_image(output_file, output_file)
 
 def zip_files(input_path: str, output_file: str):
     run_command([
