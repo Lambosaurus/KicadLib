@@ -486,7 +486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PCB Finger 3.5x6mm M1"
+		(property "Description" "PCB Finger 2.5x4mm M1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -596,7 +596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PCB Finger 3.5x6mm M1"
+		(property "Description" "PCB Finger 3.5x5mm M1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -688,7 +688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "N_NonPart:Finger_4x6_M1"
+		(property "Footprint" "N_NonPart:Finger_3.5x6_M1"
 			(at 0 -2.286 0)
 			(effects
 				(font
@@ -926,7 +926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PCB Finger 3.5x6mm M1"
+		(property "Description" "PCB Finger 4x5mm M1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1086,6 +1086,116 @@
 		(symbol "Finger_4x6_M1_1_1"
 			(pin passive line
 				(at -1.27 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Finger_5x5_M1"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "N"
+			(at 0 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Finger_5x5_M1"
+			(at -0.254 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "N_NonPart:Finger_5x5_M1"
+			(at 0 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Finger 5x5mm M1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Finger_5x5_M1_0_1"
+			(polyline
+				(pts
+					(xy 3.048 0.762) (xy 4.064 0) (xy 3.048 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 -0.762) (xy 4.572 0) (xy 3.556 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.064 0) (xy 3.048 0) (xy 2.794 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Finger_5x5_M1_1_1"
+			(pin passive line
+				(at 0 0 0)
 				(length 2.54)
 				(name "~"
 					(effects

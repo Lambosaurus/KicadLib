@@ -1,0 +1,181 @@
+(footprint "IR_DirectFET_ME"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0587f40c-3531-409f-a8f7-ca92cc0b0baa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IR_DirectFET_ME"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad79c427-c972-4913-b4d8-47a3af37e1b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3b18417-bd0e-4b41-9dcc-edd0cefe81ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81eabce3-500d-40ea-8e9a-6491a78e8ae5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.85 -2.5)
+		(end -2.85 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a923a67-51e8-4c68-a945-02ac61af73e4")
+	)
+	(fp_line
+		(start 2.85 2.5)
+		(end -2.85 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81066779-7ee0-4cb0-bdc5-3949c754f91a")
+	)
+	(fp_rect
+		(start -3.8 -2.7)
+		(end 3.8 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dc46eae9-b39e-49df-acc5-2a256f4366b5")
+	)
+	(fp_rect
+		(start -3.15 -2.5)
+		(end 3.15 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b6c68f3-d01d-4cd8-80a0-a37b4ba65057")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8499c020-76f7-412d-9695-dca56820bd7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.2 -1.175)
+		(size 0.9 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4fb358a-f83f-41b1-bafd-ee336a339b9d")
+	)
+	(pad "1" smd rect
+		(at -3.2 1.175)
+		(size 0.9 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cde5ed23-d240-428b-b505-e47c830a709e")
+	)
+	(pad "1" smd rect
+		(at 3.2 -1.175)
+		(size 0.9 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "12f43e36-2142-4729-822f-36e7ebb32b55")
+	)
+	(pad "1" smd rect
+		(at 3.2 1.175)
+		(size 0.9 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "27d08731-e073-4e8d-bdf7-a77609e1e200")
+	)
+	(pad "2" smd rect
+		(at -1.55 -0.95)
+		(size 0.65 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5962da2d-33ee-432d-918d-9f8a8f9fc963")
+	)
+	(pad "3" smd rect
+		(at -1.55 0.85 90)
+		(size 1.35 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c7e6d02-1272-4eef-9b89-7030130a5145")
+	)
+	(pad "3" smd rect
+		(at -0.18 -0.85 90)
+		(size 1.35 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e5acf84-3467-4cb2-a7a7-71df46e41a42")
+	)
+	(pad "3" smd rect
+		(at -0.18 0.85 90)
+		(size 1.35 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b598d1f-5cd5-41d6-a0c2-8b6768677758")
+	)
+	(pad "3" smd rect
+		(at 1.37 -0.85 90)
+		(size 1.35 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d4b2627-4db5-45a8-be23-4a4e8d37f367")
+	)
+	(pad "3" smd rect
+		(at 1.37 0.85 90)
+		(size 1.35 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e06a991-ccd2-496c-b1e8-470d5f1ec7fb")
+	)
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/fet/DirectFET_ME.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
