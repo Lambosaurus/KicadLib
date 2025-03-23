@@ -1,15 +1,21 @@
 import subprocess
-import os, sys, shutil
+import os, sys, shutil, platform
 import bom, image
 
-# You may need to edit this
-KICAD_ROOT = "C:/Program Files/KiCad/9.0/bin"
+SCRIPT_VERSION = "v1.11"
+KICAD_VERSION = "9.0"
 
-KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
-KICAD_PYTHON = os.path.join(KICAD_ROOT, "python.exe")
-IBOM_SCRIPT = os.path.expandvars("%USERPROFILE%/Documents/KiCad/9.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
+if platform.platform() == "Windows":
+    # You may need to edit this
+    KICAD_ROOT = f"C:/Program Files/KiCad/{KICAD_VERSION}/bin"
+    KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
+    KICAD_PYTHON = os.path.join(KICAD_ROOT, "python.exe")
+    IBOM_SCRIPT = os.path.expandvars(f"%USERPROFILE%/Documents/KiCad/{KICAD_VERSION}/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
+else:
+    KICAD_CLI = "kicad-cli"
+    KICAD_PYTHON = "python3"
+    IBOM_SCRIPT = os.path.expanduser(f"~/.local/share/kicad/{KICAD_VERSION}/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
 
-SCRIPT_VERSION = "v1.10"
 
 def get_layer_names(layers: int) -> list[str]:
     names = ["F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "Edge.Cuts"]

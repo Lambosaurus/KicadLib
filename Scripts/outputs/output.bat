@@ -1,1 +1,2 @@
-python "scripts/output.py" "project-name" 2
+#! /usr/bin/bash
+python3 "scripts/output.py" "project-name" 2
