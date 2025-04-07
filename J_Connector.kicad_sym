@@ -19785,7 +19785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "J_Connector:UCB_C_USB4145-03-0170-C"
+		(property "Footprint" "J_Connector:USB_C_USB4145-03-0170-C"
 			(at 0 -40.132 0)
 			(effects
 				(font

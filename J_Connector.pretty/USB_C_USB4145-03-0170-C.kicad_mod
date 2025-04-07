@@ -1,4 +1,4 @@
-(footprint "UCB_C_USB4145-03-0170-C"
+(footprint "USB_C_USB4145-03-0170-C"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "UCB_C_USB4145-03-0170-C"
+	(property "Value" "USB_C_USB4145-03-0170-C"
 		(at 12.065 3.175 0)
 		(layer "F.Fab")
 		(hide yes)
