@@ -18224,7 +18224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/cd/46/43/83/22/d3/40/c8/DM00090510.pdf/files/DM00090510.pdf/jcr:content/translations/en.DM00090510.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1ce.pdf"
 			(at 22.86 -13.97 0)
 			(effects
 				(font
