@@ -146,7 +146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "U_Module:ICS-40212"
 			(at 0 0 0)
 			(effects
 				(font
