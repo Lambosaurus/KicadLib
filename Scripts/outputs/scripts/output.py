@@ -2,7 +2,7 @@ import subprocess
 import os, sys, shutil, platform
 import bom, image
 
-SCRIPT_VERSION = "v1.11"
+SCRIPT_VERSION = "v1.12"
 KICAD_VERSION = "9.0"
 
 if platform.platform() == "Windows":
@@ -24,9 +24,10 @@ def get_layer_names(layers: int) -> list[str]:
             names.append(f"In{i + 1}.Cu")
     return names
 
-def run_command(args: list[str]):
+def run_command(args: list[str], silent: bool = False) -> str:
     try:
-        return subprocess.check_output(args).decode().strip()
+        stderr = subprocess.DEVNULL if silent else None
+        return subprocess.check_output(args, stderr=stderr).decode().strip()
     except subprocess.CalledProcessError as e:
         print(e.stdout.decode())
         raise e
@@ -131,7 +132,7 @@ def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
         "--include-nets",
         "--name-format", os.path.basename(output_file).replace(".html", ""),
         "--blacklist", ",".join(dnf_list)
-    ])
+    ], silent=True)
 
 def export_pcb_image(input_pcb: str, output_file: str):
     run_command([ KICAD_CLI, "pcb", "render",
