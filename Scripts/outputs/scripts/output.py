@@ -2,10 +2,10 @@ import subprocess
 import os, sys, shutil, platform, json
 import bom, image
 
-SCRIPT_VERSION = "v1.13"
+SCRIPT_VERSION = "v1.14"
 KICAD_VERSION = "9.0"
 
-if platform.platform() == "Windows":
+if platform.platform().startswith("Windows"):
     # You may need to edit this
     KICAD_ROOT = f"C:/Program Files/KiCad/{KICAD_VERSION}/bin"
     KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
