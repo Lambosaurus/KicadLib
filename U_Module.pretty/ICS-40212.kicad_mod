@@ -282,6 +282,7 @@
 		(at 0.6625 0.71 90)
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 0)
 		(options
 			(clearance outline)
 			(anchor circle)
