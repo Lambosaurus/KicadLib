@@ -4231,8 +4231,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at -30.48 -2.54 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_Nanjing-Zhongke-Microelectronics-Si24R1_C14436.pdf"
+			(at -15.24 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4241,16 @@
 			)
 		)
 		(property "Description" "RF TRANSCEIVER 2.4GHZ SPI"
-			(at 0 0 0)
+			(at 15.24 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetNrf" "https://cdn.sparkfun.com/assets/3/d/8/5/1/nRF24L01P_Product_Specification_1_0.pdf"
+			(at 15.494 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4302,7 @@
 			(pin input line
 				(at -2.54 22.86 0)
 				(length 2.54)
-				(name "NSS"
+				(name "~{CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
