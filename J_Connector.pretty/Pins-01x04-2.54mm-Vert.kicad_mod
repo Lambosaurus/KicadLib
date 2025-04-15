@@ -1,7 +1,7 @@
-(footprint "Pins-2.54-1x5"
-	(version 20240108)
+(footprint "Pins-01x04-2.54mm-Vert"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Pins-2.54-1x5"
+	(property "Value" "Pins-01x04-2.54mm-Vert"
 		(at 0 2.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,23 +28,11 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "199e48fe-b3ea-44c6-8ebe-9491ee57604d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b28d43a5-db8f-432c-9b10-1c55fced973d")
+		(uuid "710f62b4-5e67-42b9-8498-3ea7a7b1d84f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "23797e7e-e8ee-4d44-b037-0b75bb1dc938")
+		(uuid "6b4a2691-59d9-4648-84cc-b7739d75c48d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,15 +54,15 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -1.4 -1.4)
-		(end 1.4 11.5)
+		(start 1.4 9)
+		(end -1.4 -1.4)
 		(stroke
 			(width 0.15)
-			(type default)
+			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "d50e890c-f1ec-45aa-84e7-928f22b4fbca")
+		(uuid "29b48e50-7d55-4e3d-a539-4a2586bb6a12")
 	)
 	(fp_poly
 		(pts
@@ -84,13 +72,13 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c031f799-3699-4973-829d-1bc94d1dc5d0")
 	)
 	(fp_line
 		(start -1.8 -1.8)
-		(end -1.8 11.9)
+		(end -1.8 9.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -99,8 +87,8 @@
 		(uuid "2d5ff2c7-9901-4fc1-a95c-b3ae98b7ab8d")
 	)
 	(fp_line
-		(start -1.8 11.9)
-		(end 1.8 11.9)
+		(start -1.8 9.4)
+		(end 1.8 9.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -119,7 +107,7 @@
 		(uuid "20e45521-6283-425d-9001-b9d73e16c8df")
 	)
 	(fp_line
-		(start 1.8 11.9)
+		(start 1.8 9.4)
 		(end 1.8 -1.8)
 		(stroke
 			(width 0.05)
@@ -139,7 +127,7 @@
 		(uuid "b719a6ee-0144-4966-8b91-52a9b865a921")
 	)
 	(fp_line
-		(start -1.27 11.4)
+		(start -1.27 8.9)
 		(end -1.27 -0.635)
 		(stroke
 			(width 0.1)
@@ -160,7 +148,7 @@
 	)
 	(fp_line
 		(start 1.27 -1.27)
-		(end 1.27 11.4)
+		(end 1.27 8.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -169,8 +157,8 @@
 		(uuid "4b77d0a4-5200-4718-ad55-d12fcc0160fd")
 	)
 	(fp_line
-		(start 1.27 11.4)
-		(end -1.27 11.4)
+		(start 1.27 8.9)
+		(end -1.27 8.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -225,16 +213,8 @@
 		(roundrect_rratio 0.25)
 		(uuid "af06ce4b-2df5-4288-9410-daa02c29db28")
 	)
-	(pad "5" thru_hole roundrect
-		(at 0 10.16)
-		(size 1.8 1.8)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
-		(uuid "f73a83ba-f858-43ee-8dd5-045e11d9453f")
-	)
-	(model "${LAMBO_LIB}/Step/conn/rectangular/PIN_TH_2.54_1x5.stp"
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/conn/rectangular/PIN_TH_2.54_1x4.stp"
 		(offset
 			(xyz 0 0 0)
 		)
