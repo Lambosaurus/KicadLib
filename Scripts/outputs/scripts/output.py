@@ -2,7 +2,7 @@ import subprocess
 import os, sys, shutil, platform, json
 import bom, image
 
-SCRIPT_VERSION = "v1.14"
+SCRIPT_VERSION = "v1.15"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -29,8 +29,11 @@ def run_command(args: list[str], silent: bool = False) -> str:
         stderr = subprocess.DEVNULL if silent else None
         return subprocess.check_output(args, stderr=stderr).decode().strip()
     except subprocess.CalledProcessError as e:
-        print(e.stdout.decode())
-        raise e
+        print_color(f"Command failed with code {e.returncode}!", "r")
+        print_color(' '.join(args), "r")
+        print_color(e.stdout.decode().strip(), "r")
+        print("Aborting...")
+        exit()
 
 def print_color(text: str, color: str = "r"):
     colors = {
