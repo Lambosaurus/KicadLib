@@ -523,7 +523,7 @@
 		(uuid "356c0127-d996-4c58-b7c5-ab3b4fb89928")
 	)
 	(embedded_fonts no)
-	(model "${LAMBO_LIB}/Step/qfp/LQFP48_05.STEP"
+	(model "${LAMBO_LIB}/Step/qfp/LQFP-48_7x7mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -531,7 +531,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

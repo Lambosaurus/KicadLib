@@ -14524,7 +14524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:RJHSE5381"
+		(property "Footprint" "J_Connector:RJHSE-5381"
 			(at 0 -7.62 0)
 			(effects
 				(font
