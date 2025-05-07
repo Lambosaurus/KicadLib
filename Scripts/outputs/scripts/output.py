@@ -2,7 +2,7 @@ import subprocess
 import os, sys, shutil, platform, json
 import bom, image
 
-SCRIPT_VERSION = "v1.15"
+SCRIPT_VERSION = "v1.16"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -72,7 +72,8 @@ def run_sch_erc(input_sch: str, output_dir: str):
         input_sch,
         "--output", outfile,
         "--format", "json",
-        "--severity-all",
+        "--severity-warning",
+        "--severity-error",
     ])
     
     with open(outfile, "r") as f:
@@ -89,7 +90,8 @@ def run_pcb_drc(input_pcb: str, output_dir: str):
         input_pcb,
         "--output", outfile,
         "--format", "json",
-        "--severity-all",
+        "--severity-warning",
+        "--severity-error",
         "--schematic-parity",
     ])
     
