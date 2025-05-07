@@ -1,7 +1,7 @@
-(footprint "RJHSE508004"
-	(version 20240108)
+(footprint "RJHSE-5080-04"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -8.37 0)
@@ -15,25 +15,12 @@
 			)
 		)
 	)
-	(property "Value" "RJHSE508004"
+	(property "Value" "RJHSE-5080-04"
 		(at 0 9.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "346c879c-8d76-4d5d-92d2-2e00cb903786")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 1.2 26.6 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a6d3b453-d9ed-4641-99e0-d858a866298e")
 		(effects
 			(font
 				(size 1 1)
@@ -126,7 +113,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "3d74eac1-6673-4f35-a1b6-abe765807a20")
 	)
@@ -492,6 +479,7 @@
 		(remove_unused_layers no)
 		(uuid "65bfde07-85bd-4731-bee8-466967af96ef")
 	)
+	(embedded_fonts no)
 	(model "${LAMBO_LIB}/Step/conn/rj45/RJHSE-5080-04.stp"
 		(offset
 			(xyz -31.5 -7.6 0)

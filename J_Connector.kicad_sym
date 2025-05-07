@@ -15170,7 +15170,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RJHSE508004"
+	(symbol "RJHSE-5080"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15182,7 +15182,7 @@
 				)
 			)
 		)
-		(property "Value" "RJHSE508004"
+		(property "Value" "RJHSE-5080"
 			(at 10.16 -1.524 0)
 			(effects
 				(font
@@ -15190,7 +15190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:RJHSE508004"
+		(property "Footprint" "J_Connector:RJHSE-5080"
 			(at -0.254 -4.318 0)
 			(effects
 				(font
@@ -15199,7 +15199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/rjhsex08004.pdf"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/rjhsex080.pdf"
 			(at 11.176 -6.858 0)
 			(effects
 				(font
@@ -15217,7 +15217,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "RJHSE508004_0_1"
+		(symbol "RJHSE-5080_0_1"
 			(rectangle
 				(start 0 22.86)
 				(end 19.05 0)
@@ -15340,7 +15340,325 @@
 				)
 			)
 		)
-		(symbol "RJHSE508004_1_1"
+		(symbol "RJHSE-5080_1_1"
+			(pin passive line
+				(at -3.81 20.32 0)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 17.78 0)
+				(length 3.81)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 15.24 0)
+				(length 3.81)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 12.7 0)
+				(length 3.81)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 10.16 0)
+				(length 3.81)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 7.62 0)
+				(length 3.81)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 5.08 0)
+				(length 3.81)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 2.54 0)
+				(length 3.81)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RJHSE-5080-04"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 1.016 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJHSE-5080-04"
+			(at 10.16 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "J_Connector:RJHSE-5080-04"
+			(at -0.254 -4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/rjhsex08004.pdf"
+			(at 11.176 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN MOD JACK 8P8C R/A UNSHLD"
+			(at -0.254 -9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RJHSE-5080-04_0_1"
+			(rectangle
+				(start 0 22.86)
+				(end 19.05 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 12.065) (xy 5.08 12.065) (xy 5.08 12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 10.795) (xy 5.08 10.795) (xy 5.08 10.795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 9.525) (xy 5.08 9.525) (xy 5.08 9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 8.255) (xy 5.08 8.255) (xy 5.08 8.255)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 6.985) (xy 5.08 6.985) (xy 5.08 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 5.715) (xy 3.81 17.145) (xy 13.97 17.145) (xy 13.97 14.605) (xy 15.24 14.605) (xy 15.24 13.335)
+					(xy 16.51 13.335) (xy 16.51 9.525) (xy 15.24 9.525) (xy 15.24 8.255) (xy 13.97 8.255) (xy 13.97 5.715)
+					(xy 3.81 5.715) (xy 3.81 5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 15.875) (xy 3.81 15.875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 14.605) (xy 3.81 14.605)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 13.335) (xy 3.81 13.335) (xy 3.81 13.335)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RJHSE-5080-04_1_1"
 			(pin passive line
 				(at -3.81 20.32 0)
 				(length 3.81)
@@ -15486,7 +15804,7 @@
 				)
 			)
 		)
-		(symbol "RJHSE508004_2_1"
+		(symbol "RJHSE-5080-04_2_1"
 			(pin passive line
 				(at -3.81 20.32 0)
 				(length 3.81)
@@ -15632,7 +15950,7 @@
 				)
 			)
 		)
-		(symbol "RJHSE508004_3_1"
+		(symbol "RJHSE-5080-04_3_1"
 			(pin passive line
 				(at -3.81 20.32 0)
 				(length 3.81)
@@ -15778,7 +16096,7 @@
 				)
 			)
 		)
-		(symbol "RJHSE508004_4_1"
+		(symbol "RJHSE-5080-04_4_1"
 			(pin passive line
 				(at -3.81 20.32 0)
 				(length 3.81)
