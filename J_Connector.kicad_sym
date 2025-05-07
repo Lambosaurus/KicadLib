@@ -20545,15 +20545,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "USB*C*Receptacle*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "USB4105-GF-A-060_0_1"
 			(polyline
 				(pts
@@ -21038,15 +21029,6 @@
 		)
 		(property "Description" "USB 2.0 TYPE-C RECPT VERT SMT 1"
 			(at 0 -45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "USB*C*Receptacle*"
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
