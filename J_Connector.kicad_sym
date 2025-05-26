@@ -3523,6 +3523,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "u.fl"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "2337019-1_0_0"
 			(circle
 				(center 0 0)

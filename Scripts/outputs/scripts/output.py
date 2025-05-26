@@ -1,8 +1,8 @@
 import subprocess
 import os, sys, shutil, platform, json
-import bom, image
+import bom, image, pdfmerge
 
-SCRIPT_VERSION = "v1.16"
+SCRIPT_VERSION = "v1.17"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -18,7 +18,7 @@ else:
 
 
 def get_layer_names(layers: int) -> list[str]:
-    names = ["F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "Edge.Cuts"]
+    names = ["F.Fab", "F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "B.Fab", "Edge.Cuts"]
     if layers > 2:
         for i in range(layers - 2):
             names.append(f"In{i + 1}.Cu")
@@ -206,7 +206,8 @@ def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
     ], silent=True)
 
 def export_pcb_image(input_pcb: str, output_file: str):
-    run_command([ KICAD_CLI, "pcb", "render",
+    run_command([
+        KICAD_CLI, "pcb", "render",
         input_pcb,
         "--output", output_file,
         "--quality", "user",
@@ -217,6 +218,63 @@ def export_pcb_image(input_pcb: str, output_file: str):
         "--background", "transparent",
     ])
     image.crop_image(output_file, output_file)
+
+def export_pcb_drawings(input_pcb: str, output_file: str, layers: int):
+
+    if not pdfmerge.get_backend():
+        print_color("No PDF merging backend available. Skipping PCB drawings", "w")
+        return
+
+    tmpdir = os.path.join(os.path.dirname(output_file), "pdf-tmp")
+    os.makedirs(tmpdir, exist_ok=True)
+
+    plots = [
+        {
+            "name": "Top Fabrication",
+            "layers": ["F.Fab", "Edge.Cuts"],
+        },
+        {
+            "name": "Bottom Fabrication",
+            "layers": ["B.Fab", "Edge.Cuts"],
+        },
+        {
+            "name": "Top",
+            "layers": ["F.Cu", "F.Paste", "F.SilkS", "Edge.Cuts"],
+        },
+        {
+            "name": "Bottom",
+            "layers": ["B.Cu", "B.Paste", "B.SilkS", "Edge.Cuts"],
+        },
+    ]
+
+    if layers > 2:
+        # Put the internal layers between the top and bottom layers
+        bottom = plots.pop(-1)
+        for i in range(layers - 2):
+            plots.append({
+                "name": f"Inner Layer {i + 1}",
+                "layers": [f"In{i + 1}.Cu", "Edge.Cuts"]
+            })
+        plots.append(bottom)
+
+    for plot in plots:
+        result = run_command([
+            KICAD_CLI, "pcb", "export", "pdf",
+            input_pcb,
+            "--layers", plot["layers"][0],
+            "--common-layers", ",".join(plot["layers"][1:]),
+            "--output", tmpdir,
+            "--include-border-title",
+            "--drill-shape-opt", "2",
+            "--define-var", f"LAYER_NAME={plot['name']}",
+            "--mode-multipage",
+        ])
+        # Result format: "Plotted to 'outputs/pdf-tmp/pcb_name-F_Fab.pdf'."
+        plot["filename"] = result.split("'")[-2]
+
+    pages = [ plot["filename"] for plot in plots ]
+    pdfmerge.merge_pdf(pages, output_file)
+    shutil.rmtree(tmpdir)
 
 def zip_files(input_path: str, output_file: str):
     run_command([
@@ -243,13 +301,13 @@ if __name__ == "__main__":
     run_sch_erc(INPUT_SCH, OUTPUT_DIR)
 
     print("Generating schematic PDF")
-    export_sch_pdf(INPUT_SCH, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".pdf"))
+    export_sch_pdf(INPUT_SCH, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".schematics.pdf"))
 
     print("Running PCB DRC")
     run_pcb_drc(INPUT_PCB, OUTPUT_DIR)
 
     print("Generating BOM")
-    dnf_list = export_sch_bom(INPUT_SCH, os.path.join(OUTPUT_DIR, "Assembly" , OUTPUT_NAME + "_bom.csv"))
+    dnf_list = export_sch_bom(INPUT_SCH, os.path.join(OUTPUT_DIR, "Assembly" , OUTPUT_NAME + ".bom.csv"))
 
     print("Generating IBOM")
     export_pcb_ibom(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".ibom.html"), dnf_list)
@@ -261,7 +319,10 @@ if __name__ == "__main__":
     export_pcb_ncdrill(INPUT_PCB, os.path.join(OUTPUT_DIR, "NC Drill"))
 
     print("Generating position report")
-    export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, "Assembly", OUTPUT_NAME + "_pos.csv"))
+    export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, "Assembly", OUTPUT_NAME + ".pos.csv"))
+
+    print("Generating PCB drawings")
+    export_pcb_drawings(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".drawings.pdf"), BOARD_LAYERS)
 
     print("Generating PCB render")
     export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"))
