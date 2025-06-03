@@ -1,7 +1,7 @@
 (footprint "F3311A7H121012E200"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 2.55 0)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c50992fc-d288-4d23-a579-b07adb7882fe")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -113,7 +101,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "68510648-354f-4b32-b1c8-d71cb37a2d55")
 	)
@@ -161,7 +149,7 @@
 		(start -4 -2.4)
 		(end 4 -2.4)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -171,7 +159,7 @@
 		(start -4 -1.65)
 		(end -4 -2.4)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -181,7 +169,7 @@
 		(start -4 -1.65)
 		(end -4 1.4)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -191,7 +179,7 @@
 		(start -4 1.4)
 		(end 4 1.4)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -221,7 +209,7 @@
 		(start 4 -2.4)
 		(end 4 -1.65)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -231,7 +219,7 @@
 		(start 4 1.4)
 		(end 4 -1.65)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -252,87 +240,88 @@
 	(pad "1" smd rect
 		(at -2.75 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2f9fe158-d2d6-4ddd-8b5b-d6ac80c7dc55")
 	)
 	(pad "2" smd rect
 		(at -2.25 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ab32e6a1-5f97-4ee1-9f3a-463c1b941125")
 	)
 	(pad "3" smd rect
 		(at -1.75 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bd200a71-6962-4ad8-9197-92f4e65a0af7")
 	)
 	(pad "4" smd rect
 		(at -1.25 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40780979-7782-4b0d-a80f-ff26a637430b")
 	)
 	(pad "5" smd rect
 		(at -0.75 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9624704b-3f84-4d52-83b8-20083a91acc1")
 	)
 	(pad "6" smd rect
 		(at -0.25 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0b6b4653-618b-4a35-8ca1-5c3d9d89a0e3")
 	)
 	(pad "7" smd rect
 		(at 0.25 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ebba31e4-a8b5-4802-8870-4d3509071184")
 	)
 	(pad "8" smd rect
 		(at 0.75 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5713fc6f-c77f-4208-8984-17effcd9ee41")
 	)
 	(pad "9" smd rect
 		(at 1.25 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3273c5d7-f593-4a98-ae7c-ac507f991f46")
 	)
 	(pad "10" smd rect
 		(at 1.75 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2c499e2a-c7e4-4716-9bdd-9412f2f21d2c")
 	)
 	(pad "11" smd rect
 		(at 2.25 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fadb7589-6aaa-4acf-9df4-9798fd5313e2")
 	)
 	(pad "12" smd rect
 		(at 2.75 -1.72)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "82a0e890-c2fa-4275-87be-57d74d5acfa2")
 	)
 	(pad "S" smd rect
 		(at -3.75 0.78)
 		(size 0.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19afd42f-04f6-475c-a19f-fdb5d1a62bfa")
 	)
 	(pad "S" smd rect
 		(at 3.75 0.78)
 		(size 0.4 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "06092d6f-1aa4-464c-a44a-92d39b152ae3")
 	)
+	(embedded_fonts no)
 	(model "${LAMBO_LIB}/Step/conn/flat-flex/F3311A7H121012E200.step"
 		(offset
 			(xyz 0 0.5 0)

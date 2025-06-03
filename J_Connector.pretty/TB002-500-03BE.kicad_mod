@@ -1,7 +1,7 @@
 (footprint "TB002-500-03BE"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.2 0)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7672f182-a4ca-487a-92b1-523a0cbabc47")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -113,7 +101,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f076b8a6-39c1-4c24-bc59-9e987f4d515d")
 	)
@@ -161,7 +149,7 @@
 		(start -7.5 -4.1)
 		(end 7.5 -4.1)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -171,7 +159,7 @@
 		(start -7.5 3.5)
 		(end -7.5 -4.1)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -201,7 +189,7 @@
 		(start 7.5 -4.1)
 		(end 7.5 3.5)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -211,7 +199,7 @@
 		(start 7.5 3.5)
 		(end -7.5 3.5)
 		(stroke
-			(width 0.127)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -256,6 +244,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "81070e80-6db9-41a7-832a-5fd36d314469")
 	)
+	(embedded_fonts no)
 	(model "${LAMBO_LIB}/Step/conn/screw-term/CUI_DEVICES_TB002-500-03BE.step"
 		(offset
 			(xyz -7.5 4.25 0)
