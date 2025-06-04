@@ -1,4 +1,4 @@
-(footprint "A-1JB"
+(footprint "U.FL"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "A-1JB"
+	(property "Value" "U.FL"
 		(at -0.1 3.2 0)
 		(unlocked yes)
 		(layer "F.Fab")

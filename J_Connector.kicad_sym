@@ -3496,7 +3496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:A-1JB"
+		(property "Footprint" "J_Connector:U.FL"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -11767,7 +11767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:A-1JB"
+		(property "Footprint" "J_Connector:U.FL"
 			(at 0 -11.43 0)
 			(effects
 				(font
