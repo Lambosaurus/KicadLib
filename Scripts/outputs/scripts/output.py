@@ -1,8 +1,8 @@
 import subprocess
-import os, sys, shutil, platform, json
+import os, sys, shutil, platform, json, argparse
 import bom, image, pdfmerge
 
-SCRIPT_VERSION = "v1.17"
+SCRIPT_VERSION = "v1.18"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -205,7 +205,7 @@ def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
         "--blacklist", ",".join(dnf_list)
     ], silent=True)
 
-def export_pcb_image(input_pcb: str, output_file: str):
+def export_pcb_image(input_pcb: str, output_file: str, side: str = "front"):
     run_command([
         KICAD_CLI, "pcb", "render",
         input_pcb,
@@ -216,6 +216,7 @@ def export_pcb_image(input_pcb: str, output_file: str):
         "--width", "2000",
         "--height", "2000",
         "--background", "transparent",
+        "--side", side,
     ])
     image.crop_image(output_file, output_file)
 
@@ -285,13 +286,21 @@ def zip_files(input_path: str, output_file: str):
     )
 
 if __name__ == "__main__":
-    BOARD_NAME = sys.argv[1]
-    BOARD_LAYERS = int(sys.argv[2])
 
-    INPUT_SCH = BOARD_NAME + ".kicad_sch"
-    INPUT_PCB = BOARD_NAME + ".kicad_pcb"
-    OUTPUT_DIR = "outputs"
-    OUTPUT_NAME = BOARD_NAME
+    sys.argv[-1] = sys.argv[-1].strip()  # Remove trailing carriage return for *nix/win compat.
+    argparser = argparse.ArgumentParser(description="Output generator for kicad projects")
+    argparser.add_argument("input", type=str, help="Root project name. Do not include file extensions.")
+    argparser.add_argument("--layers", "-l", type=int, help="Number of layers in the PCB design.", default=2)
+    argparser.add_argument("--output", "-o", type=str, help="Output directory", default="outputs")
+    argparser.add_argument("--render-side", type=str, help="Side of the board to render.", default="top", choices=["top", "bottom", "left", "right", "front", "back"])
+    args = argparser.parse_args()
+
+    # Strip file extention
+    input_file = os.path.splitext(args.input)[0]
+    INPUT_SCH = input_file + ".kicad_sch"
+    INPUT_PCB = input_file + ".kicad_pcb"
+    OUTPUT_DIR = args.output
+    OUTPUT_NAME = input_file
 
     print("Running output generator {}".format(SCRIPT_VERSION))
 
@@ -313,7 +322,7 @@ if __name__ == "__main__":
     export_pcb_ibom(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".ibom.html"), dnf_list)
 
     print("Generating gerbers")
-    export_pcb_gerbers(INPUT_PCB, os.path.join(OUTPUT_DIR, "Gerber"), get_layer_names(BOARD_LAYERS))
+    export_pcb_gerbers(INPUT_PCB, os.path.join(OUTPUT_DIR, "Gerber"), get_layer_names(args.layers))
 
     print("Generating drill reports")
     export_pcb_ncdrill(INPUT_PCB, os.path.join(OUTPUT_DIR, "NC Drill"))
@@ -322,10 +331,10 @@ if __name__ == "__main__":
     export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, "Assembly", OUTPUT_NAME + ".pos.csv"))
 
     print("Generating PCB drawings")
-    export_pcb_drawings(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".drawings.pdf"), BOARD_LAYERS)
+    export_pcb_drawings(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".drawings.pdf"), args.layers)
 
     print("Generating PCB render")
-    export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"))
+    export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"), args.render_side)
 
     print("Generating step file")
     export_pcb_step(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".step"))
