@@ -1,8 +1,8 @@
 import subprocess
-import os, sys, shutil, platform, json, argparse
+import os, sys, shutil, platform, json, argparse, glob
 import bom, image, pdfmerge
 
-SCRIPT_VERSION = "v1.18"
+SCRIPT_VERSION = "v1.19"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -223,7 +223,7 @@ def export_pcb_image(input_pcb: str, output_file: str, side: str = "front"):
 def export_pcb_drawings(input_pcb: str, output_file: str, layers: int):
 
     if not pdfmerge.get_backend():
-        print_color("No PDF merging backend available. Skipping PCB drawings", "w")
+        print_color("No PDF merging backend available. Skipping PCB drawings", "y")
         return
 
     tmpdir = os.path.join(os.path.dirname(output_file), "pdf-tmp")
@@ -277,6 +277,26 @@ def export_pcb_drawings(input_pcb: str, output_file: str, layers: int):
     pdfmerge.merge_pdf(pages, output_file)
     shutil.rmtree(tmpdir)
 
+def run_git_check() -> str:
+    if not shutil.which("git"):
+        print_color("Git not found. Skipping git check.", "y")
+        return None
+
+    try:
+        output = run_command(["git", "status"], silent=True)
+    except subprocess.CalledProcessError:
+        print_color("Not a git repository.", "y")
+        return None
+    
+    git_commit = run_command(["git", "rev-parse", "--short", "HEAD"], silent=True)
+
+    if not "nothing to commit, working tree clean" in output:
+        print_color("Git repository has uncommitted changes.", "y")
+    else:
+        print(f"Git commit: {git_commit}")
+
+    return git_commit
+
 def zip_files(input_path: str, output_file: str):
     run_command([
         "tar",
@@ -285,26 +305,40 @@ def zip_files(input_path: str, output_file: str):
     ] + os.listdir(input_path)
     )
 
+def glob_single(input_pattern: str) -> str:
+    files = glob.glob(input_pattern)
+    if len(files) == 0:
+        raise FileNotFoundError(f"No files match \"{input_pattern}\"")
+    if len(files) > 1:
+        raise ValueError(f"Multiple files match \"{input_pattern}\".")
+    return files[0]
+
 if __name__ == "__main__":
 
     sys.argv[-1] = sys.argv[-1].strip()  # Remove trailing carriage return for *nix/win compat.
     argparser = argparse.ArgumentParser(description="Output generator for kicad projects")
-    argparser.add_argument("input", type=str, help="Root project name. Do not include file extensions.")
+    argparser.add_argument("--input", "-i", type=str, help="Kicad project", default="*.kicad_pro")
     argparser.add_argument("--layers", "-l", type=int, help="Number of layers in the PCB design.", default=2)
     argparser.add_argument("--output", "-o", type=str, help="Output directory", default="outputs")
     argparser.add_argument("--render-side", type=str, help="Side of the board to render.", default="top", choices=["top", "bottom", "left", "right", "front", "back"])
+    argparser.add_argument("--name", type=str, help="Output name", default=None)
     args = argparser.parse_args()
 
     # Strip file extention
-    input_file = os.path.splitext(args.input)[0]
+    input_file = glob_single(args.input)
+    input_file = os.path.splitext(input_file)[0]
+    
     INPUT_SCH = input_file + ".kicad_sch"
     INPUT_PCB = input_file + ".kicad_pcb"
     OUTPUT_DIR = args.output
-    OUTPUT_NAME = input_file
+    OUTPUT_NAME = args.name if args.name else os.path.basename(input_file)
 
     print("Running output generator {}".format(SCRIPT_VERSION))
 
     clean_directory(OUTPUT_DIR)
+
+    print("Checking git status")
+    run_git_check()
 
     print("Running schematic ERC")
     run_sch_erc(INPUT_SCH, OUTPUT_DIR)
