@@ -1,7 +1,7 @@
 (footprint "DS04-254-2-02BK-SMT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "SMD DIP Switch SPST Slide 8.9mm")
 	(property "Reference" "REF**"
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 3.81 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8ec0caa4-2e3a-4ed2-b683-b522aff22b3c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -84,7 +71,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "357b9212-4a2a-481d-b436-854b16a43114")
 	)
@@ -96,7 +83,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "886c9b4d-a9cf-4b96-bfe7-746ae4124199")
 	)
@@ -257,7 +244,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "d93015d7-8570-48a1-a500-dad92f37ff58")
 	)
@@ -268,7 +255,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "475e8a3d-79cb-42d5-94f2-01eb1c2d5266")
 	)
@@ -286,31 +273,32 @@
 	(pad "1" smd roundrect
 		(at -4.45 -1.27)
 		(size 1.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "76c77832-2664-42c6-8209-f25440ddf1e5")
 	)
 	(pad "2" smd roundrect
 		(at -4.45 1.27)
 		(size 1.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e57ed3d2-bda0-476b-a5e3-cffb07a2aa9f")
 	)
 	(pad "3" smd roundrect
 		(at 4.45 1.27)
 		(size 1.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c6958e80-d03f-473a-a00b-7296631afb1f")
 	)
 	(pad "4" smd roundrect
 		(at 4.45 -1.27)
 		(size 1.5 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f9d594df-8e10-4985-b0a8-e813f69cfdb0")
 	)
+	(embedded_fonts no)
 	(model "${LAMBO_LIB}/Step/switch/DS04-254-2-02BK-SMT.step"
 		(offset
 			(xyz 9 2.74 0.9)
