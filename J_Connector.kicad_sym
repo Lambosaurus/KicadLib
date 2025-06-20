@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:MOLEX_0530470210"
+		(property "Footprint" "J_Connector:MOLEX_530470210"
 			(at 0 -3.175 0)
 			(effects
 				(font
@@ -159,7 +159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:MOLEX_0530470310"
+		(property "Footprint" "J_Connector:MOLEX_530470310"
 			(at 0 -3.175 0)
 			(effects
 				(font
@@ -322,7 +322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:MOLEX_0530470410"
+		(property "Footprint" "J_Connector:MOLEX_530470410"
 			(at 0 -3.175 0)
 			(effects
 				(font
