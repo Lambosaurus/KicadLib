@@ -12560,6 +12560,160 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "B03B-XASK-1"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B03B-XASK-1"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "J_Connector:JST-B03B-XASK-1"
+			(at 0 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 3POS 2.5MM"
+			(at 0.254 -7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "B03B-XASK-1_0_1"
+			(rectangle
+				(start -1.27 7.62)
+				(end 1.27 0)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -0.635 6.985)
+				(end 0.635 5.715)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.635 4.445)
+				(end 0.635 3.175)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.635 1.905)
+				(end 0.635 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "B03B-XASK-1_1_1"
+			(pin passive line
+				(at -3.81 6.35 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 3.81 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 1.27 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "B2B-PH-K-S"
 		(pin_names
 			(hide yes)
@@ -12708,7 +12862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:B2B-PH-SM4-TB"
+		(property "Footprint" "J_Connector:JST-B2B-PH-SM4-TB"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -14647,7 +14801,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CT3151"
+	(symbol "CT3151V1-0"
 		(pin_numbers
 			(hide yes)
 		)
@@ -14666,7 +14820,7 @@
 				)
 			)
 		)
-		(property "Value" "CT3151"
+		(property "Value" "CT3151V1-0"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -14674,7 +14828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:CT3151"
+		(property "Footprint" "J_Connector:CT3151V1"
 			(at 0.635 -5.715 0)
 			(effects
 				(font
@@ -14701,7 +14855,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CT3151_0_1"
+		(symbol "CT3151V1-0_0_1"
 			(circle
 				(center 0 0)
 				(radius 1.27)
@@ -14725,7 +14879,7 @@
 				)
 			)
 		)
-		(symbol "CT3151_1_1"
+		(symbol "CT3151V1-0_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 3.81)
