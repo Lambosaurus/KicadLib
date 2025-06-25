@@ -3362,7 +3362,7 @@
 			(pin output line
 				(at 29.21 58.42 270)
 				(length 7.62)
-				(name "ETH_TXNN"
+				(name "ETH_TX_N"
 					(effects
 						(font
 							(size 1.27 1.27)
