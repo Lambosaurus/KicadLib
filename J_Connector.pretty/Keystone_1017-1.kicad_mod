@@ -1,10 +1,10 @@
 (footprint "Keystone_1017-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -5.5 0)
+		(at 0 -2.325 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6cf8133d-e0f7-4c90-bdae-a167b983627b")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f5091df8-c926-44d1-a6d3-aa50811c156d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -102,7 +90,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "00e78c86-04b9-45b0-a4a5-369e6152c445")
 	)
@@ -113,7 +101,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9d8160ee-2137-42d6-b1ad-d574d5751e8b")
 	)
@@ -124,9 +112,21 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a3c0af7b-3f04-4afa-ae88-4cba81923d20")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7d837868-b5d1-45ec-a392-2922d1184981")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
@@ -137,6 +137,7 @@
 		(roundrect_rratio 0.1666666667)
 		(uuid "4b928e2d-b418-42af-8bdd-acd432f957df")
 	)
+	(embedded_fonts no)
 	(model "${LAMBO_LIB}/Step/conn/keystone_1017-1.step"
 		(offset
 			(xyz 0 0.2 -4.3)
