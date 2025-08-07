@@ -2803,7 +2803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_IC:QFN32_05_5x5_EP"
+		(property "Footprint" "U_IC:QFN28_05_5x5_EP"
 			(at 0.508 -29.464 0)
 			(effects
 				(font

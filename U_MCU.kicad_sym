@@ -2,6 +2,595 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+	(symbol "AT32F421GxUx"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 1.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AT32F421GxUx"
+			(at 18.796 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "U_IC:QFN28_05_4x4"
+			(at 19.05 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arterychip.com/download/DS/DS_AT32F421_V2.02_EN.pdf"
+			(at 18.034 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AT32F421GxUx_0_1"
+			(rectangle
+				(start 0 38.1)
+				(end 38.1 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AT32F421GxUx_1_1"
+			(pin bidirectional line
+				(at -2.54 26.67 0)
+				(length 2.54)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 24.13 0)
+				(length 2.54)
+				(name "HEXT_IN/PF0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 21.59 0)
+				(length 2.54)
+				(name "HEXT_OUT/PF1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 19.05 0)
+				(length 2.54)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 16.51 0)
+				(length 2.54)
+				(name "VDDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 13.97 0)
+				(length 2.54)
+				(name "PA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 11.43 0)
+				(length 2.54)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 40.64 270)
+				(length 2.54)
+				(name "PB7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -2.54 90)
+				(length 2.54)
+				(name "PA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 40.64 270)
+				(length 2.54)
+				(name "PB6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -2.54 90)
+				(length 2.54)
+				(name "PA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 40.64 270)
+				(length 2.54)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -2.54 90)
+				(length 2.54)
+				(name "PA4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 40.64 270)
+				(length 2.54)
+				(name "PB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -2.54 90)
+				(length 2.54)
+				(name "PA5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21.59 40.64 270)
+				(length 2.54)
+				(name "PB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21.59 -2.54 90)
+				(length 2.54)
+				(name "PA6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 40.64 270)
+				(length 2.54)
+				(name "PA15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -2.54 90)
+				(length 2.54)
+				(name "PA7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 40.64 270)
+				(length 2.54)
+				(name "PA14[SWCLK]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -2.54 90)
+				(length 2.54)
+				(name "PB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -2.54 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 26.67 180)
+				(length 2.54)
+				(name "PA13[SWDIO]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 24.13 180)
+				(length 2.54)
+				(name "PA10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 21.59 180)
+				(length 2.54)
+				(name "PA9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 19.05 180)
+				(length 2.54)
+				(name "PA8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 16.51 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 13.97 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 11.43 180)
+				(length 2.54)
+				(name "PB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ATMEGA8A-AN"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1648,7 +2237,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U?"
-			(at -50.038 55.88 0)
+			(at -48.26 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +2245,7 @@
 			)
 		)
 		(property "Value" "Core1106"
-			(at -46.228 53.086 0)
+			(at -44.958 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +2253,7 @@
 			)
 		)
 		(property "Footprint" "U_Module:Core1106"
-			(at 0.254 3.556 0)
+			(at 1.524 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,7 +2262,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.luckfox.com/Core1106"
-			(at 0 0 0)
+			(at 1.27 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +2271,7 @@
 			)
 		)
 		(property "Description" "Core1106 Rockchip RV1106 BLE5.2 WIFI6 1TOPS"
-			(at 0.254 -3.556 0)
+			(at 1.524 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,8 +2299,8 @@
 		)
 		(symbol "Core1106_1_0"
 			(rectangle
-				(start -50.8 50.8)
-				(end 50.8 -50.8)
+				(start -49.53 49.53)
+				(end 49.53 -49.53)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -1722,7 +2311,7 @@
 				)
 			)
 			(pin passive line
-				(at -58.42 34.29 0)
+				(at -57.15 34.29 0)
 				(length 7.62)
 				(name "MIPI/LVDS_CLK1_N"
 					(effects
@@ -1744,7 +2333,7 @@
 				(alternate "VI_CIF_D2_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 31.75 0)
+				(at -57.15 31.75 0)
 				(length 7.62)
 				(name "MIPI/LVDS_CLK1_P"
 					(effects
@@ -1766,7 +2355,7 @@
 				(alternate "VI_CIF_D3_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 29.21 0)
+				(at -57.15 29.21 0)
 				(length 7.62)
 				(name "MIPI/LVDS_D3_N"
 					(effects
@@ -1788,7 +2377,7 @@
 				(alternate "VI_CIF_D0_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 26.67 0)
+				(at -57.15 26.67 0)
 				(length 7.62)
 				(name "MIPI/LVDS_D3_P"
 					(effects
@@ -1810,7 +2399,7 @@
 				(alternate "VI_CIF_D1_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 24.13 0)
+				(at -57.15 24.13 0)
 				(length 7.62)
 				(name "MIPI/LVDS_D2_N"
 					(effects
@@ -1832,7 +2421,7 @@
 				(alternate "VI_CIF_D4_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 21.59 0)
+				(at -57.15 21.59 0)
 				(length 7.62)
 				(name "MIPI/LVDS_D2_P"
 					(effects
@@ -1854,7 +2443,7 @@
 				(alternate "VI_CIF_D5_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 19.05 0)
+				(at -57.15 19.05 0)
 				(length 7.62)
 				(name "MIPI/LVDS_D1_N"
 					(effects
@@ -1876,7 +2465,7 @@
 				(alternate "VI_CIF_D6_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 16.51 0)
+				(at -57.15 16.51 0)
 				(length 7.62)
 				(name "MIPI/LVDS_D1_P"
 					(effects
@@ -1898,7 +2487,7 @@
 				(alternate "VI_CIF_D7_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 13.97 0)
+				(at -57.15 13.97 0)
 				(length 7.62)
 				(name "MIPI/LVDS_CLK_N"
 					(effects
@@ -1920,7 +2509,7 @@
 				(alternate "VI_CIF_D8_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 11.43 0)
+				(at -57.15 11.43 0)
 				(length 7.62)
 				(name "MIPI/LVDS_CLK_P"
 					(effects
@@ -1942,7 +2531,7 @@
 				(alternate "VI_CIF_D9_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 8.89 0)
+				(at -57.15 8.89 0)
 				(length 7.62)
 				(name "MIPI/LVDS_D0_N"
 					(effects
@@ -1964,7 +2553,7 @@
 				(alternate "VI_CIF_CLKI_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 6.35 0)
+				(at -57.15 6.35 0)
 				(length 7.62)
 				(name "MIPI/LVDS_D0_P"
 					(effects
@@ -1986,7 +2575,7 @@
 				(alternate "VI_CIF_HREF_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 3.81 0)
+				(at -57.15 3.81 0)
 				(length 7.62)
 				(name "MIPI/LVDS_RST_1"
 					(effects
@@ -2007,7 +2596,7 @@
 				(alternate "VI_CIF_D15" passive line)
 			)
 			(pin passive line
-				(at -58.42 1.27 0)
+				(at -57.15 1.27 0)
 				(length 7.62)
 				(name "MIPI_I2C3_SDA"
 					(effects
@@ -2029,7 +2618,7 @@
 				(alternate "VI_CIF_D14" passive line)
 			)
 			(pin passive line
-				(at -58.42 -1.27 0)
+				(at -57.15 -1.27 0)
 				(length 7.62)
 				(name "MIPI_I2C3_SCL"
 					(effects
@@ -2051,7 +2640,7 @@
 				(alternate "VI_CIF_D13" passive line)
 			)
 			(pin passive line
-				(at -58.42 -3.81 0)
+				(at -57.15 -3.81 0)
 				(length 7.62)
 				(name "MIPI_I2C_SCL"
 					(effects
@@ -2073,7 +2662,7 @@
 				(alternate "VI_CIF_D11" passive line)
 			)
 			(pin passive line
-				(at -58.42 -6.35 0)
+				(at -57.15 -6.35 0)
 				(length 7.62)
 				(name "MIPI_I2C_SDA"
 					(effects
@@ -2095,7 +2684,7 @@
 				(alternate "VI_CIF_D12" passive line)
 			)
 			(pin passive line
-				(at -58.42 -8.89 0)
+				(at -57.15 -8.89 0)
 				(length 7.62)
 				(name "MIPI/LVDS_RST"
 					(effects
@@ -2115,7 +2704,7 @@
 				(alternate "VI_CIF_VSYNC_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 -11.43 0)
+				(at -57.15 -11.43 0)
 				(length 7.62)
 				(name "MIPI/LVDS_MCLK0"
 					(effects
@@ -2136,7 +2725,7 @@
 				(alternate "VI_CIF_CLKO_M0" passive line)
 			)
 			(pin passive line
-				(at -58.42 -13.97 0)
+				(at -57.15 -13.97 0)
 				(length 7.62)
 				(name "MIPI/LVDS_MCLK1"
 					(effects
@@ -2158,7 +2747,7 @@
 				(alternate "VI_CIF_D10" passive line)
 			)
 			(pin passive line
-				(at -58.42 -16.51 0)
+				(at -57.15 -16.51 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2176,7 +2765,7 @@
 				)
 			)
 			(pin passive line
-				(at -58.42 -19.05 0)
+				(at -57.15 -19.05 0)
 				(length 7.62)
 				(name "USB_N"
 					(effects
@@ -2194,7 +2783,7 @@
 				)
 			)
 			(pin passive line
-				(at -58.42 -21.59 0)
+				(at -57.15 -21.59 0)
 				(length 7.62)
 				(name "USB_P"
 					(effects
@@ -2212,7 +2801,7 @@
 				)
 			)
 			(pin input line
-				(at -58.42 -24.13 0)
+				(at -57.15 -24.13 0)
 				(length 7.62)
 				(name "USB_VBUSDET"
 					(effects
@@ -2230,7 +2819,7 @@
 				)
 			)
 			(pin passive line
-				(at -58.42 -26.67 0)
+				(at -57.15 -26.67 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2248,7 +2837,7 @@
 				)
 			)
 			(pin input line
-				(at -58.42 -29.21 0)
+				(at -57.15 -29.21 0)
 				(length 7.62)
 				(name "GPIO4_C0_z/RECOVERY"
 					(effects
@@ -2267,7 +2856,7 @@
 				(alternate "SARADC_IN0" input line)
 			)
 			(pin input line
-				(at -58.42 -31.75 0)
+				(at -57.15 -31.75 0)
 				(length 7.62)
 				(name "GPIO4_C1_z"
 					(effects
@@ -2287,7 +2876,7 @@
 				(alternate "SARADC_IN1" input line)
 			)
 			(pin passive line
-				(at -58.42 -34.29 0)
+				(at -57.15 -34.29 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2305,7 +2894,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 58.42 270)
+				(at -34.29 57.15 270)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2323,7 +2912,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -58.42 90)
+				(at -34.29 -57.15 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2341,7 +2930,7 @@
 				)
 			)
 			(pin passive line
-				(at -31.75 58.42 270)
+				(at -31.75 57.15 270)
 				(length 7.62)
 				(name "GPIO2_B1_d"
 					(effects
@@ -2363,7 +2952,7 @@
 				(alternate "VO_LCDC_D17" passive line)
 			)
 			(pin output line
-				(at -31.75 -58.42 90)
+				(at -31.75 -57.15 90)
 				(length 7.62)
 				(name "CODEC_LINEOUT"
 					(effects
@@ -2381,7 +2970,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 58.42 270)
+				(at -29.21 57.15 270)
 				(length 7.62)
 				(name "GPIO2_B0_d"
 					(effects
@@ -2403,7 +2992,7 @@
 				(alternate "VO_LCDC_D16" passive line)
 			)
 			(pin output line
-				(at -29.21 -58.42 90)
+				(at -29.21 -57.15 90)
 				(length 7.62)
 				(name "CODEC_MICBIAS"
 					(effects
@@ -2421,7 +3010,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 58.42 270)
+				(at -26.67 57.15 270)
 				(length 7.62)
 				(name "GPIO2_A7_d"
 					(effects
@@ -2445,7 +3034,7 @@
 				(alternate "VO_LCDC_D15" passive line)
 			)
 			(pin input line
-				(at -26.67 -58.42 90)
+				(at -26.67 -57.15 90)
 				(length 7.62)
 				(name "CODEC_MIC0_N"
 					(effects
@@ -2463,7 +3052,7 @@
 				)
 			)
 			(pin passive line
-				(at -24.13 58.42 270)
+				(at -24.13 57.15 270)
 				(length 7.62)
 				(name "GPIO2_A6_d"
 					(effects
@@ -2487,7 +3076,7 @@
 				(alternate "VO_LCDC_D14" passive line)
 			)
 			(pin input line
-				(at -24.13 -58.42 90)
+				(at -24.13 -57.15 90)
 				(length 7.62)
 				(name "CODEC_MIC0_P"
 					(effects
@@ -2505,7 +3094,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 58.42 270)
+				(at -21.59 57.15 270)
 				(length 7.62)
 				(name "GPIO2_A5_d"
 					(effects
@@ -2527,7 +3116,7 @@
 				(alternate "VO_LCDC_D13" passive line)
 			)
 			(pin input line
-				(at -21.59 -58.42 90)
+				(at -21.59 -57.15 90)
 				(length 7.62)
 				(name "CODEC_MIC1_N"
 					(effects
@@ -2545,7 +3134,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 58.42 270)
+				(at -19.05 57.15 270)
 				(length 7.62)
 				(name "GPIO2_A4_d"
 					(effects
@@ -2567,7 +3156,7 @@
 				(alternate "VO_LCDC_D12" passive line)
 			)
 			(pin input line
-				(at -19.05 -58.42 90)
+				(at -19.05 -57.15 90)
 				(length 7.62)
 				(name "CODEC_MIC1_P"
 					(effects
@@ -2585,7 +3174,7 @@
 				)
 			)
 			(pin passive line
-				(at -16.51 58.42 270)
+				(at -16.51 57.15 270)
 				(length 7.62)
 				(name "GPIO2_A3_d"
 					(effects
@@ -2606,7 +3195,7 @@
 				(alternate "VO_LCDC_D11" passive line)
 			)
 			(pin passive line
-				(at -16.51 -58.42 90)
+				(at -16.51 -57.15 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2624,7 +3213,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 58.42 270)
+				(at -13.97 57.15 270)
 				(length 7.62)
 				(name "GPIO2_A2_d"
 					(effects
@@ -2645,7 +3234,7 @@
 				(alternate "VO_LCDC_D10" passive line)
 			)
 			(pin passive line
-				(at -13.97 -58.42 90)
+				(at -13.97 -57.15 90)
 				(length 7.62)
 				(name "EMMC_D0_B"
 					(effects
@@ -2665,7 +3254,7 @@
 				(alternate "GPIO4_A4_u" passive line)
 			)
 			(pin passive line
-				(at -11.43 58.42 270)
+				(at -11.43 57.15 270)
 				(length 7.62)
 				(name "GPIO2_A1_d"
 					(effects
@@ -2688,7 +3277,7 @@
 				(alternate "VO_LCDC_D9" passive line)
 			)
 			(pin passive line
-				(at -11.43 -58.42 90)
+				(at -11.43 -57.15 90)
 				(length 7.62)
 				(name "EMMC_D1_B"
 					(effects
@@ -2708,7 +3297,7 @@
 				(alternate "GPIO4_A3_u" passive line)
 			)
 			(pin passive line
-				(at -8.89 58.42 270)
+				(at -8.89 57.15 270)
 				(length 7.62)
 				(name "GPIO2_A0_d"
 					(effects
@@ -2731,7 +3320,7 @@
 				(alternate "VO_LCDC_D8" passive line)
 			)
 			(pin passive line
-				(at -8.89 -58.42 90)
+				(at -8.89 -57.15 90)
 				(length 7.62)
 				(name "EMMC_D2_B"
 					(effects
@@ -2751,7 +3340,7 @@
 				(alternate "GPIO4_A2_u" passive line)
 			)
 			(pin passive line
-				(at -6.35 58.42 270)
+				(at -6.35 57.15 270)
 				(length 7.62)
 				(name "GPIO1_C0_d"
 					(effects
@@ -2774,7 +3363,7 @@
 				(alternate "VO_LCDC_D7" passive line)
 			)
 			(pin passive line
-				(at -6.35 -58.42 90)
+				(at -6.35 -57.15 90)
 				(length 7.62)
 				(name "EMMC_D3_B"
 					(effects
@@ -2794,7 +3383,7 @@
 				(alternate "GPIO4_A6_u" passive line)
 			)
 			(pin passive line
-				(at -3.81 58.42 270)
+				(at -3.81 57.15 270)
 				(length 7.62)
 				(name "GPIO1_C1_d"
 					(effects
@@ -2817,7 +3406,7 @@
 				(alternate "VO_LCDC_D6" passive line)
 			)
 			(pin passive line
-				(at -3.81 -58.42 90)
+				(at -3.81 -57.15 90)
 				(length 7.62)
 				(name "EMMC_D4"
 					(effects
@@ -2839,7 +3428,7 @@
 				(alternate "UART1_TX_M2" passive line)
 			)
 			(pin passive line
-				(at -1.27 58.42 270)
+				(at -1.27 57.15 270)
 				(length 7.62)
 				(name "GPIO1_C2_d"
 					(effects
@@ -2863,7 +3452,7 @@
 				(alternate "VO_LCDC_D5" passive line)
 			)
 			(pin passive line
-				(at -1.27 -58.42 90)
+				(at -1.27 -57.15 90)
 				(length 7.62)
 				(name "EMMC_D5"
 					(effects
@@ -2885,7 +3474,7 @@
 				(alternate "UART1_RX_M2" passive line)
 			)
 			(pin passive line
-				(at 1.27 58.42 270)
+				(at 1.27 57.15 270)
 				(length 7.62)
 				(name "GPIO1_C3_d"
 					(effects
@@ -2909,7 +3498,7 @@
 				(alternate "VO_LCDC_D4" passive line)
 			)
 			(pin passive line
-				(at 1.27 -58.42 90)
+				(at 1.27 -57.15 90)
 				(length 7.62)
 				(name "EMMC_D6"
 					(effects
@@ -2931,7 +3520,7 @@
 				(alternate "UART0_TX_M2" passive line)
 			)
 			(pin passive line
-				(at 3.81 58.42 270)
+				(at 3.81 57.15 270)
 				(length 7.62)
 				(name "GPIO1_C4_d"
 					(effects
@@ -2954,7 +3543,7 @@
 				(alternate "VO_LCDC_D3" passive line)
 			)
 			(pin passive line
-				(at 3.81 -58.42 90)
+				(at 3.81 -57.15 90)
 				(length 7.62)
 				(name "EMMC_D7"
 					(effects
@@ -2976,7 +3565,7 @@
 				(alternate "UART0_RX_M2" passive line)
 			)
 			(pin passive line
-				(at 6.35 58.42 270)
+				(at 6.35 57.15 270)
 				(length 7.62)
 				(name "GPIO1_C5_d"
 					(effects
@@ -2999,7 +3588,7 @@
 				(alternate "VO_LCDC_D2" passive line)
 			)
 			(pin passive line
-				(at 6.35 -58.42 90)
+				(at 6.35 -57.15 90)
 				(length 7.62)
 				(name "EMMC_CMD"
 					(effects
@@ -3019,7 +3608,7 @@
 				(alternate "GPIO4_B0_u" passive line)
 			)
 			(pin passive line
-				(at 8.89 58.42 270)
+				(at 8.89 57.15 270)
 				(length 7.62)
 				(name "GPIO1_C6_d"
 					(effects
@@ -3041,7 +3630,7 @@
 				(alternate "VO_LCDC_D1" passive line)
 			)
 			(pin passive line
-				(at 8.89 -58.42 90)
+				(at 8.89 -57.15 90)
 				(length 7.62)
 				(name "EMMC_CLK"
 					(effects
@@ -3061,7 +3650,7 @@
 				(alternate "GPIO4_B1_d" passive line)
 			)
 			(pin passive line
-				(at 11.43 58.42 270)
+				(at 11.43 57.15 270)
 				(length 7.62)
 				(name "GPIO1_C7_d"
 					(effects
@@ -3083,7 +3672,7 @@
 				(alternate "VO_LCDC_D0" passive line)
 			)
 			(pin passive line
-				(at 11.43 -58.42 90)
+				(at 11.43 -57.15 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3101,7 +3690,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 58.42 270)
+				(at 13.97 57.15 270)
 				(length 7.62)
 				(name "GPIO1_D0_d"
 					(effects
@@ -3124,7 +3713,7 @@
 				(alternate "VO_LCDC_DEN" passive line)
 			)
 			(pin passive line
-				(at 13.97 -58.42 90)
+				(at 13.97 -57.15 90)
 				(length 7.62)
 				(name "SDMMC_DET"
 					(effects
@@ -3143,7 +3732,7 @@
 				(alternate "GPIO3_A1_u" passive line)
 			)
 			(pin passive line
-				(at 16.51 58.42 270)
+				(at 16.51 57.15 270)
 				(length 7.62)
 				(name "GPIO1_D1_d"
 					(effects
@@ -3166,7 +3755,7 @@
 				(alternate "VO_LCDC_HSYNC" passive line)
 			)
 			(pin passive line
-				(at 16.51 -58.42 90)
+				(at 16.51 -57.15 90)
 				(length 7.62)
 				(name "SDMMC_D0"
 					(effects
@@ -3187,7 +3776,7 @@
 				(alternate "UART2_RX_M0" passive line)
 			)
 			(pin passive line
-				(at 19.05 58.42 270)
+				(at 19.05 57.15 270)
 				(length 7.62)
 				(name "GPIO1_D2_d"
 					(effects
@@ -3212,7 +3801,7 @@
 				(alternate "VO_LCDC_VSYNC" passive line)
 			)
 			(pin passive line
-				(at 19.05 -58.42 90)
+				(at 19.05 -57.15 90)
 				(length 7.62)
 				(name "SDMMC_D1"
 					(effects
@@ -3233,7 +3822,7 @@
 				(alternate "UART2_TX_M0" passive line)
 			)
 			(pin passive line
-				(at 21.59 58.42 270)
+				(at 21.59 57.15 270)
 				(length 7.62)
 				(name "GPIO1_D3_d"
 					(effects
@@ -3257,7 +3846,7 @@
 				(alternate "VO_LCDC_CLK" passive line)
 			)
 			(pin passive line
-				(at 21.59 -58.42 90)
+				(at 21.59 -57.15 90)
 				(length 7.62)
 				(name "SDMMC_D2"
 					(effects
@@ -3279,7 +3868,7 @@
 				(alternate "UART5_RX_M0" passive line)
 			)
 			(pin passive line
-				(at 24.13 58.42 270)
+				(at 24.13 57.15 270)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3297,7 +3886,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -58.42 90)
+				(at 24.13 -57.15 90)
 				(length 7.62)
 				(name "SDMMC_D3"
 					(effects
@@ -3319,7 +3908,7 @@
 				(alternate "UART5_TX_M0" passive line)
 			)
 			(pin output line
-				(at 26.67 58.42 270)
+				(at 26.67 57.15 270)
 				(length 7.62)
 				(name "ETH_TX_P"
 					(effects
@@ -3337,7 +3926,7 @@
 				)
 			)
 			(pin passive line
-				(at 26.67 -58.42 90)
+				(at 26.67 -57.15 90)
 				(length 7.62)
 				(name "SDMMC_CMD"
 					(effects
@@ -3360,7 +3949,7 @@
 				(alternate "UART5_CTS_M0" passive line)
 			)
 			(pin output line
-				(at 29.21 58.42 270)
+				(at 29.21 57.15 270)
 				(length 7.62)
 				(name "ETH_TX_N"
 					(effects
@@ -3378,7 +3967,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -58.42 90)
+				(at 29.21 -57.15 90)
 				(length 7.62)
 				(name "SDMMC_CLK"
 					(effects
@@ -3401,7 +3990,7 @@
 				(alternate "UART5_RTS_M0" passive line)
 			)
 			(pin input line
-				(at 31.75 58.42 270)
+				(at 31.75 57.15 270)
 				(length 7.62)
 				(name "ETH_RX_P"
 					(effects
@@ -3419,7 +4008,7 @@
 				)
 			)
 			(pin passive line
-				(at 31.75 -58.42 90)
+				(at 31.75 -57.15 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3437,7 +4026,7 @@
 				)
 			)
 			(pin input line
-				(at 34.29 58.42 270)
+				(at 34.29 57.15 270)
 				(length 7.62)
 				(name "ETH_RX_N"
 					(effects
@@ -3455,7 +4044,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -58.42 90)
+				(at 34.29 -57.15 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3473,7 +4062,7 @@
 				)
 			)
 			(pin passive line
-				(at 58.42 34.29 180)
+				(at 57.15 34.29 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3491,7 +4080,7 @@
 				)
 			)
 			(pin passive line
-				(at 58.42 31.75 180)
+				(at 57.15 31.75 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3509,7 +4098,7 @@
 				)
 			)
 			(pin passive line
-				(at 58.42 29.21 180)
+				(at 57.15 29.21 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3527,7 +4116,7 @@
 				)
 			)
 			(pin input line
-				(at 58.42 26.67 180)
+				(at 57.15 26.67 180)
 				(length 7.62)
 				(name "VCC5V0_SYS"
 					(effects
@@ -3545,7 +4134,7 @@
 				)
 			)
 			(pin input line
-				(at 58.42 24.13 180)
+				(at 57.15 24.13 180)
 				(length 7.62)
 				(name "VCC5V0_SYS"
 					(effects
@@ -3563,7 +4152,7 @@
 				)
 			)
 			(pin input line
-				(at 58.42 21.59 180)
+				(at 57.15 21.59 180)
 				(length 7.62)
 				(name "VCC5V0_SYS"
 					(effects
@@ -3581,7 +4170,7 @@
 				)
 			)
 			(pin output line
-				(at 58.42 19.05 180)
+				(at 57.15 19.05 180)
 				(length 7.62)
 				(name "VCC_3V3"
 					(effects
@@ -3599,7 +4188,7 @@
 				)
 			)
 			(pin output line
-				(at 58.42 16.51 180)
+				(at 57.15 16.51 180)
 				(length 7.62)
 				(name "VCC_1V8"
 					(effects
@@ -3617,7 +4206,7 @@
 				)
 			)
 			(pin input line
-				(at 58.42 13.97 180)
+				(at 57.15 13.97 180)
 				(length 7.62)
 				(name "VCC_3V3RTC"
 					(effects
@@ -3635,7 +4224,7 @@
 				)
 			)
 			(pin passive line
-				(at 58.42 11.43 180)
+				(at 57.15 11.43 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -3653,7 +4242,7 @@
 				)
 			)
 			(pin input line
-				(at 58.42 8.89 180)
+				(at 57.15 8.89 180)
 				(length 7.62)
 				(name "NPOR"
 					(effects
@@ -3671,7 +4260,7 @@
 				)
 			)
 			(pin passive line
-				(at 58.42 6.35 180)
+				(at 57.15 6.35 180)
 				(length 7.62)
 				(name "GPIO1_B3_u"
 					(effects
@@ -3693,7 +4282,7 @@
 				(alternate "UART2_RX_M1" passive line)
 			)
 			(pin passive line
-				(at 58.42 3.81 180)
+				(at 57.15 3.81 180)
 				(length 7.62)
 				(name "GPIO1_B2_d"
 					(effects
@@ -3715,7 +4304,7 @@
 				(alternate "UART2_TX_M1" passive line)
 			)
 			(pin passive line
-				(at 58.42 1.27 180)
+				(at 57.15 1.27 180)
 				(length 7.62)
 				(name "GPIO1_B1_d"
 					(effects
@@ -3737,7 +4326,7 @@
 				(alternate "VI_CIF_D1_M1" passive line)
 			)
 			(pin passive line
-				(at 58.42 -1.27 180)
+				(at 57.15 -1.27 180)
 				(length 7.62)
 				(name "GPIO1_B0_d"
 					(effects
@@ -3757,7 +4346,7 @@
 				(alternate "UART4_RX_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -3.81 180)
+				(at 57.15 -3.81 180)
 				(length 7.62)
 				(name "GPIO1_A4_d"
 					(effects
@@ -3777,7 +4366,7 @@
 				(alternate "UART1_RX_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -6.35 180)
+				(at 57.15 -6.35 180)
 				(length 7.62)
 				(name "GPIO1_A3_d"
 					(effects
@@ -3797,7 +4386,7 @@
 				(alternate "UART1_TX_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -8.89 180)
+				(at 57.15 -8.89 180)
 				(length 7.62)
 				(name "GPIO1_A2_d"
 					(effects
@@ -3818,7 +4407,7 @@
 				(alternate "VI_CIF_D0_M1" passive line)
 			)
 			(pin passive line
-				(at 58.42 -11.43 180)
+				(at 57.15 -11.43 180)
 				(length 7.62)
 				(name "GPIO1_A1_d"
 					(effects
@@ -3840,7 +4429,7 @@
 				(alternate "UART3_RX_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -13.97 180)
+				(at 57.15 -13.97 180)
 				(length 7.62)
 				(name "GPIO1_A0_d"
 					(effects
@@ -3861,7 +4450,7 @@
 				(alternate "UART3_TX_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -16.51 180)
+				(at 57.15 -16.51 180)
 				(length 7.62)
 				(name "GPIO0_A6_d"
 					(effects
@@ -3882,7 +4471,7 @@
 				(alternate "UART1_CTS_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -19.05 180)
+				(at 57.15 -19.05 180)
 				(length 7.62)
 				(name "GPIO0_A5_d"
 					(effects
@@ -3903,7 +4492,7 @@
 				(alternate "UART1_RTS_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -21.59 180)
+				(at 57.15 -21.59 180)
 				(length 7.62)
 				(name "GPIO0_A4_d"
 					(effects
@@ -3923,7 +4512,7 @@
 				(alternate "PWR_CTRL_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -24.13 180)
+				(at 57.15 -24.13 180)
 				(length 7.62)
 				(name "GPIO0_A3_u"
 					(effects
@@ -3942,7 +4531,7 @@
 				(alternate "PWR_CTRL_M1" passive line)
 			)
 			(pin passive line
-				(at 58.42 -26.67 180)
+				(at 57.15 -26.67 180)
 				(length 7.62)
 				(name "GPIO0_A2_d"
 					(effects
@@ -3961,7 +4550,7 @@
 				(alternate "PWM3_IR_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -29.21 180)
+				(at 57.15 -29.21 180)
 				(length 7.62)
 				(name "GPIO0_A1_d"
 					(effects
@@ -3981,7 +4570,7 @@
 				(alternate "UART0_TX_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -31.75 180)
+				(at 57.15 -31.75 180)
 				(length 7.62)
 				(name "GPIO0_A0_z"
 					(effects
@@ -4003,7 +4592,7 @@
 				(alternate "UART0_RX_M0" passive line)
 			)
 			(pin passive line
-				(at 58.42 -34.29 180)
+				(at 57.15 -34.29 180)
 				(length 7.62)
 				(name "GND"
 					(effects
