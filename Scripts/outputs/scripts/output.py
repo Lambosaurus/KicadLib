@@ -2,7 +2,7 @@ import subprocess
 import os, sys, shutil, platform, json, argparse, glob
 import bom, image, pdfmerge
 
-SCRIPT_VERSION = "v1.20"
+SCRIPT_VERSION = "v1.21"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -268,7 +268,7 @@ def export_pcb_drawings(input_pcb: str, output_file: str, layers: int):
             "--include-border-title",
             "--drill-shape-opt", "2",
             "--define-var", f"LAYER_NAME={plot['name']}",
-            "--mode-multipage",
+            "--mode-separate",
         ])
         # Result format: "Plotted to 'outputs/pdf-tmp/pcb_name-F_Fab.pdf'."
         plot["filename"] = result.split("'")[-2]
