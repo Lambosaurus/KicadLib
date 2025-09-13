@@ -2,7 +2,7 @@ import subprocess
 import os, sys, shutil, platform, json, argparse, glob
 import bom, image, pdfmerge
 
-SCRIPT_VERSION = "v1.21"
+SCRIPT_VERSION = "v1.22"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -205,14 +205,14 @@ def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
         "--blacklist", ",".join(dnf_list)
     ], silent=True)
 
-def export_pcb_image(input_pcb: str, output_file: str, side: str = "front"):
+def export_pcb_image(input_pcb: str, output_file: str, side: str = "front", zoom: float = 0.9):
     run_command([
         KICAD_CLI, "pcb", "render",
         input_pcb,
         "--output", output_file,
         "--quality", "user",
         "--perspective",
-        "--zoom", "0.9",
+        "--zoom", f"{zoom:.2f}",
         "--width", "2000",
         "--height", "2000",
         "--background", "transparent",
@@ -333,6 +333,7 @@ if __name__ == "__main__":
     argparser.add_argument("--layers", "-l", type=int, help="Number of layers in the PCB design.", default=2)
     argparser.add_argument("--output", "-o", type=str, help="Output directory", default="outputs")
     argparser.add_argument("--render-side", type=str, help="Side of the board to render.", default="top", choices=["top", "bottom", "left", "right", "front", "back"])
+    argparser.add_argument("--render-zoom", type=float, help="Specifies the zoom used for rendering.", default=0.9)
     argparser.add_argument("--name", type=str, help="Output name", default=None)
     argparser.add_argument("--wait-on-done", action="store_true", help="Wait to hold the terminal open when done.")
     argparser.add_argument("--format", type=str, help="Manufacturer specific output options", default=None, choices=["jlc"])
@@ -382,7 +383,7 @@ if __name__ == "__main__":
     export_pcb_drawings(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".drawings.pdf"), args.layers)
 
     print("Generating PCB render")
-    export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"), args.render_side)
+    export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"), args.render_side, args.render_zoom)
 
     print("Generating step file")
     export_pcb_step(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".step"))
