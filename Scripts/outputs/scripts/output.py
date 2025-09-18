@@ -1,8 +1,8 @@
 import subprocess
 import os, sys, shutil, platform, json, argparse, glob, contextlib
-import bom, image, pdfmerge
+import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.23"
+SCRIPT_VERSION = "v1.24"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -340,14 +340,7 @@ def run_git_check() -> str:
     return git_commit
 
 def zip_files(input_path: str, output_file: str, files: list[str] = None):
-    if files is None:
-        files = os.listdir(input_path)
-    run_command([
-        "tar",
-        "-C", input_path,
-        "-acf", output_file,
-    ] + files
-    )
+    bundle.bundle(input_path, output_file, files)
 
 def zip_release_pack(input_path: str, output_file: str, format: str):
     if format == "jlc":
@@ -386,6 +379,7 @@ if __name__ == "__main__":
     argparser.add_argument("--name", type=str, help="Output name", default=None)
     argparser.add_argument("--wait-on-done", action="store_true", help="Wait to hold the terminal open when done.")
     argparser.add_argument("--format", type=str, help="Manufacturer specific output options", default=None, choices=["jlc"])
+    argparser.add_argument("--compression", type=str, help="Compression format", default="zip", choices=bundle.SUPPORTED_FORMATS)
     args = argparser.parse_args()
 
     # Strip file extention
@@ -451,12 +445,12 @@ if __name__ == "__main__":
     print("Generating step file")
     export_pcb_step(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".step"))
 
-    print("Generating zip file")
-    zip_files(OUTPUT_DIR, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".zip"))
+    print(f"Generating {args.compression} file")
+    zip_files(OUTPUT_DIR, os.path.join(OUTPUT_DIR, f"{OUTPUT_NAME}.{args.compression}"))
 
     if args.format != None:
         print(f"Generating {args.format} release pack")
-        zip_release_pack(OUTPUT_DIR, os.path.join(OUTPUT_DIR, f"{OUTPUT_NAME}.{args.format}.zip"), args.format)
+        zip_release_pack(OUTPUT_DIR, os.path.join(OUTPUT_DIR, f"{OUTPUT_NAME}.{args.format}.{args.compression}"), args.format)
 
     print("Done!")
     if args.wait_on_done:
