@@ -8,7 +8,7 @@ if not BACKEND:
 
 if not BACKEND:
     try: 
-        from pypdf import PdfMerger
+        import pypdf
         BACKEND = "pypdf"
     except ImportError:
         pass
@@ -31,7 +31,7 @@ def merge_pdf(pdf_files: list[str], output_file: str):
 
 
 def merge_pdf_pypdf(pdf_files: list[str], output_file: str):
-    merger = PdfMerger()
+    merger = pypdf.PdfWriter()
     for pdf in pdf_files:
         merger.append(pdf)
     merger.write(output_file)
