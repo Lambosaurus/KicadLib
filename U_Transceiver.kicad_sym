@@ -5096,7 +5096,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SN75179BDR"
+	(symbol "SN75176"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5108,7 +5108,7 @@
 				)
 			)
 		)
-		(property "Value" "SN75179BDR"
+		(property "Value" "SN75176BDR"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -5125,8 +5125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65176b"
+			(at 0.254 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5152,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SN75179BDR_0_1"
+		(symbol "SN75176_0_1"
 			(rectangle
 				(start -6.35 6.35)
 				(end 6.35 -6.35)
@@ -5165,7 +5165,7 @@
 				)
 			)
 		)
-		(symbol "SN75179BDR_1_1"
+		(symbol "SN75176_1_1"
 			(pin output line
 				(at -8.89 3.81 0)
 				(length 2.54)
