@@ -3287,7 +3287,7 @@
 		(uuid "ae4293e2-d059-4c8e-add7-b2b326b25bc8")
 	)
 	(embedded_fonts no)
-	(model ":LAMBO_LIB:Step/module/BG95M4LA-64-SGNS.step"
+	(model "${LAMBO_LIB}/Step/module/EG915.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
