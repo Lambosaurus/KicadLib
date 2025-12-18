@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_IC:QFN28_05_4x4"
+		(property "Footprint" "U_IC:QFN28_05_4x4_EP"
 			(at 19.05 -5.588 0)
 			(effects
 				(font
