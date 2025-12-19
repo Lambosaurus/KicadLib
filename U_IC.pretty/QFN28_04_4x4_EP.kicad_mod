@@ -431,7 +431,7 @@
 		(uuid "50c17b77-4684-4ff8-9dbb-3771fccf1d50")
 	)
 	(embedded_fonts no)
-	(model "${LAMBO_LIB}/Step/qfn/QFN28_05_4x4.step"
+	(model "${LAMBO_LIB}/Step/qfn/QFN28_04.step"
 		(offset
 			(xyz 0 0 0)
 		)
