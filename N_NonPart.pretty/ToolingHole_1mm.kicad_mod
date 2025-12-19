@@ -1,7 +1,7 @@
 (footprint "ToolingHole_1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1.0mm TOOLING HOLE")
 	(property "Reference" "REF**"
@@ -23,19 +23,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "f80ff132-4dc2-4d52-926c-62051f3e2445")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5a642464-54ab-443f-99cb-cb945de26855")
 		(effects
 			(font
 				(size 1 1)
@@ -77,7 +64,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "63d6d347-c910-496f-ad50-96ccce659b15")
 	)
@@ -88,7 +75,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2e756b77-c17b-409a-beda-ea0197896a28")
 	)
@@ -96,8 +83,9 @@
 		(at 0 0)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 0.1)
 		(uuid "6ff760ba-9c61-40d4-953b-7a5810571fa6")
 	)
+	(embedded_fonts no)
 )
