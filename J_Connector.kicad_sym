@@ -22242,7 +22242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:JST_S2B-PH-K"
+		(property "Footprint" "J_Connector:JST-S2B-PH-K-S"
 			(at 0 -3.175 0)
 			(effects
 				(font
