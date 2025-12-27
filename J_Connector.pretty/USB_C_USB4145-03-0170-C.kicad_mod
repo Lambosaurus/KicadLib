@@ -246,7 +246,7 @@
 		(at 4 0)
 		(size 1.01 0.71)
 		(drill oval 1.01 0.71)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "6bb0b5c3-4c3a-4535-b4c7-cde0e65b59a8")
 	)

@@ -17,6 +17,7 @@
 	(property "Value" "ST_VL53Lxx"
 		(at 0 2.3 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "b420be3d-d210-4d09-b41b-7bf89b8b26cd")
 		(effects
 			(font
