@@ -2,7 +2,7 @@ import subprocess
 import os, sys, shutil, platform, json, argparse, glob, contextlib
 import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.24"
+SCRIPT_VERSION = "v1.25"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -265,7 +265,7 @@ def export_pcb_gif(input_pcb: str, output_file: str, direction: str = "left", zo
         
         image.make_gif(images, output_file, framerate)
 
-def export_pcb_drawings(input_pcb: str, output_file: str, layers: int):
+def export_pcb_drawings(input_pcb: str, output_file: str, layers: int, extra_layers: list[str] = None):
 
     if not pdfmerge.get_backend():
         print_color("No PDF merging backend available. Skipping PCB drawings", "y")
@@ -300,6 +300,13 @@ def export_pcb_drawings(input_pcb: str, output_file: str, layers: int):
                     "layers": [f"In{i + 1}.Cu", "Edge.Cuts"]
                 })
             plots.append(bottom)
+
+        if extra_layers:
+            for layer in extra_layers:
+                plots.append({
+                    "name": f"Layer {layer}",
+                    "layers": [layer, "Edge.Cuts"]
+                })
 
         for plot in plots:
             result = run_command([
@@ -365,8 +372,9 @@ if __name__ == "__main__":
     sys.argv[-1] = sys.argv[-1].strip()  # Remove trailing carriage return for *nix/win compat.
     argparser = argparse.ArgumentParser(description="Output generator for kicad projects")
     argparser.add_argument("--input", "-i", type=str, help="Kicad project", default="*.kicad_pro")
-    argparser.add_argument("--layers", "-l", type=int, help="Number of layers in the PCB design.", default=2)
     argparser.add_argument("--output", "-o", type=str, help="Output directory", default="outputs")
+    argparser.add_argument("--layers", "-l", type=int, help="Number of layers in the PCB design.", default=2)
+    argparser.add_argument("--extra-layer", action="append", default=[], help="Additional PCB layers to add to gerbers and drawings")
     argparser.add_argument("--render-side", type=str, help="Side of the board to render.", default="top", choices=["top", "bottom", "left", "right", "front", "back"])
     argparser.add_argument("--render-zoom", type=float, help="Zoom used for rendering.", default=0.9)
     argparser.add_argument("--render-resolution", type=int, help="Render resolution (before cropping)", default=2000)
@@ -414,7 +422,7 @@ if __name__ == "__main__":
     export_pcb_ibom(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".ibom.html"), dnf_list)
 
     print("Generating gerbers")
-    export_pcb_gerbers(INPUT_PCB, os.path.join(OUTPUT_DIR, "Gerber"), get_layer_names(args.layers))
+    export_pcb_gerbers(INPUT_PCB, os.path.join(OUTPUT_DIR, "Gerber"), get_layer_names(args.layers) + args.extra_layer)
 
     print("Generating drill reports")
     export_pcb_ncdrill(INPUT_PCB, os.path.join(OUTPUT_DIR, "NC Drill"))
@@ -423,7 +431,7 @@ if __name__ == "__main__":
     export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, "Assembly", OUTPUT_NAME + ".pos.csv"))
 
     print("Generating PCB drawings")
-    export_pcb_drawings(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".drawings.pdf"), args.layers)
+    export_pcb_drawings(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".drawings.pdf"), args.layers, args.extra_layer)
 
     print("Generating PCB render")
     export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"),
