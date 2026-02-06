@@ -1499,6 +1499,163 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "ECS-TXO-20CSMV-320-EY"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 0.508 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-TXO-20CSMV-320-EY-TR"
+			(at 4.826 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Y_Oscillator:Crystal_SMD4_2.0x1.6"
+			(at 0.254 -5.207 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-20CSMV.pdf"
+			(at 0.254 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XTAL OSC TCXO 32.0000MHZ CLP SNW"
+			(at 0 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Params" "32MHz"
+			(at 14.478 9.652 0)
+			(effects
+				(font
+					(size 0.63 0.63)
+				)
+			)
+		)
+		(symbol "ECS-TXO-20CSMV-320-EY_0_1"
+			(polyline
+				(pts
+					(xy 3.683 5.207) (xy 4.445 5.207) (xy 4.445 6.477) (xy 5.207 6.477) (xy 5.207 5.207) (xy 5.969 5.207)
+					(xy 5.969 6.477) (xy 6.731 6.477) (xy 6.731 5.207)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ECS-TXO-20CSMV-320-EY_1_1"
+			(rectangle
+				(start 0 10.16)
+				(end 10.16 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 -2.54 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -2.54 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SC32S-7PF20PPM"
 		(pin_numbers
 			(hide yes)
