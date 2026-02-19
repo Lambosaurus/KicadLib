@@ -6247,7 +6247,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "HI-3585"
+	(symbol "HI-35850"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6259,7 +6259,7 @@
 				)
 			)
 		)
-		(property "Value" "HI-3585QPIF"
+		(property "Value" "HI-35850PQIF"
 			(at 0 -9.652 0)
 			(effects
 				(font
@@ -6276,7 +6276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://holtic.com/documents/2-hi-3585_v-rev-ppdf.do"
+		(property "Datasheet" "https://www.holtic.com/documents/620-hi-35850_v-rev-bpdf.do"
 			(at 0.508 -13.208 0)
 			(effects
 				(font
@@ -6294,7 +6294,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "HI-3585_0_1"
+		(symbol "HI-35850_0_1"
 			(rectangle
 				(start 0 30.48)
 				(end 25.4 0)
@@ -6307,7 +6307,7 @@
 				)
 			)
 		)
-		(symbol "HI-3585_1_1"
+		(symbol "HI-35850_1_1"
 			(pin no_connect line
 				(at -17.78 58.42 0)
 				(length 2.54)
@@ -7127,7 +7127,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "HI-3587"
+	(symbol "HI-35870"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7139,7 +7139,7 @@
 				)
 			)
 		)
-		(property "Value" "HI-3587QPIF"
+		(property "Value" "HI-35870PQIF"
 			(at -0.508 -14.224 0)
 			(effects
 				(font
@@ -7156,7 +7156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://holtic.com/documents/35-hi-3587_v-rev-fpdf.do"
+		(property "Datasheet" "https://www.holtic.com/documents/621-hi-35870_v-rev-newpdf.do"
 			(at -0.508 -18.288 0)
 			(effects
 				(font
@@ -7174,7 +7174,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "HI-3587_0_1"
+		(symbol "HI-35870_0_1"
 			(rectangle
 				(start 0 30.48)
 				(end 25.4 0)
@@ -7187,7 +7187,7 @@
 				)
 			)
 		)
-		(symbol "HI-3587_1_1"
+		(symbol "HI-35870_1_1"
 			(pin no_connect line
 				(at -19.05 71.12 0)
 				(length 2.54)
