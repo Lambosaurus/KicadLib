@@ -1,8 +1,9 @@
 import subprocess
-import os, sys, shutil, platform, json, argparse, glob, contextlib
+import os, sys, math, shutil, platform
+import argparse, glob, contextlib, json
 import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.25"
+SCRIPT_VERSION = "v1.26"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -231,7 +232,15 @@ def export_pcb_image(input_pcb: str, output_file: str, side: str = "top", zoom: 
     ])
     image.crop_image(output_file, output_file)
 
-def export_pcb_gif(input_pcb: str, output_file: str, direction: str = "left", zoom: float = 0.7, framerate: int = 20, duration: float = 3.0, resolution: int = 640):
+def motion_flip(t: float, dwell: float = 0.3):
+    if t > 0.5:
+        return motion_flip(t - 0.5) + 0.5
+    if t < dwell:
+        return 0.0
+    t_flip = (t - dwell) / (0.5 - dwell)
+    return 0.25 - (0.25 * math.cos(math.pi * t_flip))
+
+def export_pcb_animation(input_pcb: str, output_file: str, direction: str = "left", zoom: float = 0.7, framerate: int = 20, duration: float = 3.0, resolution: int = 640, curve: str = "orbit"):
 
     rotate_str = {
         "up":       lambda a: f"{-a:.03f},0,0",
@@ -240,30 +249,38 @@ def export_pcb_gif(input_pcb: str, output_file: str, direction: str = "left", zo
         "right":    lambda a: f"0,{-a:.03f},0",
     }[direction]
 
+    angle_fn = {
+        "orbit":    lambda t: 360.0 * t,
+        "flip":     lambda t: 360.0 * motion_flip(t, 0.3)
+    }[curve]
+
     frames = int(duration * framerate)
     resolution = [str(resolution), str(resolution)]
+    cache = {}
 
-    with temp_directory(os.path.dirname(output_file), "gif-tmp") as tmpdir:
+    with temp_directory(os.path.dirname(output_file), "gif-tmp", True) as tmpdir:
         images = []
         for f in range(frames):
-            angle = 360.0 * f / frames
-            path = os.path.join(tmpdir, f"{f:04d}.png")
-            images.append(path)
-            run_command([
-                KICAD_CLI, "pcb", "render",
-                input_pcb,
-                "--output", path,
-                "--quality", "user",
-                "--perspective",
-                "--zoom", f"{zoom:.2f}",
-                "--width", resolution[0],
-                "--height", resolution[1],
-                "--background", "transparent",
-                "--side", "top",
-                "--rotate", rotate_str(angle)
-            ])
+            angle = round(angle_fn(f / frames), 2)
+            if angle not in cache:
+                path = os.path.join(tmpdir, f"{f:04d}.png")
+                run_command([
+                    KICAD_CLI, "pcb", "render",
+                    input_pcb,
+                    "--output", path,
+                    "--quality", "user",
+                    "--perspective",
+                    "--zoom", f"{zoom:.2f}",
+                    "--width", resolution[0],
+                    "--height", resolution[1],
+                    "--background", "transparent",
+                    "--side", "top",
+                    "--rotate", rotate_str(angle)
+                ])
+                cache[angle] = path
+            images.append(cache[angle])
         
-        image.make_gif(images, output_file, framerate)
+        image.make_animation(images, output_file, framerate)
 
 def export_pcb_drawings(input_pcb: str, output_file: str, layers: int, extra_layers: list[str] = None):
 
@@ -378,12 +395,13 @@ if __name__ == "__main__":
     argparser.add_argument("--render-side", type=str, help="Side of the board to render.", default="top", choices=["top", "bottom", "left", "right", "front", "back"])
     argparser.add_argument("--render-zoom", type=float, help="Zoom used for rendering.", default=0.9)
     argparser.add_argument("--render-resolution", type=int, help="Render resolution (before cropping)", default=2000)
-    argparser.add_argument("--gif", action="store_true", help="Enables gif generation")
-    argparser.add_argument("--gif-zoom", type=float, help="Zoom used for gif rendering.", default=0.7)
-    argparser.add_argument("--gif-duration", type=float, help="Duration of the gif in seconds.", default=3.0)
-    argparser.add_argument("--gif-framerate", type=int, help="Framerate of the gif.", default=20)
-    argparser.add_argument("--gif-resolution", type=int, help="Gif resolution (before cropping)", default=640)
-    argparser.add_argument("--gif-direction", type=str, help="Rotation direction of the gif", default="left", choices=["up", "down", "left", "right"])
+    argparser.add_argument("--anim-format", type=str, help="Selects output animation format", choices=image.ANIMATION_FORMATS)
+    argparser.add_argument("--anim-zoom", type=float, help="Zoom used for animation rendering.", default=0.7)
+    argparser.add_argument("--anim-duration", type=float, help="Duration of the animation in seconds.", default=5.0)
+    argparser.add_argument("--anim-framerate", type=int, help="Framerate of the animation.", default=20)
+    argparser.add_argument("--anim-resolution", type=int, help="Animation resolution (before cropping)", default=640)
+    argparser.add_argument("--anim-direction", type=str, help="Rotation direction of the animation", default="left", choices=["up", "down", "left", "right"])
+    argparser.add_argument("--anim-curve", type=str, help="Curve used for animation path", default="flip", choices=["orbit", "flip"])
     argparser.add_argument("--name", type=str, help="Output name", default=None)
     argparser.add_argument("--wait-on-done", action="store_true", help="Wait to hold the terminal open when done.")
     argparser.add_argument("--format", type=str, help="Manufacturer specific output options", default=None, choices=["jlc"])
@@ -440,14 +458,15 @@ if __name__ == "__main__":
             resolution = args.render_resolution
         )
 
-    if args.gif:
-        print("Generating PCB gif")
-        export_pcb_gif(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".gif"),
-            direction = args.gif_direction,
-            zoom = args.gif_zoom,
-            framerate = args.gif_framerate,
-            duration = args.gif_duration,
-            resolution = args.gif_resolution
+    if args.anim_format:
+        print(f"Generating PCB {args.anim_format} animation")
+        export_pcb_animation(INPUT_PCB, os.path.join(OUTPUT_DIR, f"{OUTPUT_NAME}.{args.anim_format}"),
+            direction = args.anim_direction,
+            zoom = args.anim_zoom,
+            framerate = args.anim_framerate,
+            duration = args.anim_duration,
+            resolution = args.anim_resolution,
+            curve = args.anim_curve
         )
 
     print("Generating step file")
