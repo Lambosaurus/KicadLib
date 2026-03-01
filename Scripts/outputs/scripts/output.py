@@ -3,7 +3,7 @@ import os, sys, math, shutil, platform
 import argparse, glob, contextlib, json
 import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.26"
+SCRIPT_VERSION = "v1.27"
 KICAD_VERSION = "9.0"
 
 if platform.platform().startswith("Windows"):
@@ -242,6 +242,11 @@ def motion_flip(t: float, dwell: float = 0.3):
 
 def export_pcb_animation(input_pcb: str, output_file: str, direction: str = "left", zoom: float = 0.7, framerate: int = 20, duration: float = 3.0, resolution: int = 640, curve: str = "orbit"):
 
+    export_format = output_file.split('.')[-1]
+    if not image.get_backend(export_format):
+        print_color(f"No {export_format} backend available. Skipping PCB animation", "y")
+        return
+
     rotate_str = {
         "up":       lambda a: f"{-a:.03f},0,0",
         "down":     lambda a: f"{a:.03f},0,0",
@@ -258,7 +263,7 @@ def export_pcb_animation(input_pcb: str, output_file: str, direction: str = "lef
     resolution = [str(resolution), str(resolution)]
     cache = {}
 
-    with temp_directory(os.path.dirname(output_file), "gif-tmp", True) as tmpdir:
+    with temp_directory(os.path.dirname(output_file), "gif-tmp") as tmpdir:
         images = []
         for f in range(frames):
             angle = round(angle_fn(f / frames), 2)
