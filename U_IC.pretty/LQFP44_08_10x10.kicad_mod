@@ -499,4 +499,15 @@
 		(uuid "888d2377-2f03-489a-bdad-3816ff7e183b")
 	)
 	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/qfp/LQFP-44_10x10mm_P0.8mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
