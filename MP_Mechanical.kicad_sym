@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -5.588 6.096 0)
 			(effects
 				(font
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:MM60-EZH039-B5-R850"
+		(property "Footprint" "MP_Mechanical:MM60-EZH039-B5-R850"
 			(at 0.254 -7.62 0)
 			(effects
 				(font
@@ -110,7 +110,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -1.27 3.81 0)
 			(effects
 				(font
@@ -126,7 +126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:Mount_M2.5"
+		(property "Footprint" "MP_Mechanical:Mount_M2.5"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -172,7 +172,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -1.27 3.81 0)
 			(effects
 				(font
@@ -188,7 +188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:Mount_M3"
+		(property "Footprint" "MP_Mechanical:Mount_M3"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -234,7 +234,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -1.27 3.81 0)
 			(effects
 				(font
@@ -250,7 +250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:Mount_M3.5"
+		(property "Footprint" "MP_Mechanical:Mount_M3.5"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -296,7 +296,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -1.27 3.81 0)
 			(effects
 				(font
@@ -312,7 +312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:Mount_M5"
+		(property "Footprint" "MP_Mechanical:Mount_M5"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -358,7 +358,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -0.635 -3.175 0)
 			(effects
 				(font
@@ -374,7 +374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:PEM_M2"
+		(property "Footprint" "MP_Mechanical:PEM_M2"
 			(at 0 -8.255 0)
 			(effects
 				(font
@@ -464,7 +464,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -0.635 -3.175 0)
 			(effects
 				(font
@@ -480,7 +480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:PEM_M2.5"
+		(property "Footprint" "MP_Mechanical:PEM_M2.5"
 			(at 0 -8.255 0)
 			(effects
 				(font
@@ -546,7 +546,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -0.635 -3.175 0)
 			(effects
 				(font
@@ -562,7 +562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:PEM_M3"
+		(property "Footprint" "MP_Mechanical:PEM_M3"
 			(at 0 -8.255 0)
 			(effects
 				(font
@@ -646,7 +646,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -0.635 -3.175 0)
 			(effects
 				(font
@@ -662,7 +662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:PEM_M4"
+		(property "Footprint" "MP_Mechanical:PEM_M4"
 			(at 0 -8.255 0)
 			(effects
 				(font
@@ -746,7 +746,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -1.27 3.81 0)
 			(effects
 				(font
@@ -762,7 +762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:PTH_M2.5"
+		(property "Footprint" "MP_Mechanical:PTH_M2.5"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -828,7 +828,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "M"
+		(property "Reference" "MP"
 			(at -2.286 7.62 0)
 			(effects
 				(font
@@ -844,7 +844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M_Mechanical:SMFLPx"
+		(property "Footprint" "MP_Mechanical:SMFLPx"
 			(at 0 -8.89 0)
 			(effects
 				(font
