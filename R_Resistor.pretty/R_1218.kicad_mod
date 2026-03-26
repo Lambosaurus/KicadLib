@@ -1,0 +1,262 @@
+(footprint "R_1218"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 1218 (3246 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20035/dcrcwe3.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "93e0f7a9-a841-4e1b-8853-bb4ded31089b")
+		(effects
+			(font
+				(face "FZShuTi")
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.223593 -3.564011) (xy -1.163403 -3.55226) (xy -1.11631 -3.534526) (xy -1.079845 -3.51167)
+					(xy -1.049484 -3.480867) (xy -1.027437 -3.443228) (xy -1.013511 -3.39732) (xy -1.008526 -3.341091)
+					(xy -1.013191 -3.289731) (xy -1.026453 -3.246107) (xy -1.047847 -3.208718) (xy -1.077757 -3.176527)
+					(xy -1.117388 -3.149059) (xy -1.168652 -3.12645) (xy -0.949517 -2.768) (xy -1.066998 -2.768) (xy -1.260487 -3.098558)
+					(xy -1.419489 -3.098558) (xy -1.419489 -2.768) (xy -1.520069 -2.768) (xy -1.520069 -3.183799) (xy -1.419489 -3.183799)
+					(xy -1.29981 -3.183799) (xy -1.235859 -3.188897) (xy -1.190007 -3.202302) (xy -1.157759 -3.222145)
+					(xy -1.133581 -3.250646) (xy -1.118418 -3.287751) (xy -1.112916 -3.336157) (xy -1.116161 -3.373704)
+					(xy -1.125133 -3.403671) (xy -1.139167 -3.427606) (xy -1.158296 -3.446604) (xy -1.190634 -3.464394)
+					(xy -1.237936 -3.476692) (xy -1.305281 -3.481433) (xy -1.419489 -3.481433) (xy -1.419489 -3.183799)
+					(xy -1.520069 -3.183799) (xy -1.520069 -3.568334) (xy -1.29981 -3.568334)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.377159 -2.768) (xy -0.823683 -2.768) (xy -0.823683 -3.568334) (xy -0.377159 -3.568334) (xy -0.377159 -3.479821)
+					(xy -0.723104 -3.479821) (xy -0.723104 -3.230693) (xy -0.397382 -3.230693) (xy -0.397382 -3.143254)
+					(xy -0.723104 -3.143254) (xy -0.723104 -2.856513) (xy -0.377159 -2.856513)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.100969 -2.768) (xy -0.201548 -2.768) (xy -0.201548 -3.568334) (xy 0.244976 -3.568334) (xy 0.244976 -3.479821)
+					(xy -0.100969 -3.479821) (xy -0.100969 -3.196304) (xy 0.223629 -3.196304) (xy 0.223629 -3.108327)
+					(xy -0.100969 -3.108327)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.670447 -3.601405) (xy 0.646951 -3.386618) (xy 0.863936 -3.447288) (xy 0.878151 -3.341824)
+					(xy 0.67157 -3.326534) (xy 0.805464 -3.148383) (xy 0.708158 -3.09592) (xy 0.611975 -3.291558) (xy 0.52566 -3.09592)
+					(xy 0.42508 -3.148383) (xy 0.557314 -3.326534) (xy 0.352394 -3.341824) (xy 0.36827 -3.447288) (xy 0.581933 -3.386618)
+					(xy 0.558437 -3.601405)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.51799 -3.464238)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.515255 -3.771349)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.349637 -3.601405) (xy 1.326141 -3.386618) (xy 1.543127 -3.447288) (xy 1.557341 -3.341824)
+					(xy 1.350761 -3.326534) (xy 1.484655 -3.148383) (xy 1.387348 -3.09592) (xy 1.291166 -3.291558)
+					(xy 1.20485 -3.09592) (xy 1.104271 -3.148383) (xy 1.236504 -3.326534) (xy 1.031584 -3.341824) (xy 1.04746 -3.447288)
+					(xy 1.261124 -3.386618) (xy 1.237628 -3.601405)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.197181 -3.464238)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.194445 -3.771349)
+				)
+			)
+		)
+	)
+	(property "Value" "R_1218"
+		(at 0 3.32 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06fc383f-8d82-4cd7-aa7d-311fd859d149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "488251bf-f682-4f84-bf4a-f2232ab6c255")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46ad6c7f-ab55-4f9c-bbf8-ee1b4d6d9416")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.777064 -2.41)
+		(end 0.777064 -2.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7efef8fa-a382-401e-b03c-def0faf10270")
+	)
+	(fp_line
+		(start -0.777064 2.41)
+		(end 0.777064 2.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cd39281-e1f6-4632-86fe-7aa0278c04a7")
+	)
+	(fp_line
+		(start -2.25 -2.62)
+		(end 2.25 -2.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "662c52cd-5d52-43a1-921a-40d901d56e5b")
+	)
+	(fp_line
+		(start -2.25 2.62)
+		(end -2.25 -2.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e823c6a-a645-4005-aa8d-7ea35a845935")
+	)
+	(fp_line
+		(start 2.25 -2.62)
+		(end 2.25 2.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3375208f-e0d5-4577-9865-9b33a012af9e")
+	)
+	(fp_line
+		(start 2.25 2.62)
+		(end -2.25 2.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d22d089-7f5a-4fc5-9e8b-7564f4cb5480")
+	)
+	(fp_line
+		(start -1.6 -2.3)
+		(end 1.6 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9751b341-a831-4aec-820e-e1b3a20aa9f1")
+	)
+	(fp_line
+		(start -1.6 2.3)
+		(end -1.6 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d63ea54-5044-41f0-9486-d7b140e63542")
+	)
+	(fp_line
+		(start 1.6 -2.3)
+		(end 1.6 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdf7aff5-33be-4474-b21b-f9de1091fffd")
+	)
+	(fp_line
+		(start 1.6 2.3)
+		(end -1.6 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "510783ad-2feb-445c-9f66-fbc92a9d7154")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fa9ea567-bcd5-4b6c-bec7-3b742f50d7ef")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.475 0)
+		(size 1.05 4.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "f020051e-9556-4d20-868b-cc4af84618b8")
+	)
+	(pad "2" smd roundrect
+		(at 1.475 0)
+		(size 1.05 4.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "6bab155d-a40d-446f-8d83-610bf55cff95")
+	)
+	(embedded_fonts no)
+	(model "$(LAMBO_LIB)/Step/res/RES1218.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

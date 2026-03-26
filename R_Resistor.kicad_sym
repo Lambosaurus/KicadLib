@@ -1220,6 +1220,60 @@
 			)
 		)
 	)
+	(symbol "R_0612"
+		(extends "R_Generic")
+		(property "Reference" "R"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R_Resistor:R_0612"
+			(at -2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "R_0612"
+			(at 3.81 -1.524 0)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+	)
 	(symbol "R_0805"
 		(extends "R_Generic")
 		(property "Reference" "R"
@@ -1270,6 +1324,60 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "R_0815"
+		(extends "R_Generic")
+		(property "Reference" "R"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R_Resistor:R_0815"
+			(at -2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "R_0815"
+			(at 3.81 -1.524 0)
+			(effects
+				(font
+					(size 0.6 0.6)
 				)
 			)
 		)
@@ -1378,6 +1486,114 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+			)
+		)
+	)
+	(symbol "R_1218"
+		(extends "R_Generic")
+		(property "Reference" "R"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R_Resistor:R_1218"
+			(at -2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "R_1218"
+			(at 3.81 -1.524 0)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+	)
+	(symbol "R_1225"
+		(extends "R_Generic")
+		(property "Reference" "R"
+			(at 2.54 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R_Resistor:R_1225"
+			(at -2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "R_1225"
+			(at 3.81 -1.524 0)
+			(effects
+				(font
+					(size 0.6 0.6)
 				)
 			)
 		)
