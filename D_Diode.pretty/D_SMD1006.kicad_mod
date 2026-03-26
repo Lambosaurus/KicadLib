@@ -1,4 +1,4 @@
-(footprint "RB161QS-40T18R"
+(footprint "D_SMD1006"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "RB161QS-40T18R"
+	(property "Value" "D_SMD1006"
 		(at 0 1.27 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -165,7 +165,7 @@
 		(uuid "b29a0e42-fd5a-49a8-8a01-edc4123e673b")
 	)
 	(embedded_fonts no)
-	(model "${LAMBO_LIB}/Step/diode/DIO0402.step"
+	(model "${LAMBO_LIB}/Step/diode/SOD882.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -173,7 +173,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

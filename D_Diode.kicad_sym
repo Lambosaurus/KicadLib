@@ -3245,7 +3245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D_Diode:RB161QS-40T18R"
+		(property "Footprint" "D_Diode:D_SMD1006"
 			(at 0.381 -6.477 0)
 			(effects
 				(font
