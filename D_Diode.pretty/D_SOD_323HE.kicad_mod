@@ -1,0 +1,123 @@
+(footprint "D_SOD_323HE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "60add3df-6a92-4ec9-8b68-c95539f4cf0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_SOD_323HE"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2706d589-f40c-4ae2-8d1a-daf6cca410e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeb5ecca-2453-4300-86e8-010b77030556")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bc6bb34-21c4-4747-a5c0-a8caba49b3f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -0.5)
+		(end -1.85 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2b59e2d-0fe7-43e7-af54-44a53e27c754")
+	)
+	(fp_rect
+		(start -1.8 -0.95)
+		(end 1.8 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "cf6c5acd-f49c-4141-8feb-b64f08297668")
+	)
+	(fp_rect
+		(start -1.1 -0.65)
+		(end 1.1 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3a92c4ce-107c-4322-ade6-8cc096d07d3a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 0 0)
+		(layer "F.Fab")
+		(uuid "c3d355e2-5a2e-4900-90d5-2140e7b8830b")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.25 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "f75bced6-245a-490c-a39b-3a0d1b65c852")
+	)
+	(pad "2" smd roundrect
+		(at 0.65 0)
+		(size 2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "e3961296-b4c5-459d-a7b6-a37ca9fc9b04")
+	)
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/diode/SOD323.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
