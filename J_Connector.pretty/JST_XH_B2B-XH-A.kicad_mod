@@ -1,10 +1,10 @@
-(footprint "JST-B2B-XH-A"
+(footprint "JST_XH_B2B-XH-A"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1.25 -3.5 0)
+		(at 0 -3.5 0)
 		(layer "F.SilkS")
 		(uuid "d13b39d6-c126-471c-b644-71e06cd0bd00")
 		(effects
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "JST-B2B-XH-A"
+	(property "Value" "B2B-XH-A"
 		(at 1.4 4.775 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -205,7 +205,7 @@
 		(uuid "c7bb7ce6-af83-403f-9d9b-f37c8d1cf06f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.7 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "2fd1201d-4cf2-43b7-abd7-ef1bb59fed9f")
 		(effects

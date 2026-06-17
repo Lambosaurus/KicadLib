@@ -1,4 +1,4 @@
-(footprint "JST-B6B-XH-A"
+(footprint "JST_XH_B6B-XH-A"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "JST-B6B-XH-A"
+	(property "Value" "B6B-XH-A"
 		(at 0 4.55 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -216,7 +216,7 @@
 		(uuid "e4c351af-1ee8-41e6-ab40-80152e1b1849")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.65 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "63aa7dee-4d72-422a-bdd9-fcc26a5299cf")
 		(effects

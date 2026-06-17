@@ -1,4 +1,4 @@
-(footprint "JST-S2B-PH-K-S"
+(footprint "JST_PH_S2B-PH-K-S"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "JST-S2B-PH-K-S"
+	(property "Value" "S2B-PH-K-S"
 		(at 1.4 4.775 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -294,7 +294,7 @@
 		(uuid "608f447e-44eb-4efe-91f2-2d9a3ad7869a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1 2.5 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "f62ee9d3-0bd7-40a0-865c-f4f7e13085b4")
 		(effects
