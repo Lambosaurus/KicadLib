@@ -1,0 +1,233 @@
+(footprint "JST_GH_SM03B-GHS-TB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "3f205dcf-4b84-4d86-b3d0-d1659a4b877e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM03B-GHS-TB"
+		(at 0 3.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "205bd8c5-423e-4023-853f-0124cc3c1820")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "839a8451-07ff-4577-ac44-602bbb18a354")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58b0214c-2e4b-43c6-a5a9-ab9cde28cfa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.61 0.26)
+		(end -3.61 1.71)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e058f48-f19b-4563-ba0c-6df3a0068108")
+	)
+	(fp_line
+		(start -3.61 1.71)
+		(end -1.81 1.71)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2490808-805d-47e0-ad3d-38ded67f2518")
+	)
+	(fp_line
+		(start 2.34 -2.56)
+		(end -2.34 -2.56)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25565770-50bd-462b-8c18-48bbb55358bb")
+	)
+	(fp_line
+		(start 3.61 0.26)
+		(end 3.61 1.71)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a845184c-6421-4b70-90a8-685f1cb907db")
+	)
+	(fp_line
+		(start 3.61 1.71)
+		(end 1.81 1.71)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d071b0e-9e07-48bb-b915-518a2a37719f")
+	)
+	(fp_rect
+		(start -4 -3)
+		(end 4 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e5aefb5c-21e2-4fc9-93b0-b19164ebbdbc")
+	)
+	(fp_line
+		(start -3.5 1.6)
+		(end -3.5 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4ba9f75-25d6-4ba5-b310-c6a2410d09fb")
+	)
+	(fp_line
+		(start 1.25 0.892893)
+		(end 0.75 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3796f91-61c5-4314-9a26-0027c72011aa")
+	)
+	(fp_line
+		(start 1.75 1.6)
+		(end 1.25 0.892893)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71e0bcd1-4b3d-4c6d-b96a-593a8e6c3de4")
+	)
+	(fp_line
+		(start 3.5 -2.45)
+		(end -3.5 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb4e4807-acc0-469c-b560-f68ae96ae017")
+	)
+	(fp_line
+		(start 3.5 1.6)
+		(end -3.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc39dee8-1ef2-457e-b575-95ba005b1f2e")
+	)
+	(fp_line
+		(start 3.5 1.6)
+		(end 3.5 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad40a013-66ad-4bef-8d78-b8f55f3b8267")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a3bc8c75-90c5-4d28-9d5c-8411a1776ae1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.25 1.85 180)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c0442d77-2c41-4d94-8ecb-fd9f1372397d")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.85 180)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8569a3a9-c340-4e87-88a0-879b6a993c0a")
+	)
+	(pad "3" smd roundrect
+		(at -1.25 1.85 180)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c47ed634-f807-449f-90c2-3f2624c946c2")
+	)
+	(pad "MP" smd roundrect
+		(at -3.1 -1.35 180)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1f0e8966-9a20-490e-ad1f-4c62b265578b")
+	)
+	(pad "MP" smd roundrect
+		(at 3.1 -1.35 180)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "938f22d7-f761-47f9-bd71-9de662dbb1be")
+	)
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/conn/jst/JST_GH_SM03B-GHS-TB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

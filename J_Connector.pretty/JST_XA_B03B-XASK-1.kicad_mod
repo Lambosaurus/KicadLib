@@ -1,9 +1,8 @@
-(footprint "JST-B03B-XASK-1"
+(footprint "JST_XA_B03B-XASK-1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(tags "connector JST XA vertical")
 	(property "Reference" "REF**"
 		(at 0 -4.4 0)
 		(layer "F.SilkS")
@@ -15,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "JST-B03B-XASK-1"
+	(property "Value" "B03B-XASK-1"
 		(at 0 4.4 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -175,7 +174,7 @@
 		(uuid "bf4c41e3-bafd-4cb3-a7b3-d5dbc6e9406e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 1.5 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "f3791569-1843-4242-9d09-913695145f85")
 		(effects
