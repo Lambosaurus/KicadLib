@@ -4812,7 +4812,7 @@
 			(pin bidirectional line
 				(at -2.54 43.18 0)
 				(length 2.54)
-				(name "PD01"
+				(name "PD01/LFXI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4830,7 +4830,7 @@
 			(pin bidirectional line
 				(at -2.54 40.64 0)
 				(length 2.54)
-				(name "PD00"
+				(name "PD00/LFXO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5082,7 +5082,7 @@
 			(pin input line
 				(at 12.7 -2.54 90)
 				(length 2.54)
-				(name "HFXTAL_I"
+				(name "HFXI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 			(pin output line
 				(at 15.24 -2.54 90)
 				(length 2.54)
-				(name "HFXTAL_O"
+				(name "HFXO"
 					(effects
 						(font
 							(size 1.27 1.27)
