@@ -3382,7 +3382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_IC:WQFN20_05_4.5x2.5"
+		(property "Footprint" "U_IC:UQFN24_04_1.4x3.65"
 			(at 7.62 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
