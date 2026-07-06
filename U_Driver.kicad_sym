@@ -4394,7 +4394,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPS1H100AQPWPRQ1"
+	(symbol "TPS1H100BQPWPRQ1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4410,7 +4410,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS1H100AQPWPRQ1"
+		(property "Value" "TPS1H100BQPWPRQ1"
 			(at 0.254 -2.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,7 +4453,7 @@
 				)
 			)
 		)
-		(symbol "TPS1H100AQPWPRQ1_0_1"
+		(symbol "TPS1H100BQPWPRQ1_0_1"
 			(polyline
 				(pts
 					(xy 4.826 21.59) (xy 7.874 21.59)
@@ -4597,7 +4597,7 @@
 				)
 			)
 		)
-		(symbol "TPS1H100AQPWPRQ1_1_1"
+		(symbol "TPS1H100BQPWPRQ1_1_1"
 			(rectangle
 				(start 0 25.4)
 				(end 19.05 0)
@@ -4931,7 +4931,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps22810"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22810.pdf?ts=1783255041610"
 			(at 0 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)

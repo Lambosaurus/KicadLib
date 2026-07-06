@@ -1366,7 +1366,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 2.54 0)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1420,7 +1420,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 2.54 180)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "DIR"
 					(effects
@@ -1622,7 +1622,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 2.54 0)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1676,7 +1676,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 2.54 180)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "DIR"
 					(effects

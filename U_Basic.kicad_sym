@@ -818,7 +818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
+		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/App.Manual/RV-3028-C7_App-Manual.pdf"
 			(at 0 -21.844 0)
 			(show_name no)
 			(do_not_autoplace no)
