@@ -1069,7 +1069,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 27.94 43.18 270)
 				(length 2.54)
 				(name "AVDD"

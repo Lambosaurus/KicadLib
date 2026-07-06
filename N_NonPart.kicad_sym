@@ -5805,10 +5805,10 @@
 					)
 				)
 			)
-			(pin free line
+			(pin bidirectional line
 				(at 8.89 -2.54 180)
 				(length 2.54)
-				(name "NC"
+				(name "SWO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6033,10 +6033,10 @@
 					)
 				)
 			)
-			(pin free line
+			(pin bidirectional line
 				(at 8.89 -2.54 180)
 				(length 2.54)
-				(name "NC"
+				(name "SWO"
 					(effects
 						(font
 							(size 1.27 1.27)

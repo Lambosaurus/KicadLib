@@ -4711,7 +4711,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 21.59 20.32 180)
 				(length 2.54)
 				(name "OUT"
@@ -4729,7 +4729,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 21.59 17.78 180)
 				(length 2.54)
 				(name "OUT"
