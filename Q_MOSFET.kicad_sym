@@ -3299,7 +3299,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
-			(at 5.334 5.842 0)
+			(at 2.54 1.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3310,7 +3310,7 @@
 			)
 		)
 		(property "Value" "HYG090ND06LS1C2"
-			(at 5.4355 4.1172 0)
+			(at 2.54 -0.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3353,19 +3353,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2999758"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFG Part" "HYG090ND06LS1C2"
-			(at 0 0 0)
+		(property "LCSC_Part" "C2999758"
+			(at -0.254 -19.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3389,7 +3378,7 @@
 		(symbol "HYG090ND06LS1C2_0_1"
 			(polyline
 				(pts
-					(xy -4.826 -2.286) (xy -4.826 2.286)
+					(xy -2.286 -2.286) (xy -2.286 2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -3401,7 +3390,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.318 2.286) (xy -4.318 1.27)
+					(xy -1.778 2.286) (xy -1.778 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -3413,7 +3402,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.318 1.778) (xy -1.778 1.778) (xy -1.778 -1.778) (xy -4.318 -1.778)
+					(xy -1.778 1.778) (xy 0.762 1.778) (xy 0.762 -1.778) (xy -1.778 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -3425,7 +3414,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.318 0.508) (xy -4.318 -0.508)
+					(xy -1.778 0.508) (xy -1.778 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -3437,7 +3426,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.318 -1.27) (xy -4.318 -2.286)
+					(xy -1.778 -1.27) (xy -1.778 -2.286)
 				)
 				(stroke
 					(width 0.254)
@@ -3449,7 +3438,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.0132 0) (xy -2.9972 -0.381) (xy -2.9972 0.381) (xy -4.0132 0)
+					(xy -1.4732 0) (xy -0.4572 -0.381) (xy -0.4572 0.381) (xy -1.4732 0)
 				)
 				(stroke
 					(width 0)
@@ -3461,7 +3450,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy -2.54 1.778)
+					(xy 0 2.54) (xy 0 1.778)
 				)
 				(stroke
 					(width 0)
@@ -3472,7 +3461,7 @@
 				)
 			)
 			(circle
-				(center -2.54 1.778)
+				(center 0 1.778)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -3483,77 +3472,7 @@
 				)
 			)
 			(circle
-				(center -2.54 -1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.54) (xy -2.54 0) (xy -4.318 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.397 0.381) (xy -2.159 0.381)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.159 0.381) (xy 1.397 0.381)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 2.54 -1.778)
+				(center 0 -1.778)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -3565,7 +3484,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 4.318 0)
+					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
 				)
 				(stroke
 					(width 0)
@@ -3577,70 +3496,10 @@
 			)
 			(polyline
 				(pts
-					(xy 4.0132 0) (xy 2.9972 -0.381) (xy 2.9972 0.381) (xy 4.0132 0)
+					(xy 1.143 0.381) (xy 0.381 0.381)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.318 2.286) (xy 4.318 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.318 1.778) (xy 1.778 1.778) (xy 1.778 -1.778) (xy 4.318 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.318 0.508) (xy 4.318 -0.508)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.318 -1.27) (xy 4.318 -2.286)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.826 -2.286) (xy 4.826 2.286)
-				)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -3651,19 +3510,7 @@
 		(symbol "HYG090ND06LS1C2_1_1"
 			(polyline
 				(pts
-					(xy -1.778 0.3048) (xy -1.397 -0.3302) (xy -2.159 -0.3302) (xy -1.778 0.3048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 0.3048) (xy 1.397 -0.3302) (xy 2.159 -0.3302) (xy 1.778 0.3048)
+					(xy 0.762 0.3048) (xy 1.143 -0.3302) (xy 0.381 -0.3302) (xy 0.762 0.3048)
 				)
 				(stroke
 					(width 0)
@@ -3674,7 +3521,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -5.08 90)
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "S"
 					(effects
@@ -3692,7 +3539,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 0 0)
+				(at -5.08 0 0)
 				(length 2.6924)
 				(name "G"
 					(effects
@@ -3710,7 +3557,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 5.08 270)
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -3727,8 +3574,22 @@
 					)
 				)
 			)
+		)
+		(symbol "HYG090ND06LS1C2_2_1"
+			(polyline
+				(pts
+					(xy 0.762 0.3048) (xy 1.143 -0.3302) (xy 0.381 -0.3302) (xy 0.762 0.3048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
-				(at 2.54 -5.08 90)
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "S"
 					(effects
@@ -3746,7 +3607,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 0 180)
+				(at -5.08 0 0)
 				(length 2.6924)
 				(name "G"
 					(effects
@@ -3764,7 +3625,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 5.08 270)
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -3817,7 +3678,7 @@
 			)
 		)
 		(property "Footprint" "Q_MOSFET:IR_DirectFET_ME"
-			(at 8.89 -1.905 0)
+			(at 0 -15.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6357,6 +6218,76 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 60V 115MA SOT323"
+			(at 0 -17.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "40N06D"
+		(extends "Q_Generic_NFET")
+		(property "Reference" "Q"
+			(at 2.54 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "40N06D"
+			(at 2.54 -0.508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Q_MOSFET:DFN8_3x3_065"
+			(at -0.508 -14.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590908001903587328-C7543836.pdf?response-content-disposition=attachment%3B%20filename%3DC7543836.pdf%3B%20filename%2A%3DUTF-8%27%27C7543836.pdf&x-oss-date=20260707T100044Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rfI%2F2Hi5ds0IWnN1XTnGQ8WPxL3qHOlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbYfuAFa4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkomQPJ9WnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIYqOInqKWD5sagAFeBsuzsix68lavNVRqnQvPjSzfE3fbxdmLKQmXMDVX7cNC1gnnLOfXV1%2FYbgPApTz4KaTajrHUygt8hUZXeaIdoHkCARNzZFhwaq5cyY3E5Ao07ZU8Qsme5UGJThAwzveLreR6fkJ8tYAezrrObiUWd8VoW1Svd4D0xXNwHedCyiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYjhG3fHMgGL5sbxdiTsg1deu%2F20260707%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=590bb590d878ae4258091c1c9df852bb234fc2c444002a25cbaa103570c23d70"
+			(at -1.27 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 N-channel 120pF 12mΩ 140pF 2.5V 2.9nF 40A 50nC@10V 60V N-Channel PDFN-8(3x3) MOSFETs ROHS"
+			(at -0.254 -19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C7543836"
 			(at 0 -17.272 0)
 			(show_name no)
 			(do_not_autoplace no)
