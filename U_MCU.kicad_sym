@@ -9937,7 +9937,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10378,7 +10378,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 6.35 180)
+				(at 45.72 7.62 180)
 				(length 2.54)
 				(name "IO0"
 					(effects
@@ -10396,7 +10396,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 8.89 180)
+				(at 45.72 10.16 180)
 				(length 2.54)
 				(name "IO35"
 					(effects
@@ -10414,7 +10414,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 11.43 180)
+				(at 45.72 12.7 180)
 				(length 2.54)
 				(name "IO36"
 					(effects
@@ -10432,7 +10432,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 13.97 180)
+				(at 45.72 15.24 180)
 				(length 2.54)
 				(name "IO37"
 					(effects
@@ -10450,7 +10450,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 16.51 180)
+				(at 45.72 17.78 180)
 				(length 2.54)
 				(name "IO38"
 					(effects
@@ -10468,7 +10468,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 19.05 180)
+				(at 45.72 20.32 180)
 				(length 2.54)
 				(name "IO39"
 					(effects
@@ -10486,7 +10486,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 21.59 180)
+				(at 45.72 22.86 180)
 				(length 2.54)
 				(name "IO40"
 					(effects
@@ -10504,7 +10504,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 24.13 180)
+				(at 45.72 25.4 180)
 				(length 2.54)
 				(name "IO41"
 					(effects
@@ -10522,7 +10522,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 26.67 180)
+				(at 45.72 27.94 180)
 				(length 2.54)
 				(name "IO42"
 					(effects
@@ -10540,7 +10540,7 @@
 				)
 			)
 			(pin input line
-				(at 45.72 29.21 180)
+				(at 45.72 30.48 180)
 				(length 2.54)
 				(name "RXD0"
 					(effects
@@ -10558,7 +10558,7 @@
 				)
 			)
 			(pin output line
-				(at 45.72 31.75 180)
+				(at 45.72 33.02 180)
 				(length 2.54)
 				(name "TXD0"
 					(effects
@@ -10576,7 +10576,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 34.29 180)
+				(at 45.72 35.56 180)
 				(length 2.54)
 				(name "IO2"
 					(effects
@@ -10594,7 +10594,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 36.83 180)
+				(at 45.72 38.1 180)
 				(length 2.54)
 				(name "IO1"
 					(effects
@@ -10612,7 +10612,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 39.37 180)
+				(at 45.72 40.64 180)
 				(length 2.54)
 				(name "GND"
 					(effects
