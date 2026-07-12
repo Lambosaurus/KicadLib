@@ -9898,7 +9898,7 @@
 		(symbol "ESP32-P4NRWx_0_1"
 			(rectangle
 				(start 0 88.9)
-				(end 86.36 0)
+				(end 88.9 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -10378,7 +10378,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -3.81 90)
+				(at 12.7 -3.81 90)
 				(length 3.81)
 				(name "FLASH_CS"
 					(effects
@@ -10396,7 +10396,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -3.81 90)
+				(at 15.24 -3.81 90)
 				(length 3.81)
 				(name "FLASH_Q"
 					(effects
@@ -10414,7 +10414,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -3.81 90)
+				(at 17.78 -3.81 90)
 				(length 3.81)
 				(name "FLASH_WP"
 					(effects
@@ -10432,7 +10432,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -3.81 90)
+				(at 20.32 -3.81 90)
 				(length 3.81)
 				(name "VDD_FLASHIO"
 					(effects
@@ -10450,7 +10450,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -3.81 90)
+				(at 22.86 -3.81 90)
 				(length 3.81)
 				(name "FLASH_HOLD"
 					(effects
@@ -10468,7 +10468,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -3.81 90)
+				(at 25.4 -3.81 90)
 				(length 3.81)
 				(name "FLASH_CK"
 					(effects
@@ -10486,7 +10486,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -3.81 90)
+				(at 27.94 -3.81 90)
 				(length 3.81)
 				(name "FLASH_D"
 					(effects
@@ -10504,7 +10504,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -3.81 90)
+				(at 30.48 -3.81 90)
 				(length 3.81)
 				(name "DSI_REXT"
 					(effects
@@ -10522,7 +10522,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -3.81 90)
+				(at 33.02 -3.81 90)
 				(length 3.81)
 				(name "DSI_DATAP1"
 					(effects
@@ -10540,7 +10540,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -3.81 90)
+				(at 35.56 -3.81 90)
 				(length 3.81)
 				(name "DSI_DATAN1"
 					(effects
@@ -10558,7 +10558,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 -3.81 90)
+				(at 38.1 -3.81 90)
 				(length 3.81)
 				(name "DSI_CLKN"
 					(effects
@@ -10576,7 +10576,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -3.81 90)
+				(at 40.64 -3.81 90)
 				(length 3.81)
 				(name "DSI_CLKP"
 					(effects
@@ -10594,7 +10594,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 -3.81 90)
+				(at 43.18 -3.81 90)
 				(length 3.81)
 				(name "DSI_DATAP0"
 					(effects
@@ -10612,7 +10612,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 43.18 -3.81 90)
+				(at 45.72 -3.81 90)
 				(length 3.81)
 				(name "DSI_DATAN0"
 					(effects
@@ -10630,7 +10630,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -3.81 90)
+				(at 48.26 -3.81 90)
 				(length 3.81)
 				(name "VDD_MIPI_DPHY"
 					(effects
@@ -10648,7 +10648,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -3.81 90)
+				(at 50.8 -3.81 90)
 				(length 3.81)
 				(name "CSI_DATAN0"
 					(effects
@@ -10666,7 +10666,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 50.8 -3.81 90)
+				(at 53.34 -3.81 90)
 				(length 3.81)
 				(name "CSI_DATAP0"
 					(effects
@@ -10684,7 +10684,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 53.34 -3.81 90)
+				(at 55.88 -3.81 90)
 				(length 3.81)
 				(name "CSI_CLKP"
 					(effects
@@ -10702,7 +10702,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 55.88 -3.81 90)
+				(at 58.42 -3.81 90)
 				(length 3.81)
 				(name "CSI_CLKN"
 					(effects
@@ -10720,7 +10720,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 58.42 -3.81 90)
+				(at 60.96 -3.81 90)
 				(length 3.81)
 				(name "CSI_DATAN1"
 					(effects
@@ -10738,7 +10738,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -3.81 90)
+				(at 63.5 -3.81 90)
 				(length 3.81)
 				(name "CSI_DATAP1"
 					(effects
@@ -10756,7 +10756,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 63.5 -3.81 90)
+				(at 66.04 -3.81 90)
 				(length 3.81)
 				(name "CSI_REXT"
 					(effects
@@ -10774,7 +10774,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 66.04 -3.81 90)
+				(at 68.58 -3.81 90)
 				(length 3.81)
 				(name "USB_DM"
 					(effects
@@ -10792,7 +10792,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 68.58 -3.81 90)
+				(at 71.12 -3.81 90)
 				(length 3.81)
 				(name "USB_DP"
 					(effects
@@ -10810,7 +10810,7 @@
 				)
 			)
 			(pin power_in line
-				(at 71.12 -3.81 90)
+				(at 73.66 -3.81 90)
 				(length 3.81)
 				(name "VDD_USBPHY"
 					(effects
@@ -10828,7 +10828,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 73.66 -3.81 90)
+				(at 76.2 -3.81 90)
 				(length 3.81)
 				(name "GPIO24"
 					(effects
@@ -10846,7 +10846,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 12.446 180)
+				(at 92.71 12.7 180)
 				(length 3.81)
 				(name "GPIO25"
 					(effects
@@ -10864,7 +10864,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 14.986 180)
+				(at 92.71 15.24 180)
 				(length 3.81)
 				(name "VDD_HP_1"
 					(effects
@@ -10882,7 +10882,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 17.526 180)
+				(at 92.71 17.78 180)
 				(length 3.81)
 				(name "GPIO26"
 					(effects
@@ -10900,7 +10900,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 20.066 180)
+				(at 92.71 20.32 180)
 				(length 3.81)
 				(name "GPIO27"
 					(effects
@@ -10918,7 +10918,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 22.606 180)
+				(at 92.71 22.86 180)
 				(length 3.81)
 				(name "GPIO28"
 					(effects
@@ -10936,7 +10936,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 25.146 180)
+				(at 92.71 25.4 180)
 				(length 3.81)
 				(name "GPIO29"
 					(effects
@@ -10954,7 +10954,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 27.686 180)
+				(at 92.71 27.94 180)
 				(length 3.81)
 				(name "VDD_PSRAM_0"
 					(effects
@@ -10972,7 +10972,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 30.226 180)
+				(at 92.71 30.48 180)
 				(length 3.81)
 				(name "GPIO30"
 					(effects
@@ -10990,7 +10990,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 32.766 180)
+				(at 92.71 33.02 180)
 				(length 3.81)
 				(name "GPIO31"
 					(effects
@@ -11008,7 +11008,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 35.306 180)
+				(at 92.71 35.56 180)
 				(length 3.81)
 				(name "VDD_IO_4"
 					(effects
@@ -11026,7 +11026,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 37.846 180)
+				(at 92.71 38.1 180)
 				(length 3.81)
 				(name "GPIO32"
 					(effects
@@ -11044,7 +11044,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 40.386 180)
+				(at 92.71 40.64 180)
 				(length 3.81)
 				(name "GPIO33"
 					(effects
@@ -11062,9 +11062,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 42.926 180)
+				(at 92.71 43.18 180)
 				(length 3.81)
-				(name "GPIO34"
+				(name "[strap]GPIO34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11080,9 +11080,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 45.466 180)
+				(at 92.71 45.72 180)
 				(length 3.81)
-				(name "GPIO35"
+				(name "[strap]GPIO35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11098,7 +11098,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 48.006 180)
+				(at 92.71 48.26 180)
 				(length 3.81)
 				(name "VDD_PSRAM_1"
 					(effects
@@ -11116,9 +11116,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 50.546 180)
+				(at 92.71 50.8 180)
 				(length 3.81)
-				(name "GPIO36"
+				(name "[strap]GPIO36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11134,9 +11134,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 53.086 180)
+				(at 92.71 53.34 180)
 				(length 3.81)
-				(name "GPIO37"
+				(name "[strap]U0TXD/GPIO37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11152,9 +11152,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 90.17 55.626 180)
+				(at 92.71 55.88 180)
 				(length 3.81)
-				(name "GPIO38"
+				(name "[strap]U0RXD/GPIO38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11170,7 +11170,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 58.42 180)
+				(at 92.71 58.42 180)
 				(length 3.81)
 				(name "VDDO_FLASH"
 					(effects
@@ -11188,7 +11188,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 60.96 180)
+				(at 92.71 60.96 180)
 				(length 3.81)
 				(name "VDDO_PSRAM"
 					(effects
@@ -11206,7 +11206,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 63.5 180)
+				(at 92.71 63.5 180)
 				(length 3.81)
 				(name "VDDO_3"
 					(effects
@@ -11224,7 +11224,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 66.04 180)
+				(at 92.71 66.04 180)
 				(length 3.81)
 				(name "VDDO_4"
 					(effects
@@ -11242,7 +11242,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 68.58 180)
+				(at 92.71 68.58 180)
 				(length 3.81)
 				(name "VDD_LDO"
 					(effects
@@ -11260,7 +11260,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 71.12 180)
+				(at 92.71 71.12 180)
 				(length 3.81)
 				(name "VDD_HP_2"
 					(effects
@@ -11278,7 +11278,7 @@
 				)
 			)
 			(pin power_in line
-				(at 90.17 73.66 180)
+				(at 92.71 73.66 180)
 				(length 3.81)
 				(name "VDD_DCDCC"
 					(effects
@@ -11296,7 +11296,7 @@
 				)
 			)
 			(pin input line
-				(at 90.17 76.2 180)
+				(at 92.71 76.2 180)
 				(length 3.81)
 				(name "FB_DCDC"
 					(effects
@@ -11782,7 +11782,7 @@
 				)
 			)
 			(pin power_in line
-				(at 80.01 0 90)
+				(at 83.82 -3.81 90)
 				(length 3.81)
 				(name "GND"
 					(effects
