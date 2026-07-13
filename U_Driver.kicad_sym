@@ -6696,7 +6696,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -2.54 90)
+				(at 7.62 -2.54 90)
 				(length 2.54)
 				(name "RTN"
 					(effects
@@ -6714,7 +6714,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -2.54 90)
+				(at 15.24 -2.54 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6804,7 +6804,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -2.54 90)
+				(at 10.16 -2.54 90)
 				(length 2.54)
 				(name "EP"
 					(effects
