@@ -601,7 +601,7 @@
 			)
 		)
 		(property "Value" "INA186A1IDCKR"
-			(at 2.54 -1.778 0)
+			(at 1.778 -5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -610,7 +610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_IC:SOT23_5"
+		(property "Footprint" "U_IC:SC70-6"
 			(at -0.508 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -677,20 +677,20 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name ""
+			(pin input line
+				(at 7.62 0 90)
+				(length 3.81)
+				(name "REF"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -713,6 +713,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 5.08 10.16 270)
+				(length 2.54)
+				(name "VS"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -2.54 7.62 0)
 				(length 2.54)
@@ -723,7 +741,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -741,7 +759,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -749,20 +767,20 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 10.16 270)
+			(pin output line
+				(at 12.7 5.08 180)
 				(length 2.54)
-				(name "VS"
+				(name ""
 					(effects
 						(font
-							(size 0.508 0.508)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "6"
 					(effects
 						(font
-							(size 0.762 0.762)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -2073,6 +2091,84 @@
 							(size 0.762 0.762)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA186A4IDCKR"
+		(extends "INA186A1IDCKR")
+		(property "Reference" "U"
+			(at 0.254 11.684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA186A4IDCKR"
+			(at 1.778 -5.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "U_IC:SC70-6"
+			(at -0.508 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2FINA186"
+			(at -0.254 -11.684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC CURR SENSE 1 CIRCUIT SC70-6"
+			(at -0.254 -9.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gain" "x200"
+			(at 2.54 5.08 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2878841"
+			(at -0.254 -16.256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
