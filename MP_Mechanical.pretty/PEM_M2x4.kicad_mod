@@ -1,14 +1,14 @@
-(footprint "PEM_M2"
-	(version 20241229)
+(footprint "PEM_M2x4"
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6fc49b93-842f-4814-8ca6-1e11c16fa8fa")
+		(uuid "b71a271a-2b2c-41b1-a568-e7fc3aa2d539")
 		(effects
 			(font
 				(size 1 1)
@@ -16,12 +16,12 @@
 			)
 		)
 	)
-	(property "Value" "PEM_M2"
+	(property "Value" "PEM_M2x4"
 		(at 0.2 4.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "578b9c3f-045a-4830-a037-9fe8cd94bc66")
+		(uuid "dee91c30-e609-46ad-854a-85170d9bc924")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2560a5b1-b70d-4aa2-862b-a96874466b32")
+		(uuid "cca80b36-38c9-43eb-951e-7f640de677f9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b3363cd-878b-4295-a891-df98816e55ca")
+		(uuid "b7295376-e156-4aff-a7b3-2430b7625ed4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_arc
 		(start -1 2.3)
 		(mid -2.522337 0)
@@ -63,7 +64,7 @@
 			(type default)
 		)
 		(layer "F.Paste")
-		(uuid "0137a3b4-3804-400c-a8a9-96c1514dd1d1")
+		(uuid "46cad105-6ac8-4ecf-9315-63c9703f09a2")
 	)
 	(fp_arc
 		(start 1 -2.3)
@@ -74,7 +75,7 @@
 			(type default)
 		)
 		(layer "F.Paste")
-		(uuid "a293eb79-a33d-4221-bbc1-3f9ce380a655")
+		(uuid "acc0d4e2-6902-42e2-9e05-4b4bca2eb4b8")
 	)
 	(fp_circle
 		(center 0 0)
@@ -85,7 +86,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "814df96b-3bb6-4126-aa8c-e8b33dded25a")
+		(uuid "2275d861-10e1-41f5-8cc9-814545417f5c")
 	)
 	(fp_circle
 		(center 0 0)
@@ -96,18 +97,33 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5939629d-2bb5-4863-83b9-27abfaf3eac4")
+		(uuid "e1eed8ac-c39f-4249-aa9d-8aaf7fa12674")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 6.2 6.2)
 		(drill 3.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 0.2)
-		(uuid "31e8e591-b069-4d14-81fb-1e93e03fe645")
+		(uuid "755edeff-9682-4515-9ed9-62fcab58a41d")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 4.4 4.4)
+				(clearance 0.2)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 4.4 4.4)
+				(clearance 0.2)
+				(zone_connect -1)
+			)
+		)
 	)
 	(embedded_fonts no)
-	(model "${LAMBO_LIB}/Step/pem/PEM_M2_2mm.step"
+	(model "${LAMBO_LIB}/Step/pem/PEM_M2_4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
