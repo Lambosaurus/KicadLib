@@ -15477,8 +15477,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at -8.89 0.762 0)
+		(property "Reference" "J"
+			(at -3.048 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15488,7 +15488,7 @@
 			)
 		)
 		(property "Value" "DF40C-50DP-0.4V(51)"
-			(at -0.254 -3.048 0)
+			(at 0.762 -3.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15498,7 +15498,7 @@
 			)
 		)
 		(property "Footprint" "J_Connector:Hirose_DF40C-40DP-0.4V"
-			(at 0 0 0)
+			(at 0.254 -8.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -16732,8 +16732,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at -8.89 0.762 0)
+		(property "Reference" "J"
+			(at -1.778 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
