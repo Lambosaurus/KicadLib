@@ -510,6 +510,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "PEM_M2"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -614,7 +617,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1166,6 +1169,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "SMTSO2020MTJ"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1270,7 +1276,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1282,6 +1288,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "SMTSO2040MTJ"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1386,7 +1395,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
