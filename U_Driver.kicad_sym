@@ -6886,7 +6886,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2869287"
+		(property "LCSC_Part" "C2869287"
 			(at 0.254 -14.224 0)
 			(show_name no)
 			(do_not_autoplace no)

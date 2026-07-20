@@ -48,17 +48,6 @@
 			)
 		)
 	)
-	(property "LCSC_Part" ""
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "55badce3-800d-4ada-bb37-d84fccfa6cf8")
-		(effects
-			(font
-				(size 0.001 0.001)
-			)
-		)
-	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line

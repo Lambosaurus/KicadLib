@@ -48,17 +48,6 @@
 			)
 		)
 	)
-	(property "Field" ""
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "e75ffa58-1558-4a7f-a199-297a66133e0a")
-		(effects
-			(font
-				(size 0.001 0.001)
-			)
-		)
-	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
