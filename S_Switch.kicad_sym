@@ -3257,7 +3257,7 @@
 			)
 		)
 		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
-			(at 0 0 0)
+			(at -0.254 -7.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

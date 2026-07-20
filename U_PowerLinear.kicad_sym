@@ -2786,4 +2786,71 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "MCP1711T-18I/OT"
+		(extends "MCP1711T-30I/OT")
+		(property "Reference" "U"
+			(at -7.62 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1711T-18I/OT"
+			(at 12.7 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "U_IC:SOT23_5"
+			(at 8.89 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005415D.pdf"
+			(at -2.54 -15.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC REG LINEAR 1.8V 150MA SOT23-5"
+			(at 0.508 -18.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Params" "1.8V, 150mA"
+			(at 6.35 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
