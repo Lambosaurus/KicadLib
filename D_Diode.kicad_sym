@@ -5266,7 +5266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "U_IC:DFN8_065_3x3_EP"
 			(at 1.905 -5.715 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7097,7 +7097,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C82544"
+		(property "LCSC_Part" "C82544"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7122,7 +7122,7 @@
 				)
 			)
 		)
-		(property "Value" "BZT52C12T-7"
+		(property "Value" "BZT52C5V1T-7"
 			(at 0.635 -3.556 0)
 			(show_name no)
 			(do_not_autoplace no)

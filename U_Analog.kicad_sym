@@ -653,7 +653,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2057934"
+		(property "LCSC_Part" "C2057934"
 			(at -0.254 -16.256 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2161,7 +2161,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2878841"
+		(property "LCSC_Part" "C2878841"
 			(at -0.254 -16.256 0)
 			(show_name no)
 			(do_not_autoplace no)

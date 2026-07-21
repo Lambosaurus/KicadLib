@@ -807,7 +807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
+		(property "Footprint" "U_IC:SON8_MicroCrystal"
 			(at 0.254 -26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -831,17 +831,6 @@
 		)
 		(property "Description" "IC RTC CLK/CALENDAR I2C 8SON"
 			(at 0.254 -24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "MicroCrystal*C7*1.5x3.2mm*"
-			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

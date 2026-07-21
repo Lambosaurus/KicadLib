@@ -2213,8 +2213,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 2.286 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,6 +2227,8 @@
 		)
 		(property "Value" "PAM8904EGPR"
 			(at 8.382 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,29 +2237,35 @@
 		)
 		(property "Footprint" "U_IC:QFN12_04_2x2_EP"
 			(at 1.27 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8904E.pdf"
 			(at 2.032 -5.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "IC PIEZO SOUNDER DRIVER"
 			(at 0 -8.128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Diodes_PAM8904EGPR_0_1"
@@ -2270,24 +2282,6 @@
 			)
 		)
 		(symbol "Diodes_PAM8904EGPR_1_1"
-			(pin power_in line
-				(at -12.7 15.24 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -12.7 7.62 0)
 				(length 2.54)
@@ -2343,6 +2337,96 @@
 				)
 			)
 			(pin bidirectional line
+				(at 2.54 25.4 270)
+				(length 2.54)
+				(name "CN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "VO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "VO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 25.4 270)
+				(length 2.54)
+				(name "CN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -7.62 25.4 270)
 				(length 2.54)
 				(name "CP1"
@@ -2353,6 +2437,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2379,106 +2481,16 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 90)
+				(at -12.7 15.24 0)
 				(length 2.54)
-				(name "GND"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 2.54 25.4 270)
-				(length 2.54)
-				(name "CN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 7.62 25.4 270)
-				(length 2.54)
-				(name "CN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 12.7 15.24 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "VO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name "VO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5151,8 +5163,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 2.032 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,6 +5177,8 @@
 		)
 		(property "Value" "DRV8830DRCR"
 			(at 8.128 9.144 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,29 +5187,35 @@
 		)
 		(property "Footprint" "U_IC:DFN10_05_3x3_EP"
 			(at 1.016 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8830.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1783493594545&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fdrv8830"
 			(at 2.286 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Bipolar Motor Driver Power MOSFET I2C"
 			(at -0.254 -20.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "TI_DRV8830DRCR_0_1"
@@ -5208,17 +5232,17 @@
 			)
 		)
 		(symbol "TI_DRV8830DRCR_1_1"
-			(pin input line
-				(at -15.24 5.08 0)
+			(pin output line
+				(at 15.24 0 180)
 				(length 2.54)
-				(name "A0"
+				(name "OUT2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5227,16 +5251,16 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
+				(at 15.24 -5.08 180)
 				(length 2.54)
-				(name "A1"
+				(name "ISENSE"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5244,53 +5268,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 -2.54 0)
+			(pin output line
+				(at 15.24 2.54 180)
 				(length 2.54)
-				(name "SCL"
+				(name "OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -5.08 0)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -7.62 0)
-				(length 2.54)
-				(name "nFAULT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5334,6 +5322,78 @@
 					)
 				)
 			)
+			(pin input line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "nFAULT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 5.08 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 2.54 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -5.08 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 2.54 -12.7 90)
 				(length 2.54)
@@ -5352,53 +5412,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 15.24 2.54 180)
-				(length 2.54)
-				(name "OUT1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "OUT2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 15.24 -5.08 180)
+				(at -15.24 -2.54 0)
 				(length 2.54)
-				(name "ISENSE"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6460,7 +6484,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -7.62 11.43 0)
+			(at -7.62 14.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6470,7 +6494,7 @@
 			)
 		)
 		(property "Value" "TPS22810DRVR"
-			(at 0 -1.27 0)
+			(at 0.762 -16.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6480,7 +6504,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:DFN6_065_2x2_EP"
-			(at 0 -7.62 0)
+			(at 0.762 -20.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6491,7 +6515,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22810.pdf?ts=1783255041610"
-			(at 0 -5.08 0)
+			(at 0.762 -18.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6502,7 +6526,7 @@
 			)
 		)
 		(property "Description" "IC PWR SWITCH N-CHAN 1:1 6WSON"
-			(at 0.254 -9.906 0)
+			(at 1.016 -23.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6514,7 +6538,7 @@
 		)
 		(symbol "TPS22810DR_0_1"
 			(rectangle
-				(start -8.89 10.16)
+				(start -8.89 12.7)
 				(end 8.89 0)
 				(stroke
 					(width 0.1524)
@@ -6527,7 +6551,7 @@
 		)
 		(symbol "TPS22810DR_1_1"
 			(pin power_out line
-				(at 11.43 7.62 180)
+				(at 11.43 10.16 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -6545,7 +6569,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 5.08 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "QOD"
 					(effects
@@ -6581,7 +6605,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 2.54 0)
+				(at -1.27 -2.54 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6599,7 +6623,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 5.08 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "EN/UVLO"
 					(effects
@@ -6617,7 +6641,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 7.62 0)
+				(at -11.43 10.16 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -6627,6 +6651,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -2.54 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6844,7 +6886,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2869287"
+		(property "LCSC_Part" "C2869287"
 			(at 0.254 -14.224 0)
 			(show_name no)
 			(do_not_autoplace no)

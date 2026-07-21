@@ -3,8 +3,8 @@ import os, sys, math, shutil, platform
 import argparse, glob, contextlib, json
 import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.27"
-KICAD_VERSION = "9.0"
+SCRIPT_VERSION = "v1.28"
+KICAD_VERSION = "10.0"
 
 if platform.platform().startswith("Windows"):
     # You may need to edit this

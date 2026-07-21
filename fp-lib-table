@@ -12,7 +12,7 @@
 	(lib (name "Q_MOSFET") (type "KiCad") (uri "${LAMBO_LIB}/Q_MOSFET.pretty") (options "") (descr ""))
 	(lib (name "N_NonPart") (type "KiCad") (uri "${LAMBO_LIB}/N_NonPart.pretty") (options "") (descr ""))
 	(lib (name "MP_Mechanical") (type "KiCad") (uri "${LAMBO_LIB}/MP_Mechanical.pretty") (options "") (descr ""))
-	(lib (name "M_Motor") (type "KiCad") (uri "${LAMBO_LIB}/MP_Mechanical.pretty") (options "") (descr ""))
+	(lib (name "M_Motor") (type "KiCad") (uri "${LAMBO_LIB}/M_Motor.pretty") (options "") (descr ""))
 	(lib (name "L_Inductor") (type "KiCad") (uri "${LAMBO_LIB}/L_Inductor.pretty") (options "") (descr ""))
 	(lib (name "K_Relay") (type "KiCad") (uri "${LAMBO_LIB}/K_Relay.pretty") (options "") (descr ""))
 	(lib (name "J_Connector") (type "KiCad") (uri "${LAMBO_LIB}/J_Connector.pretty") (options "") (descr ""))

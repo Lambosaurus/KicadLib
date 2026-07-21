@@ -1452,7 +1452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L_Inductor:L_1210"
+		(property "Footprint" "L_Inductor:FB_1210"
 			(at 0.635 -9.525 0)
 			(show_name no)
 			(do_not_autoplace no)

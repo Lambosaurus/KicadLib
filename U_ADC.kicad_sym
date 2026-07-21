@@ -83,7 +83,7 @@
 			)
 		)
 		(symbol "AD74412RBCPZ_1_1"
-			(unit_name "Channel A")
+			(unit_name "A")
 			(rectangle
 				(start 0 25.4)
 				(end 19.05 0)
@@ -241,7 +241,7 @@
 			)
 		)
 		(symbol "AD74412RBCPZ_2_1"
-			(unit_name "Channel B")
+			(unit_name "B")
 			(rectangle
 				(start 0 25.4)
 				(end 19.05 0)
@@ -399,7 +399,7 @@
 			)
 		)
 		(symbol "AD74412RBCPZ_3_1"
-			(unit_name "Channel C")
+			(unit_name "C")
 			(rectangle
 				(start 0 25.4)
 				(end 19.05 0)
@@ -557,7 +557,7 @@
 			)
 		)
 		(symbol "AD74412RBCPZ_4_1"
-			(unit_name "Channel D")
+			(unit_name "D")
 			(rectangle
 				(start 0 25.4)
 				(end 19.05 0)
@@ -715,7 +715,7 @@
 			)
 		)
 		(symbol "AD74412RBCPZ_5_1"
-			(unit_name "Interface")
+			(unit_name "E")
 			(rectangle
 				(start 0 40.64)
 				(end 45.72 0)
