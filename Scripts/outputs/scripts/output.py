@@ -3,7 +3,7 @@ import os, sys, math, shutil, platform
 import argparse, glob, contextlib, json
 import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.28"
+SCRIPT_VERSION = "v1.29"
 KICAD_VERSION = "10.0"
 
 if platform.platform().startswith("Windows"):
@@ -123,7 +123,7 @@ def export_sch_pdf(input_sch: str, output_pdf: str):
         "--output", output_pdf,
     ])
 
-def export_sch_bom(input_sch: str, output_csv: str) -> list[str]:
+def export_sch_bom(input_sch: str, output_csv: str, format: str = None) -> list[str]:
     os.makedirs( os.path.dirname(output_csv) )
     output_xml = output_csv.replace(".csv", ".xml")
     run_command([
@@ -132,7 +132,12 @@ def export_sch_bom(input_sch: str, output_csv: str) -> list[str]:
         "--output", output_xml,
     ])
     components = bom.load_components(output_xml)
-    bom.create_bom(components, output_csv)
+    
+    fields = []
+    if format == "jlc":
+        fields = ["LCSC_Part"]
+    
+    bom.create_bom(components, output_csv, fields)
     dnf_list = bom.get_dnf_list(components)
     os.remove(output_xml)
     return dnf_list
@@ -439,7 +444,7 @@ if __name__ == "__main__":
     run_pcb_drc(INPUT_PCB, OUTPUT_DIR)
 
     print("Generating BOM")
-    dnf_list = export_sch_bom(INPUT_SCH, os.path.join(OUTPUT_DIR, "Assembly" , OUTPUT_NAME + ".bom.csv"))
+    dnf_list = export_sch_bom(INPUT_SCH, os.path.join(OUTPUT_DIR, "Assembly" , OUTPUT_NAME + ".bom.csv"), args.format)
 
     print("Generating IBOM")
     export_pcb_ibom(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".ibom.html"), dnf_list)

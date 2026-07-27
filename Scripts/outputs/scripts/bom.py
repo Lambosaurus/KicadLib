@@ -5,12 +5,13 @@ from xml.sax.handler import ContentHandler
 #"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
 
 class Component():
-    def __init__(self, ref = "", value = "", footprint = "", quantity = 1):
+    def __init__(self, ref = "", value = "", footprint = "", quantity = 1, fields = None):
         self.ref = ref
         self.value = value
         self.footprint = footprint
         self.quantity = quantity
         self.fitted = True
+        self.fields = fields or {}
 
     def __repr__(self):
         return f"<component {self.ref}; {self.value}; {self.footprint}; {self.quantity}>"
@@ -20,6 +21,7 @@ class BomInfo(ContentHandler):
     def __init__(self):
         self._element = None
         self._component = None
+        self._field = None
         self.components = []
     
     def startElement(self, name: str, attr: dict[str, str]):
@@ -30,6 +32,8 @@ class BomInfo(ContentHandler):
         elif name == "property" and self._component:
             if attr["name"] == "dnp":
                 self._component.fitted = False
+        elif name == "field":
+            self._field = attr["name"]
 
     def endElement(self, name: str):
         if name == "comp":
@@ -44,6 +48,8 @@ class BomInfo(ContentHandler):
                 if ':' in content:
                     lib, content = content.split(':', maxsplit=1)
                 self._component.footprint = content
+            elif self._element == "field":
+                self._component.fields[self._field] = content
 
     def get_components(self) -> list[Component]:
         return self.components
@@ -57,12 +63,14 @@ def group_components(components: list[Component]) -> list[Component]:
                 "footprint": component.footprint,
                 "refs": [],
                 "value": component.value,
-                "quantity": 0
+                "quantity": 0,
+                "fields": {}
             }
         groups[key]["refs"].append(component.ref)
         groups[key]["quantity"] += component.quantity
+        groups[key]["fields"].update(component.fields)
     return [
-        Component(",".join(g["refs"]), g["value"], g["footprint"], g["quantity"]) for g in groups.values()
+        Component(",".join(g["refs"]), g["value"], g["footprint"], g["quantity"], g["fields"]) for g in groups.values()
     ]
 
 def select_fitted(components: list[Component], fitted: bool = True) -> list[Component]:
@@ -71,27 +79,34 @@ def select_fitted(components: list[Component], fitted: bool = True) -> list[Comp
 def sort_components(components: list[Component]) -> list[Component]:
     return sorted(components, key=lambda x: x.ref )
 
-def write_csv(filename: str, components: list[Component]):
+def write_csv(filename: str, components: list[Component], fields: list[str] = []):
     with open(filename, "w") as f:
 
-        def write_line(items: list[any]):
-            f.write( ",".join([(str(item) if type(item) is int else f'"{item}"' ) for item in items]) + "\n" )
+        def fmt_item(item: any):
+            if type(item) is int:
+                return str(item)
+            if item is None:
+                return ""
+            return f'"{item}"'
 
-        write_line(["Id", "Value", "Designator", "Quantity", "Footprint"])
+        def write_line(items: list[any]):
+            f.write( ",".join([fmt_item(item) for item in items]) + "\n" )
+
+        write_line(["Id", "Value", "Designator", "Quantity", "Package"] + fields)
         
         for i, c in enumerate(components):
-            write_line([ i+1, c.value, c.ref, c.quantity, c.footprint ])
+            write_line([ i+1, c.value, c.ref, c.quantity, c.footprint ] + [ c.fields.get(f, None) for f in fields ])
 
 def load_components(input_xml: str) -> list[Component]:
     info = BomInfo()
     parse_xml(input_xml, info)
     return info.get_components()
 
-def create_bom(components: list[Component], output_csv: str):
+def create_bom(components: list[Component], output_csv: str, fields: list[str] = []):
     components = select_fitted(components, True)
     components = group_components(components)
     components = sort_components(components)
-    write_csv(output_csv, components)
+    write_csv(output_csv, components, fields)
 
 def get_dnf_list(components: list[Component]) -> list[str]:
     components = select_fitted(components, False)
