@@ -1,0 +1,232 @@
+(footprint "TB0011-350-08BE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "637c8b05-da16-4d66-8b75-705ddeb99a7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TB0011-350-08BE"
+		(at 0 4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be355fd9-72bb-4a93-bb2a-5d8f93be2a23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4e511e4-3e92-47e7-9985-1d8889df5863")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d37c99df-7edc-49a1-b50e-173272ec3e48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -14 -3.45)
+		(end 14 3.45)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bd12bbc8-7324-421d-8164-ba89c520de45")
+	)
+	(fp_poly
+		(pts
+			(xy -12.255898 1.950149) (xy -11.155898 3.450149) (xy -13.355898 3.450149)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a3482ba4-1417-444c-be9a-41e0ef63d87d")
+	)
+	(fp_rect
+		(start -14.25 -3.7)
+		(end 14.25 3.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2ee6dd1b-c868-4a8b-a163-acb4bd75c1c2")
+	)
+	(fp_line
+		(start -12.25 1.95)
+		(end -13.35 3.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f6d53368-5b19-47fb-8e84-8896fb292a13")
+	)
+	(fp_line
+		(start -12.25 1.95)
+		(end -11.15 3.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4b84f7d7-b0ad-4d48-a462-1de0ef8cfbfe")
+	)
+	(fp_rect
+		(start -14 -3.45)
+		(end 14 3.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e5cd655d-592b-47c5-a186-6d8fa81e228b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "07138fa2-d123-4e61-a1db-c09c0970234d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -12.25 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a3f6012-cfa8-41e1-a020-7327ae78a272")
+	)
+	(pad "2" thru_hole circle
+		(at -8.75 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cbe1f774-aa8f-40b5-b29c-f405d634b7de")
+	)
+	(pad "3" thru_hole circle
+		(at -5.25 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "064a2cce-694d-4704-81ec-fa70f918c517")
+	)
+	(pad "4" thru_hole circle
+		(at -1.75 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77e72d60-f688-438d-8e14-16f95c18c607")
+	)
+	(pad "5" thru_hole circle
+		(at 1.75 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21561d7f-0f57-4fd6-9aed-7a98bc3b6313")
+	)
+	(pad "6" thru_hole circle
+		(at 5.25 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13b82850-fdf2-4b42-82b5-35cd37173ae7")
+	)
+	(pad "7" thru_hole circle
+		(at 8.75 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34a75e24-f34f-42d7-a96f-d9ce8c10d804")
+	)
+	(pad "8" thru_hole circle
+		(at 12.25 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47b4d549-c635-4dd6-ab4f-e250509ac915")
+	)
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/conn/screw-term/Same_Sky_TB0011-350-02BE.step"
+		(offset
+			(xyz -14 -3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${LAMBO_LIB}/Step/conn/screw-term/Same_Sky_TB0011-350-03BE.step"
+		(offset
+			(xyz -7 -3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${LAMBO_LIB}/Step/conn/screw-term/Same_Sky_TB0011-350-03BE.step"
+		(offset
+			(xyz 3.5 -3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
