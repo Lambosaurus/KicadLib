@@ -1,0 +1,178 @@
+(footprint "JYZ0610155"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "d64fc6c0-4bb4-4a96-ac85-d37eaee773df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JYZ0610155"
+		(at 8.3 5.9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e4bfb6b-fed6-4d6e-936f-e6a445f041dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41e236e3-be9d-457a-bb70-be1212ef3ce3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4cae3bb-066b-4c91-aff1-848ee246b9c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.5 0)
+		(end 3.5 10.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "27a50da4-1812-4b89-b729-3f60cae27b9d")
+	)
+	(fp_rect
+		(start -3 11.5)
+		(end 3 15.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5d40821b-d660-483c-9eec-d58a93bdf0ad")
+	)
+	(fp_rect
+		(start -0.5 10.2)
+		(end 0.5 11.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a0f06d2a-8f06-4df6-b2ff-cea26a01ee31")
+	)
+	(fp_rect
+		(start -4 -0.5)
+		(end 4 16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6a102f10-ab3c-4fca-ab8d-77fcc25424b5")
+	)
+	(fp_rect
+		(start -3.5 0)
+		(end 3.5 10.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2612cebe-e4c9-45ed-86d7-f068218b32d9")
+	)
+	(fp_rect
+		(start -3 11.5)
+		(end 3 15.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ef453c60-dc6d-4d63-9597-0e6469c8a0a9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.1 0)
+		(layer "F.Fab")
+		(uuid "b8830fdf-1684-4b74-a95f-3a0d47466a8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "0" thru_hole circle
+		(at 0 0.1 180)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59738baa-7b87-45b1-8224-1ff1fe467a2e")
+	)
+	(pad "0" thru_hole circle
+		(at 0 10.2 180)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b2edeef-14ea-4522-98e2-2dddc2f87bd6")
+	)
+	(pad "1" thru_hole circle
+		(at -1.5 0.1 180)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc80f395-2b81-4c86-9efc-9d5f7b095400")
+	)
+	(pad "2" thru_hole circle
+		(at 1.5 0.1 180)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed2c383f-db98-4d41-9351-febe8af71d98")
+	)
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/motor/JYZ0610155.step"
+		(offset
+			(xyz 0 0 3.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
