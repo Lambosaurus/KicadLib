@@ -3,7 +3,7 @@ import os, sys, math, shutil, platform
 import argparse, glob, contextlib, json
 import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.29"
+SCRIPT_VERSION = "v1.30"
 KICAD_VERSION = "10.0"
 
 if platform.platform().startswith("Windows"):
@@ -228,12 +228,14 @@ def export_pcb_image(input_pcb: str, output_file: str, side: str = "top", zoom: 
         input_pcb,
         "--output", output_file,
         "--quality", "user",
+        "--use-board-stackup-colors",
         "--perspective",
         "--zoom", f"{zoom:.2f}",
         "--width", resolution[0],
         "--height", resolution[1],
         "--background", "transparent",
         "--side", side,
+        
     ])
     image.crop_image(output_file, output_file)
 
@@ -279,6 +281,7 @@ def export_pcb_animation(input_pcb: str, output_file: str, direction: str = "lef
                     input_pcb,
                     "--output", path,
                     "--quality", "user",
+                    "--use-board-stackup-colors",
                     "--perspective",
                     "--zoom", f"{zoom:.2f}",
                     "--width", resolution[0],
