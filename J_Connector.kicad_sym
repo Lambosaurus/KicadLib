@@ -15153,7 +15153,7 @@
 		(symbol "A-DF 09 A/KG-T4S_1_1"
 			(rectangle
 				(start 0 17.78)
-				(end 9.525 0)
+				(end 10.16 0)
 				(stroke
 					(width 0)
 					(type solid)
@@ -15448,7 +15448,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 12.7 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "6"
 					(effects
@@ -15466,7 +15466,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 10.16 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "7"
 					(effects
@@ -15484,7 +15484,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 7.62 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "8"
 					(effects
@@ -15502,7 +15502,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 5.08 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "9"
 					(effects
