@@ -1,7 +1,7 @@
 (footprint "TagConnect_TC2030_NL"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Tag-Connect TC2030 bed-of-nails-connector no-legs")
 	(tags "Tag-Connect TC2030 no-legs")
@@ -10,7 +10,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "98fac554-e694-479c-a41a-2d5451b79e52")
+		(uuid "c097dae3-9136-40ff-b7a4-7638fbae64db")
 		(effects
 			(font
 				(size 1 1)
@@ -23,7 +23,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e547fe25-99ba-4e40-b44f-26baa2850f1a")
+		(uuid "a6d72710-3f0a-4248-8370-86c8701d41ac")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f079f0d3-e79d-4b58-bc36-f3e57c6d6568")
+		(uuid "2f2264fa-a3d6-4373-b126-9390740573ed")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "660b1e18-5abe-4249-9ebd-4a87241e703a")
+		(uuid "a46d9872-fc9d-465d-9f87-3d44f75585e3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.905 1.27)
 		(end -1.905 0.635)
@@ -64,7 +65,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "08f0a69d-2047-4f15-9147-57cc2889ba57")
+		(uuid "a6cf90e9-3ca3-48be-9c4b-d58205be9494")
 	)
 	(fp_line
 		(start -1.27 1.27)
@@ -74,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6ca9fad1-a6ca-4e25-863a-5e5ecd5baa89")
+		(uuid "bcc7f71d-d4e3-444e-b39c-002bcd180666")
 	)
 	(fp_line
 		(start -3.7 -2.2)
@@ -84,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "63889b5b-319a-4ec7-9d88-38746b1ff624")
+		(uuid "5126ebe4-a660-4a70-bfaf-fddb00c77aea")
 	)
 	(fp_line
 		(start -3.7 2.1)
@@ -94,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f1cdc1e3-579a-49cb-b214-bbcfabf1e8e7")
+		(uuid "6b72fe4c-85f7-44cc-beef-cdb3ba04ad71")
 	)
 	(fp_line
 		(start 3.8 -2.2)
@@ -104,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f559c4d6-733f-431c-8eeb-d76337ee4def")
+		(uuid "a9ccc2c0-1a28-4a7e-929c-dd2e1dc74d15")
 	)
 	(fp_line
 		(start 3.8 2.1)
@@ -114,12 +115,12 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "797336a2-12e4-4dd0-a33e-dc6624c7dd5e")
+		(uuid "dfc07c38-24bd-4db2-85fb-1b796b8dbe04")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "bf697825-a75c-4ea1-856c-3005fb481561")
+		(uuid "2f5933f9-4c60-4d44-a241-e7349081211e")
 		(effects
 			(font
 				(size 1 1)
@@ -132,72 +133,69 @@
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
-		(uuid "54e6c901-b772-4f6e-a5cb-832c30ac5735")
+		(uuid "270cad68-e2dc-4f25-9f05-5e9ad51cf002")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.54 -1.016)
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
-		(uuid "4205e181-09c1-4838-b4a1-364bb5008947")
+		(uuid "e5b9365b-9ccd-4ea2-8e6f-8c87f72e8485")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.54 1.016)
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
-		(uuid "0ccdb2ff-af2a-433c-990e-e25fac040a27")
+		(uuid "2621b2f3-7823-422f-95ca-97b646da7e61")
 	)
 	(pad "1" connect circle
 		(at -1.27 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "24d37c6d-393a-4463-b6e2-ce0a45fb85d0")
+		(uuid "13882a00-edd2-44de-976e-ecedb76f6628")
 	)
 	(pad "2" connect circle
 		(at -1.27 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "6f655528-a61c-4c23-868b-815cc79f5f8e")
+		(uuid "f2b1af3a-02d0-40e0-9fde-c9c149e52313")
 	)
 	(pad "3" connect circle
 		(at 0 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "780c110f-d675-44a5-9b77-e6d74a308504")
+		(uuid "cf1f5f2e-cc0f-48bf-a32a-bdaaba40be21")
 	)
 	(pad "4" connect circle
 		(at 0 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "acf9d5e3-00c4-46a2-8fb1-130f2ff8990c")
+		(uuid "b88e160e-67f0-4e75-a04a-e2b44d1479ae")
 	)
 	(pad "5" connect circle
 		(at 1.27 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "0e8dd633-3dec-4dce-9bdb-5d167ff90b26")
+		(uuid "efa0675d-6c57-4c1a-a2fe-ee4ef44b5bce")
 	)
 	(pad "6" connect circle
 		(at 1.27 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "1be8b492-ceeb-41d4-8a97-de6f54e38f35")
+		(uuid "513af51d-ed56-480f-a60e-60ad62babadf")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
-		(uuid "bc77c934-6f07-4cfc-9845-fcb3fb874315")
+		(uuid "93318534-3bf0-4c38-adc6-3bb31e5dcfd2")
 		(hatch full 0.508)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
-			(vias not_allowed)
+			(vias allowed)
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
@@ -209,6 +207,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
