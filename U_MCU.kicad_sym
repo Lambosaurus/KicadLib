@@ -6653,7 +6653,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 30.48 45.72 270)
 				(length 2.54)
 				(name "VREGVDD"
