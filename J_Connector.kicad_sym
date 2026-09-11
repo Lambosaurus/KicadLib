@@ -15117,7 +15117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:DSUB09_Female_Horizontal"
+		(property "Footprint" "J_Connector:DSUB09-F-RA"
 			(at -2.032 -6.858 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39367,7 +39367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J_Connector:DSUB09_Male_Horizontal"
+		(property "Footprint" "J_Connector:DSUB09-M-RA"
 			(at -2.032 -6.858 0)
 			(show_name no)
 			(do_not_autoplace no)
