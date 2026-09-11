@@ -3,7 +3,7 @@ import os, sys, math, shutil, platform
 import argparse, glob, contextlib, json
 import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.30"
+SCRIPT_VERSION = "v1.31"
 KICAD_VERSION = "10.0"
 
 if platform.platform().startswith("Windows"):
@@ -16,7 +16,14 @@ else:
     KICAD_CLI = "kicad-cli"
     KICAD_PYTHON = "python3"
     IBOM_SCRIPT = os.path.expanduser(f"~/.local/share/kicad/{KICAD_VERSION}/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
-
+    if not os.path.exists(IBOM_SCRIPT):
+        # Try to find it in the system python packages
+        import site
+        for site_dir in site.getsitepackages():
+            potential_path = os.path.join(site_dir, "InteractiveHtmlBom", "generate_interactive_bom.py")
+            if os.path.exists(potential_path):
+                IBOM_SCRIPT = potential_path
+                break
 
 def get_layer_names(layers: int) -> list[str]:
     names = ["F.Fab", "F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "B.Fab", "Edge.Cuts"]
