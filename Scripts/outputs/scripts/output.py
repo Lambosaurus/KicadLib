@@ -3,7 +3,7 @@ import os, sys, math, shutil, platform
 import argparse, glob, contextlib, json
 import bom, image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.31"
+SCRIPT_VERSION = "v1.32"
 KICAD_VERSION = "10.0"
 
 if platform.platform().startswith("Windows"):
@@ -219,7 +219,7 @@ def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
     run_command([
         KICAD_PYTHON, IBOM_SCRIPT, input_pcb,
         "--no-browser",
-        "--dest-dir", os.path.dirname(output_file),
+        "--dest-dir", os.path.abspath(os.path.dirname(output_file)),
         "--dark-mode",
         "--show-fabrication",
         "--include-tracks",
