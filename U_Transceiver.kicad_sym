@@ -7010,7 +7010,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "FT4232HA"
+	(symbol "FT4232HQ"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7026,7 +7026,7 @@
 				)
 			)
 		)
-		(property "Value" "FT4232HA"
+		(property "Value" "FT4232HQ"
 			(at 25.4 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +7047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2022/03/DS_FT4232HA.pdf"
+		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2024/05/DS_FT4232H.pdf"
 			(at 26.67 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7058,7 +7058,7 @@
 				)
 			)
 		)
-		(property "Description" "USB HI-SPEED TO QUAD CHANNEL SER"
+		(property "Description" "IC USB HS QUAD UART/SYNC 64-QFN"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,7 +7069,7 @@
 				)
 			)
 		)
-		(symbol "FT4232HA_0_1"
+		(symbol "FT4232HQ_0_1"
 			(rectangle
 				(start 0 91.44)
 				(end 53.34 0)
@@ -7082,7 +7082,7 @@
 				)
 			)
 		)
-		(symbol "FT4232HA_1_1"
+		(symbol "FT4232HQ_1_1"
 			(pin power_in line
 				(at 19.05 -3.81 90)
 				(length 3.81)
