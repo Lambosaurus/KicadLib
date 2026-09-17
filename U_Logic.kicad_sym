@@ -3529,7 +3529,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 1.27 39.37 0)
+			(at 0.762 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3657,7 +3657,7 @@
 		)
 		(symbol "SN74AXC8T245RJWR_1_1"
 			(rectangle
-				(start 0 38.1)
+				(start 0 40.64)
 				(end 15.24 0)
 				(stroke
 					(width 0)
@@ -4046,6 +4046,24 @@
 				)
 			)
 			(pin power_in line
+				(at 17.78 38.1 180)
+				(length 2.54)
+				(name "VCCB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 17.78 35.56 180)
 				(length 2.54)
 				(name "VCCB"
@@ -4064,7 +4082,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 35.56 0)
+				(at -2.54 38.1 0)
 				(length 2.54)
 				(name "VCCA"
 					(effects
