@@ -2412,7 +2412,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 29.21 180)
+				(at 12.7 24.13 180)
 				(length 2.54)
 				(name "GL2"
 					(effects
@@ -2448,7 +2448,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 24.13 180)
+				(at 12.7 29.21 180)
 				(length 2.54)
 				(name "GH2"
 					(effects
