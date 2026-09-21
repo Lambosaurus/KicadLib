@@ -134,7 +134,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SWRA117D-R"
+	(symbol "YC0009AA"
 		(pin_numbers
 			(hide yes)
 		)
@@ -147,6 +147,145 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "AE"
+			(at 3.81 4.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YC0009AA"
+			(at 7.366 2.794 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AE_Antenna:YC0009AA"
+			(at 0.254 -14.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.quectel.com/content/uploads/2024/03/Quectel_Antenna_YC0009AA_Datasheet_V2.1.pdf?wpId=118987"
+			(at 0.508 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WIFI/BT ANTENNA"
+			(at 0 -16.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "YC0009AA_0_1"
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 3.81) (xy 0 1.27) (xy -1.27 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "YC0009AA_1_1"
+			(pin bidirectional line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "FEED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "TUNE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SWRA117D-R"
+		(extends "SWRA117D-L")
 		(property "Reference" "AE"
 			(at 2.54 1.778 0)
 			(show_name no)
@@ -168,7 +307,7 @@
 			)
 		)
 		(property "Footprint" "AE_Antenna:SWRA117D-2.4GHz-R"
-			(at 0 -14.732 0)
+			(at 0.254 -14.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -197,70 +336,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "SWRA117D-R_0_1"
-			(polyline
-				(pts
-					(xy 0 3.81) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 3.81) (xy 0 1.27) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "SWRA117D-R_1_1"
-			(pin bidirectional line
-				(at -2.54 0 0)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -2.54 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 		)
