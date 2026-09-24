@@ -13,7 +13,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "AE"
 			(at 2.54 1.778 0)
@@ -143,7 +143,7 @@
 			(hide yes)
 		)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)

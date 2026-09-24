@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at -5.08 16.51 0)
@@ -287,7 +287,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at -2.286 13.97 0)
@@ -1977,7 +1977,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at 0 72.39 0)
@@ -4725,7 +4725,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at 0.508 10.16 0)
@@ -4926,7 +4926,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at 0.508 10.16 0)
@@ -5127,7 +5127,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at 0.508 10.16 0)
@@ -5335,7 +5335,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "JP"
 			(at 0 2.032 0)
@@ -5513,7 +5513,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "JP"
 			(at 0 2.032 0)
@@ -5673,7 +5673,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at -5.715 9.525 0)
@@ -5901,7 +5901,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at -6.4 8.96 0)
@@ -6129,7 +6129,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at -6.4 11.5 0)
@@ -6429,7 +6429,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "N"
 			(at -6.4 11.5 0)

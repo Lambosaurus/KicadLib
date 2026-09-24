@@ -16221,7 +16221,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40C-50DP-0.4V(51)"
+		(property "Value" "DF40C-40DP-0.4V(51)"
 			(at 0.762 -3.302 0)
 			(show_name no)
 			(do_not_autoplace no)
