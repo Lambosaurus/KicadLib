@@ -1,9 +1,9 @@
 import subprocess
 import os, sys, math, shutil, platform
 import argparse, glob, contextlib, json
-import bom, image, pdfmerge, bundle
+import image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.32"
+SCRIPT_VERSION = "v1.33"
 KICAD_VERSION = "10.0"
 
 if platform.platform().startswith("Windows"):
@@ -68,6 +68,12 @@ def temp_directory(base: str, name: str = "tmp", preserve: bool = False):
         if not preserve:
             shutil.rmtree(path)
 
+def optional(key: str, value: str|None) -> list[str]:
+    if value != None:
+        return [key, value]
+    return []
+
+
 def report_errors(title: str, errors: list[dict[str, str]]) -> dict[str, int]:
     groups = {}
     for error in errors:
@@ -122,32 +128,35 @@ def run_pcb_drc(input_pcb: str, output_dir: str):
     os.remove(outfile)
 
 
-def export_sch_pdf(input_sch: str, output_pdf: str):
+def export_sch_pdf(input_sch: str, output_pdf: str, variant: str|None):
     # Create PDF from schematic
     run_command([
         KICAD_CLI, "sch", "export", "pdf",
         input_sch,
         "--output", output_pdf,
-    ])
+    ] + optional("--variant", variant)
+    )
 
-def export_sch_bom(input_sch: str, output_csv: str, format: str = None) -> list[str]:
+def export_sch_bom(input_sch: str, output_csv: str, variant: str|None, format: str = None):
     os.makedirs( os.path.dirname(output_csv) )
-    output_xml = output_csv.replace(".csv", ".xml")
-    run_command([
-        KICAD_CLI, "sch", "export", "python-bom",
-        input_sch,
-        "--output", output_xml,
-    ])
-    components = bom.load_components(output_xml)
-    
-    fields = []
+
+    labels = ["Id","Designator","Value","Package","Quantity"]
+    fields = ["${ITEM_NUMBER}","Reference","Value","${FOOTPRINT_NAME}","${QUANTITY}"]
     if format == "jlc":
-        fields = ["LCSC_Part"]
-    
-    bom.create_bom(components, output_csv, fields)
-    dnf_list = bom.get_dnf_list(components)
-    os.remove(output_xml)
-    return dnf_list
+        labels += ["LCSC_Part"]
+        fields += ["LCSC_Part"]
+
+    run_command([
+        KICAD_CLI, "sch", "export", "bom",
+        input_sch,
+        "--output", output_csv,
+        "--exclude-dnp",
+        "--labels", ",".join(labels),
+        "--fields", ",".join(fields),
+        "--group-by", "Value,Footprint",
+        "--ref-range-delimiter", "", # Do not use reference ranges
+    ] + optional("--variant", variant)
+    )
 
 def export_pcb_gerbers(input_pcb: str, output_dir: str, layers: list[str]):
     os.makedirs(output_dir)
@@ -182,7 +191,7 @@ def fix_pos_header(header: str):
     header = header.replace("Side", "Layer")
     return header
 
-def export_pcb_pos(input_pcb: str, output_file: str):
+def export_pcb_pos(input_pcb: str, output_file: str, variant: str|None):
     run_command([
         KICAD_CLI, "pcb", "export", "pos",
         input_pcb,
@@ -190,7 +199,7 @@ def export_pcb_pos(input_pcb: str, output_file: str):
         "--units", "mm",
         "--side", "both",
         "--format", "csv",
-    ])
+    ] + optional("--variant", variant))
 
     with open(output_file, "r+") as f:
         f.seek(0)
@@ -201,15 +210,15 @@ def export_pcb_pos(input_pcb: str, output_file: str):
         f.truncate()
 
 
-def export_pcb_step(input_pcb: str, output_file: str):
+def export_pcb_step(input_pcb: str, output_file: str, variant: str|None):
     run_command([
         KICAD_CLI, "pcb", "export", "step",
         input_pcb,
         "--output", output_file,
         "--no-dnp",
-    ])
+    ] + optional("--variant", variant))
 
-def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
+def export_pcb_ibom(input_pcb: str, output_file: str, variant: str|None):
 
     if not os.path.exists(IBOM_SCRIPT):
         print_color(f"IBOM plugin not found", "y")
@@ -225,10 +234,9 @@ def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
         "--include-tracks",
         "--include-nets",
         "--name-format", os.path.basename(output_file).replace(".html", ""),
-        "--blacklist", ",".join(dnf_list)
-    ], silent=True)
+    ] + optional("--kicad-variant", variant), silent=True)
 
-def export_pcb_image(input_pcb: str, output_file: str, side: str = "top", zoom: float = 0.9, resolution: int = 2000):
+def export_pcb_image(input_pcb: str, output_file: str, variant: str|None, side: str = "top", zoom: float = 0.9, resolution: int = 2000):
     resolution = [str(resolution), str(resolution)]
     run_command([
         KICAD_CLI, "pcb", "render",
@@ -242,8 +250,7 @@ def export_pcb_image(input_pcb: str, output_file: str, side: str = "top", zoom: 
         "--height", resolution[1],
         "--background", "transparent",
         "--side", side,
-        
-    ])
+    ] + optional("--variant", variant))
     image.crop_image(output_file, output_file)
 
 def motion_flip(t: float, dwell: float = 0.3):
@@ -254,7 +261,7 @@ def motion_flip(t: float, dwell: float = 0.3):
     t_flip = (t - dwell) / (0.5 - dwell)
     return 0.25 - (0.25 * math.cos(math.pi * t_flip))
 
-def export_pcb_animation(input_pcb: str, output_file: str, direction: str = "left", zoom: float = 0.7, framerate: int = 20, duration: float = 3.0, resolution: int = 640, curve: str = "orbit"):
+def export_pcb_animation(input_pcb: str, output_file: str, variant: str|None, direction: str = "left", zoom: float = 0.7, framerate: int = 20, duration: float = 3.0, resolution: int = 640, curve: str = "orbit"):
 
     export_format = output_file.split('.')[-1]
     if not image.get_backend(export_format):
@@ -296,13 +303,13 @@ def export_pcb_animation(input_pcb: str, output_file: str, direction: str = "lef
                     "--background", "transparent",
                     "--side", "top",
                     "--rotate", rotate_str(angle)
-                ])
+                ] + optional("--variant", variant))
                 cache[angle] = path
             images.append(cache[angle])
         
         image.make_animation(images, output_file, framerate)
 
-def export_pcb_drawings(input_pcb: str, output_file: str, layers: int, extra_layers: list[str] = None):
+def export_pcb_drawings(input_pcb: str, output_file: str, variant: str|None, layers: int, extra_layers: list[str] = None):
 
     if not pdfmerge.get_backend():
         print_color("No PDF merging backend available. Skipping PCB drawings", "y")
@@ -356,7 +363,7 @@ def export_pcb_drawings(input_pcb: str, output_file: str, layers: int, extra_lay
                 "--drill-shape-opt", "2",
                 "--define-var", f"LAYER_NAME={plot['name']}",
                 "--mode-separate",
-            ])
+            ] + optional("--variant", variant))
             # Result format: "Plotted to 'outputs/pdf-tmp/pcb_name-F_Fab.pdf'."
             plot["filename"] = result.split("'")[-2]
 
@@ -411,6 +418,7 @@ if __name__ == "__main__":
     argparser.add_argument("--input", "-i", type=str, help="Kicad project", default="*.kicad_pro")
     argparser.add_argument("--output", "-o", type=str, help="Output directory", default="outputs")
     argparser.add_argument("--layers", "-l", type=int, help="Number of layers in the PCB design.", default=2)
+    argparser.add_argument("--variant", "-v", type=str, help="PCB Variant", default=None)
     argparser.add_argument("--extra-layer", action="append", default=[], help="Additional PCB layers to add to gerbers and drawings")
     argparser.add_argument("--render-side", type=str, help="Side of the board to render.", default="top", choices=["top", "bottom", "left", "right", "front", "back"])
     argparser.add_argument("--render-zoom", type=float, help="Zoom used for rendering.", default=0.9)
@@ -448,16 +456,16 @@ if __name__ == "__main__":
     run_sch_erc(INPUT_SCH, OUTPUT_DIR)
 
     print("Generating schematic PDF")
-    export_sch_pdf(INPUT_SCH, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".schematics.pdf"))
+    export_sch_pdf(INPUT_SCH, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".schematics.pdf"), args.variant)
 
     print("Running PCB DRC")
     run_pcb_drc(INPUT_PCB, OUTPUT_DIR)
 
     print("Generating BOM")
-    dnf_list = export_sch_bom(INPUT_SCH, os.path.join(OUTPUT_DIR, "Assembly" , OUTPUT_NAME + ".bom.csv"), args.format)
+    export_sch_bom(INPUT_SCH, os.path.join(OUTPUT_DIR, "Assembly" , OUTPUT_NAME + ".bom.csv"), args.variant, args.format)
 
     print("Generating IBOM")
-    export_pcb_ibom(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".ibom.html"), dnf_list)
+    export_pcb_ibom(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".ibom.html"), args.variant)
 
     print("Generating gerbers")
     export_pcb_gerbers(INPUT_PCB, os.path.join(OUTPUT_DIR, "Gerber"), get_layer_names(args.layers) + args.extra_layer)
@@ -466,13 +474,13 @@ if __name__ == "__main__":
     export_pcb_ncdrill(INPUT_PCB, os.path.join(OUTPUT_DIR, "NC Drill"))
 
     print("Generating position report")
-    export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, "Assembly", OUTPUT_NAME + ".pos.csv"))
+    export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, "Assembly", OUTPUT_NAME + ".pos.csv"), args.variant)
 
     print("Generating PCB drawings")
-    export_pcb_drawings(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".drawings.pdf"), args.layers, args.extra_layer)
+    export_pcb_drawings(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".drawings.pdf"), args.variant, args.layers, args.extra_layer)
 
     print("Generating PCB render")
-    export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"),
+    export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"), args.variant,
             side = args.render_side,
             zoom = args.render_zoom,
             resolution = args.render_resolution
@@ -480,7 +488,7 @@ if __name__ == "__main__":
 
     if args.anim_format:
         print(f"Generating PCB {args.anim_format} animation")
-        export_pcb_animation(INPUT_PCB, os.path.join(OUTPUT_DIR, f"{OUTPUT_NAME}.{args.anim_format}"),
+        export_pcb_animation(INPUT_PCB, os.path.join(OUTPUT_DIR, f"{OUTPUT_NAME}.{args.anim_format}"), args.variant,
             direction = args.anim_direction,
             zoom = args.anim_zoom,
             framerate = args.anim_framerate,
@@ -490,7 +498,7 @@ if __name__ == "__main__":
         )
 
     print("Generating step file")
-    export_pcb_step(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".step"))
+    export_pcb_step(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".step"), args.variant)
 
     print(f"Generating {args.compression} file")
     zip_files(OUTPUT_DIR, os.path.join(OUTPUT_DIR, f"{OUTPUT_NAME}.{args.compression}"))
