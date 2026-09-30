@@ -7,7 +7,7 @@
 		(at 0 -4.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "eeeaaffb-f444-479a-b544-0dd9368199ee")
+		(uuid "68f18369-2e9e-481e-8bc6-34ae731417f9")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b8eeb3d7-4f9d-49a6-9bfe-ff21d4978155")
+		(uuid "86e2abe6-5d36-4494-81e5-30a73a8030c3")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a583fc50-3f83-450c-9a7a-daaf6f9be664")
+		(uuid "84a74f3d-f118-419d-a71e-831eb0681b2a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e32baed8-e8f8-42d5-a85f-08e5c7404576")
+		(uuid "3756b3dc-48b3-4fb8-8515-0934de233caf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "86b3b727-15f9-4491-9540-bac4c199397e")
+		(uuid "9ba6acce-128e-4ac7-ab95-1e30217875a9")
 	)
 	(fp_poly
 		(pts
@@ -75,7 +75,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "f0ee85ff-12ae-4823-943d-45ff490beeb4")
+		(uuid "9fffb244-f1b3-47f5-8b9a-975d7caea470")
 	)
 	(fp_rect
 		(start -3.75 -3.7)
@@ -86,7 +86,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "def5e482-a0a8-4314-a735-aaa367ef4a52")
+		(uuid "42ab3632-2550-41b8-aef7-eeb104631434")
 	)
 	(fp_line
 		(start -1.75 1.95)
@@ -96,7 +96,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "ab8d8d81-61f5-45f0-b77e-9307ae1a7c3a")
+		(uuid "85c6d94b-cc47-4e87-a935-e716699dbbb4")
 	)
 	(fp_line
 		(start -1.75 1.95)
@@ -106,7 +106,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "1cf6ef13-c5a2-4884-9052-39d3b63191ee")
+		(uuid "e86e44f5-e862-4fc8-8166-6c2b2ab20ba8")
 	)
 	(fp_rect
 		(start -3.5 -3.45)
@@ -117,13 +117,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "747bc01a-69d6-4f35-b399-ffdaed2ac799")
+		(uuid "defda3f1-6aca-4718-9d8d-780febd759c9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b6d5aea1-e19a-493c-b14a-cf5bf8ac56ad")
+		(uuid "aaf885dc-9d43-48ac-bf98-293d96655b88")
 		(effects
 			(font
 				(size 1 1)
@@ -131,13 +131,14 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at -1.75 0)
 		(size 1.75 1.75)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c532df7d-4c79-4412-bac3-2caa1d03d374")
+		(roundrect_rratio 0.1428571429)
+		(uuid "b8ea53c1-d697-4a65-9273-512c4f337705")
 	)
 	(pad "2" thru_hole circle
 		(at 1.75 0)
@@ -145,7 +146,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5082a18e-ff2d-448a-88ed-04f75cd98c47")
+		(uuid "88a042bc-5ede-4d3a-a1ef-f6dd069c8dc8")
 	)
 	(embedded_fonts no)
 	(model "${LAMBO_LIB}/Step/conn/screw-term/Same_Sky_TB0011-350-02BE.step"

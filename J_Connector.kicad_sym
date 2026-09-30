@@ -42251,7 +42251,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Molex-Eurostyle-0393570016"
+	(symbol "Molex_Eurostyle_0393570016"
 		(extends "Phoenix-PT-1984756")
 		(property "Reference" "J"
 			(at 1.27 41.91 0)
@@ -42308,6 +42308,63 @@
 		)
 		(property "LCSC_Part" "C6635605"
 			(at 0 -10.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Molex_Eurostyle_0395434308"
+		(extends "TB002-500-08BE")
+		(property "Reference" "J"
+			(at 1.27 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0395434308"
+			(at 1.016 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "J_Connector:Eurostyle-Screw-5mm-8p-45deg-Black"
+			(at 1.27 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/395/39543/395434302_sd.pdf?inline"
+			(at 1.27 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TERM BLOCK 8POS 45DEG 5MM PCB"
+			(at 0 -8.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
