@@ -1,0 +1,235 @@
+(footprint "QFN6_05_1x1_Skyworks"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.62 0)
+		(layer "F.SilkS")
+		(uuid "17674586-fcfb-46f7-ad27-8661a61560cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "QFN6_05_1x1_Skyworks"
+		(at 0 1.379 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6f3781a-4310-448c-a0d9-85b582fe44cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd2f3a3a-ddb1-4e87-900f-ea553a40f565")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8bc1570-7c3c-440b-8ada-5d11d0578168")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "54ffa9fa-6dc0-42d0-aab6-7aec7e7045be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5775 -0.78)
+		(end -0.3025 -0.78)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "98632953-35bb-4646-b09d-394c2ec4428d")
+	)
+	(fp_line
+		(start -0.575 -0.575)
+		(end -0.3 -0.575)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e7d92d4-2121-44d0-8c53-5d08798a7788")
+	)
+	(fp_line
+		(start -0.575 0.575)
+		(end -0.3 0.575)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c9ecc90-d0c4-481f-a2db-e8a054bb9b80")
+	)
+	(fp_line
+		(start 0.575 -0.575)
+		(end 0.3 -0.575)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b844cd02-5d51-41c8-9b4c-42ce47ebe892")
+	)
+	(fp_line
+		(start 0.575 0.575)
+		(end 0.3 0.575)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd834a1f-1642-494e-b82a-ce13c2ce56c7")
+	)
+	(fp_line
+		(start -0.9 -0.935)
+		(end -0.9 0.935)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d46dcd8-49ad-44fb-a65b-6a8b5979dea6")
+	)
+	(fp_line
+		(start -0.9 0.935)
+		(end 0.9 0.935)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69523f89-4896-464f-bf6b-37af33e163d6")
+	)
+	(fp_line
+		(start 0.9 -0.935)
+		(end -0.9 -0.935)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61da27ed-e8bd-47bb-b664-fb6946438385")
+	)
+	(fp_line
+		(start 0.9 0.935)
+		(end 0.9 -0.935)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bf31bc4-8573-491b-9ab6-85f6fb583f0b")
+	)
+	(fp_line
+		(start -0.485 -0.25)
+		(end -0.24 -0.495)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8eed1e8c-320f-42af-affa-2d4c22b4c7d3")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0cef7c0c-af06-4abe-b90d-99590f11ce93")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "aaa1aa9a-8b87-4f9f-8767-6e8648637cef")
+		(effects
+			(font
+				(size 0.18 0.18)
+				(thickness 0.027)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -0.485 -0.25)
+		(size 0.33 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "15bb51f6-253a-4011-88ad-f8b2fe801f7c")
+	)
+	(pad "2" smd oval
+		(at -0.485 0.25)
+		(size 0.33 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a0d7c09-496d-41b6-a1f5-d2ebdbf71c11")
+	)
+	(pad "3" smd oval
+		(at 0 0.43)
+		(size 0.2 0.51)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e543872-57ab-4a09-8d44-db6577324ed7")
+	)
+	(pad "4" smd oval
+		(at 0.485 0.25)
+		(size 0.33 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0fc7515-0b52-4254-a834-a791553473cb")
+	)
+	(pad "5" smd oval
+		(at 0.485 -0.25)
+		(size 0.33 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f33e7eb1-7a93-414e-b1ff-7c8eee6ead82")
+	)
+	(pad "6" smd oval
+		(at 0 -0.43)
+		(size 0.2 0.51)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "805e687b-0455-449b-b4d8-123e0535e921")
+	)
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/qfn/QFN6_05_1x1_Skyworks.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
