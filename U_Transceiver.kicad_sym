@@ -13646,7 +13646,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SeedStudio_Wio-SX1263"
+	(symbol "SeedStudio_Wio-SX1262"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13662,7 +13662,7 @@
 				)
 			)
 		)
-		(property "Value" "Wio-SX1263"
+		(property "Value" "Wio-SX1262"
 			(at 7.874 10.414 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13716,7 +13716,7 @@
 				)
 			)
 		)
-		(symbol "SeedStudio_Wio-SX1263_0_1"
+		(symbol "SeedStudio_Wio-SX1262_0_1"
 			(rectangle
 				(start -10.16 8.89)
 				(end 10.16 -8.89)
@@ -13729,7 +13729,7 @@
 				)
 			)
 		)
-		(symbol "SeedStudio_Wio-SX1263_1_1"
+		(symbol "SeedStudio_Wio-SX1262_1_1"
 			(pin bidirectional line
 				(at -12.7 6.35 0)
 				(length 2.54)
