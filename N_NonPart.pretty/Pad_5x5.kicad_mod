@@ -1,4 +1,4 @@
-(footprint "Pad_4x3"
+(footprint "Pad_5x5"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -6,9 +6,9 @@
 	(descr "SMD rectangular pad as test Point, square 4.0mm side length")
 	(tags "test point SMD pad rectangle square")
 	(property "Reference" "REF**"
-		(at 0.35 -2.35 0)
+		(at 0 -3.2 0)
 		(layer "F.SilkS")
-		(uuid "ed72aeb2-e6f4-4fb9-8040-219eca2e5e5e")
+		(uuid "8129eef6-99f3-43b7-8d4a-8f92cc6e4ddb")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Pad_4x3"
+	(property "Value" "Pad_5x5"
 		(at 0 3.1 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "073c0d3a-b7e2-40f7-bd23-d552a808006a")
+		(uuid "bceb688c-4b1e-42e0-971f-ecc3e8695df2")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26645065-ce11-4493-bd1b-098938292fa9")
+		(uuid "fad078b9-778f-4fa6-8205-f3fd35ee61f6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "89cb44a6-0552-4111-b5b3-f61370a2f76d")
+		(uuid "e700a0b7-215a-4540-ae34-56726bb2c498")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,53 +54,24 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
-		(start -2.1 -1.6)
-		(end -2.1 1.6)
+	(fp_rect
+		(start -2.6 -2.6)
+		(end 2.6 2.6)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f903a145-0269-4095-a02f-368ccd4e5c28")
-	)
-	(fp_line
-		(start -2.1 -1.6)
-		(end 2.1 -1.6)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e144e5c8-dffa-4be9-8c81-b05bcc28dfa4")
-	)
-	(fp_line
-		(start 2.1 1.6)
-		(end -2.1 1.6)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "69e71f57-e690-477f-a822-40b56d738fa2")
-	)
-	(fp_line
-		(start 2.1 1.6)
-		(end 2.1 -1.6)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "ee98c287-b65d-48d1-8e70-d27a07f0a102")
+		(uuid "ca061992-b910-4d70-a549-9a2f6a017701")
 	)
 	(pad "1" smd roundrect
 		(at 0 0)
-		(size 4 3)
+		(size 5 5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
-		(uuid "8772d08c-55b5-4ba6-866d-8ecb0f421b82")
+		(uuid "7722e6fd-b692-4c3f-9a4e-e82735dd55c9")
 	)
 	(embedded_fonts no)
 )

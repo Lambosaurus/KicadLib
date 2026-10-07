@@ -22,5 +22,6 @@
 	(lib (name "C_Capacitor") (type "KiCad") (uri "${LAMBO_LIB}/C_Capacitor.pretty") (options "") (descr ""))
 	(lib (name "BT_Battery") (type "KiCad") (uri "${LAMBO_LIB}/BT_Battery.pretty") (options "") (descr ""))
 	(lib (name "A_Assembly") (type "KiCad") (uri "${LAMBO_LIB}/A_Assembly.pretty") (options "") (descr ""))
-	(lib (name "AE_Antenna") (type "KiCad") (uri "${LAMBO_LIB}/AE_Antenna.pretty") (options "") (descr ""))
+	(lib (name "AE_Antenna") (type "KiCad") (uri "${LAMBO_LIB}/AE_Antenna.pretty") (options "") (descr ""))	
+	(lib (name "MK_Microphone") (type "KiCad") (uri "${LAMBO_LIB}/MK_Microphone.pretty") (options "") (descr ""))
 )
