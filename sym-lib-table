@@ -36,4 +36,5 @@
 	(lib (name "U_PowerBattery") (type "KiCad") (uri "${LAMBO_LIB}/U_PowerBattery.kicad_sym") (options "") (descr ""))
 	(lib (name "U_PowerLinear") (type "KiCad") (uri "${LAMBO_LIB}/U_PowerLinear.kicad_sym") (options "") (descr ""))
 	(lib (name "U_PowerSwitching") (type "KiCad") (uri "${LAMBO_LIB}/U_PowerSwitching.kicad_sym") (options "") (descr ""))
+	(lib (name "MK_Microphone") (type "KiCad") (uri "${LAMBO_LIB}/MK_Microphone.kicad_sym") (options "") (descr ""))
 )
