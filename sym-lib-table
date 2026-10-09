@@ -21,6 +21,7 @@
 	(lib (name "L_Inductor") (type "KiCad") (uri "${LAMBO_LIB}/Symbols/L_Inductor.kicad_sym") (options "") (descr ""))
 	(lib (name "K_Relay") (type "KiCad") (uri "${LAMBO_LIB}/Symbols/K_Relay.kicad_sym") (options "") (descr ""))
 	(lib (name "J_Connector") (type "KiCad") (uri "${LAMBO_LIB}/Symbols/J_Connector.kicad_sym") (options "") (descr ""))
+	(lib (name "FL_Filter") (type "KiCad") (uri "${LAMBO_LIB}/Symbols/FL_Filter.kicad_sym") (options "") (descr ""))
 	(lib (name "F_Fuse") (type "KiCad") (uri "${LAMBO_LIB}/Symbols/F_Fuse.kicad_sym") (options "") (descr ""))
 	(lib (name "DS_LED") (type "KiCad") (uri "${LAMBO_LIB}/Symbols/DS_LED.kicad_sym") (options "") (descr ""))
 	(lib (name "D_Diode") (type "KiCad") (uri "${LAMBO_LIB}/Symbols/D_Diode.kicad_sym") (options "") (descr ""))
