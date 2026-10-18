@@ -1,0 +1,230 @@
+(footprint "SAW5_1.4x1.1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "5-pad SAW filter 1.4x1.1 mm, TST land pattern (TA1343A Rev.5.0 section F)")
+	(tags "SAW filter GNSS 1411")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ecd452e8-80e7-48c2-98a6-3448cbf26e63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SAW5_1.4x1.1"
+		(at 0 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "daaba76d-3936-42de-a87d-f780a9f57f64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taisaw.com/assets/PDF/TA1343A%20_Rev.5.0_.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3e7695f-e647-4468-adbb-b10c7dd2ea73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87b417e8-235e-49e9-b247-cc8421dbc577")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.05 -0.3)
+		(end -1.05 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ef44a88-9e11-435f-86a3-c66cfc9b578e")
+	)
+	(fp_line
+		(start -0.7 -0.9)
+		(end 0.7 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7831c143-50f7-4767-baef-e0a48798ec11")
+	)
+	(fp_line
+		(start -0.7 0.9)
+		(end 0.7 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8aa25e04-2d60-4fc0-8001-09e1edfd2c8a")
+	)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3d9b48ce-b3e0-4708-b439-22fc49951d78")
+	)
+	(fp_line
+		(start -0.7 -0.55)
+		(end 0.7 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec3ed958-0882-4446-a742-fefdf5f680f7")
+	)
+	(fp_line
+		(start -0.7 -0.15)
+		(end -0.7 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6031fda1-7887-431d-bd86-c761ea39bc66")
+	)
+	(fp_line
+		(start -0.7 0.15)
+		(end -0.55 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f705968-160c-4601-bb1a-e2910e8f195e")
+	)
+	(fp_line
+		(start -0.7 0.55)
+		(end -0.7 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c4d1baa-b315-44d7-80b0-c66dabffe76b")
+	)
+	(fp_line
+		(start -0.55 0)
+		(end -0.7 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbe28976-c190-4af8-aa30-12cb66a2cfe2")
+	)
+	(fp_line
+		(start 0.7 -0.55)
+		(end 0.7 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03dea25c-2be8-492d-8210-3d48664cfa52")
+	)
+	(fp_line
+		(start 0.7 0.55)
+		(end -0.7 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fff77ff8-0a11-461b-8007-c1851b9b47ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1807f1aa-ba77-4ee6-93e9-e02becad16aa")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5875 0)
+		(size 0.425 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "ef5e8470-b2d0-4853-9aa8-730a162072e4")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.3875)
+		(size 0.25 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "0e5ca369-8c17-4702-b757-5d442c84b9bd")
+	)
+	(pad "3" smd roundrect
+		(at 0.5875 0.2875)
+		(size 0.425 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "35fcf5a4-5be4-43d7-8fe5-8bfb0da3305d")
+	)
+	(pad "4" smd roundrect
+		(at 0.5875 -0.2875)
+		(size 0.425 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "1a5210e2-4126-4b23-afec-cf9c3fd8b9b2")
+	)
+	(pad "5" smd roundrect
+		(at 0 -0.3875)
+		(size 0.25 0.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "dce7f6ae-7467-434b-a972-d1ad392c8a42")
+	)
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/flt/SAW5_1.4x1.1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

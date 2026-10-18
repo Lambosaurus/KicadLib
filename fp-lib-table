@@ -16,6 +16,7 @@
 	(lib (name "L_Inductor") (type "KiCad") (uri "${LAMBO_LIB}/Footprints/L_Inductor.pretty") (options "") (descr ""))
 	(lib (name "K_Relay") (type "KiCad") (uri "${LAMBO_LIB}/Footprints/K_Relay.pretty") (options "") (descr ""))
 	(lib (name "J_Connector") (type "KiCad") (uri "${LAMBO_LIB}/Footprints/J_Connector.pretty") (options "") (descr ""))
+	(lib (name "FL_Filter") (type "KiCad") (uri "${LAMBO_LIB}/Footprints/FL_Filter.pretty") (options "") (descr ""))
 	(lib (name "F_Fuse") (type "KiCad") (uri "${LAMBO_LIB}/Footprints/F_Fuse.pretty") (options "") (descr ""))
 	(lib (name "DS_LED") (type "KiCad") (uri "${LAMBO_LIB}/Footprints/DS_LED.pretty") (options "") (descr ""))
 	(lib (name "D_Diode") (type "KiCad") (uri "${LAMBO_LIB}/Footprints/D_Diode.pretty") (options "") (descr ""))
