@@ -6980,6 +6980,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" "C85049"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "2N7002W-7-F"
@@ -7148,6 +7159,17 @@
 		)
 		(property "Description" "MOSFET P-CH 50V 130MA SOT23-3"
 			(at 0 -12.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C85202"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

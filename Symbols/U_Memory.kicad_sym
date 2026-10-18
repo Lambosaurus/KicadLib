@@ -1986,7 +1986,7 @@
 				)
 			)
 		)
-		(property "Value" "W25X20CLUXIG TR"
+		(property "Value" "W25X20CLUXIG"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2036,6 +2036,17 @@
 			(effects
 				(font
 					(size 0.63 0.63)
+				)
+			)
+		)
+		(property "LCSC_Part" "C164121"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

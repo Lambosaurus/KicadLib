@@ -2166,6 +2166,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" "C125094"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "LTST-C190KGKT_1_1"
 			(polyline
 				(pts
@@ -2341,6 +2352,17 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "LCSC_Part" "C94869"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2522,6 +2544,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" "C125095"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "LTST-C190KSKT_1_1"
 			(polyline
 				(pts
@@ -2700,6 +2733,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" "C125096"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "LTST-C190TBKT_1_1"
 			(polyline
 				(pts
@@ -2855,6 +2899,17 @@
 		)
 		(property "Description" "LED GREEN/RED CLEAR CHIP SMD"
 			(at -0.254 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C125104"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

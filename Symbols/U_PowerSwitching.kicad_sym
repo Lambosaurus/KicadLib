@@ -1366,6 +1366,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" "C2842775"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "BQ25303J_0_1"
 			(rectangle
 				(start -12.7 27.94)
@@ -5728,6 +5739,17 @@
 				(justify left)
 			)
 		)
+		(property "LCSC_Part" "C169167"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "IC REG BOOST ADJ 5.25A 16WQFN"
 			(at 0 0 0)
 			(show_name no)
@@ -7330,6 +7352,17 @@
 		)
 		(property "Description" "IC REG BUCK BST PROG 400MA 10SON"
 			(at -0.508 -8.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C1518762"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

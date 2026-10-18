@@ -27040,6 +27040,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" "C265055"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "JST_XA_B03B-XASK-1_0_1"
 			(rectangle
 				(start -1.27 7.62)
@@ -27206,6 +27217,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" "C158012"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "JST_XH_B2B-XH-A_0_1"
 			(rectangle
 				(start -1.27 5.08)
@@ -27334,6 +27356,17 @@
 		)
 		(property "Description" "CONN HEADER VERT 3POS 2.5MM"
 			(at 0.254 -7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C144394"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -27500,6 +27533,17 @@
 		)
 		(property "Description" "CONN HEADER VERT 4POS 2.5MM"
 			(at 0.254 -7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C144395"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -27695,6 +27739,17 @@
 		)
 		(property "Description" "CONN HEADER VERT 5POS 2.5MM"
 			(at 0.254 -7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C157991"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -27919,6 +27974,17 @@
 		)
 		(property "Description" "CONN HEADER VERT 6POS 2.5MM"
 			(at 0.254 -7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C144397"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -42454,6 +42520,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" " "
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "JST_XH_S3B-XH-A"
@@ -42502,6 +42579,17 @@
 		)
 		(property "Description" "CONN HEADER VERT 3POS 2.5MM"
 			(at 0.254 -7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" " "
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -42568,6 +42656,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "JST_XH_S5B-XH-A"
@@ -42616,6 +42715,17 @@
 		)
 		(property "Description" "CONN HEADER VERT 5POS 2.5MM"
 			(at 0.254 -7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" " "
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -42682,6 +42792,17 @@
 				)
 			)
 		)
+		(property "LCSC_Part" " "
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "Molex_2005280080"
@@ -42706,7 +42827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "J_Connector:Molex_2005280080"
 			(at -1.27 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42730,6 +42851,17 @@
 		)
 		(property "Description" "CONN FFC FPC BOTTOM 8POS 1MM R/A"
 			(at -0.254 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Part" "C6074066"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
