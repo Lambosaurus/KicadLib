@@ -3,7 +3,7 @@ import os, sys, math, shutil, platform
 import argparse, glob, contextlib, json
 import image, pdfmerge, bundle
 
-SCRIPT_VERSION = "v1.33"
+SCRIPT_VERSION = "v1.34"
 KICAD_VERSION = "10.0"
 
 if platform.platform().startswith("Windows"):
@@ -153,7 +153,7 @@ def export_sch_bom(input_sch: str, output_csv: str, variant: str|None, format: s
         "--exclude-dnp",
         "--labels", ",".join(labels),
         "--fields", ",".join(fields),
-        "--group-by", "Value,Footprint",
+        "--group-by", "Value,${FOOTPRINT_NAME}",
         "--ref-range-delimiter", "", # Do not use reference ranges
     ] + optional("--variant", variant)
     )
