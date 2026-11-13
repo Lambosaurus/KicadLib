@@ -12273,7 +12273,7 @@
 			)
 		)
 		(property "Value" "SN75176BDR"
-			(at 0 -7.62 0)
+			(at 0.508 -21.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12283,7 +12283,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SOIC_8"
-			(at 0 -9.906 0)
+			(at 0 -23.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -12294,7 +12294,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65176b"
-			(at 0.254 -14.224 0)
+			(at 0.254 -27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -12305,7 +12305,7 @@
 			)
 		)
 		(property "Description" "IC TRANSCEIVER HALF 1/1 8SOIC"
-			(at -0.254 -12.192 0)
+			(at -0.254 -25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -12413,7 +12413,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -3.81 180)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -12431,7 +12431,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -1.27 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -12449,7 +12449,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 1.27 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -12467,7 +12467,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 3.81 180)
+				(at 0 8.89 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
