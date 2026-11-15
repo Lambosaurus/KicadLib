@@ -1,0 +1,136 @@
+(footprint "TVS1024.xx"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.43 0)
+		(layer "F.SilkS")
+		(uuid "b1cba9bb-de79-409d-93f9-322ace8d143f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TVS1024.xx"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8016b994-04bc-4d35-b329-a944e8a567da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d96d068c-6f39-40c1-9940-6806bd093096")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34d8a8f4-3ae5-4df4-b8c5-6119a17b03bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 1.29)
+		(end 0.99 1.29)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4401a868-08d1-4eea-b50a-69cd19f99111")
+	)
+	(fp_line
+		(start 1 -1.29)
+		(end -0.99 -1.29)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8eda0651-5657-4f3a-8674-d34e57029030")
+	)
+	(fp_rect
+		(start -3.6 -1.84)
+		(end 3.6 1.84)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1db8ddc7-07d4-45cc-9a0a-1d8672af1d57")
+	)
+	(fp_rect
+		(start -2.4 -1.2)
+		(end 2.4 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "827dc429-e14f-47aa-83e6-896ed5a572d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6ed9f712-2355-44a3-af90-fd05330c5bf5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.375 0 90)
+		(size 3.5 2.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
+		(uuid "9877341f-9f3a-4eeb-922d-7094d06719d7")
+	)
+	(pad "2" smd roundrect
+		(at 2.375 0 90)
+		(size 3.5 2.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
+		(uuid "076c6bff-f7ea-4779-8bc2-98b57df58886")
+	)
+	(embedded_fonts no)
+	(model "${LAMBO_LIB}/Step/switch/TVS1024-xx.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
