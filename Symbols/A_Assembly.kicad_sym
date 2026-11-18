@@ -2086,7 +2086,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RAK_RAK3172-TE-9-SM-I"
+	(symbol "RAK_RAK3172-T-9-SM-I"
 		(pin_names
 			(offset 0.254)
 		)
@@ -2105,7 +2105,7 @@
 				)
 			)
 		)
-		(property "Value" "RAK3172-TE-9-SM-I"
+		(property "Value" "RAK3172-T-9-SM-I"
 			(at 0 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2115,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_Assembly:RAK_RAK3172-TE-9-SM-I"
+		(property "Footprint" "A_Assembly:RAK_RAK3172-T-9-SM-I"
 			(at 0 -29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2159,7 +2159,7 @@
 				)
 			)
 		)
-		(symbol "RAK_RAK3172-TE-9-SM-I_0_1"
+		(symbol "RAK_RAK3172-T-9-SM-I_0_1"
 			(rectangle
 				(start -15.24 27.94)
 				(end 15.24 -27.94)
@@ -2172,7 +2172,7 @@
 				)
 			)
 		)
-		(symbol "RAK_RAK3172-TE-9-SM-I_1_1"
+		(symbol "RAK_RAK3172-T-9-SM-I_1_1"
 			(pin input line
 				(at -17.78 25.4 0)
 				(length 2.54)
@@ -5603,7 +5603,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 12.7 25.4 180)
 				(length 2.54)
 				(name "VCC_RF"
