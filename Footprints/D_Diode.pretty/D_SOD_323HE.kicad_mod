@@ -1,12 +1,14 @@
 (footprint "D_SOD_323HE"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
+	(descr "SOD-323HE (ROHM TUMD2M, JEITA SC-108B), 2.5x1.4mm body+leads. Pad 1 = cathode = large heat-sink pad. Land pattern per ROHM RB168VAM100 datasheet (1.1 x 2.0 / 1.1 x 0.8, 3.3 overall)")
+	(tags "SOD-323HE TUMD2M SC-108B diode schottky")
 	(property "Reference" "REF**"
 		(at 0 -1.7 0)
 		(layer "F.SilkS")
-		(uuid "60add3df-6a92-4ec9-8b68-c95539f4cf0a")
+		(uuid "2bb75f54-66a9-449e-9f45-474d5997ec2d")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +20,7 @@
 		(at 0 2 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2706d589-f40c-4ae2-8d1a-daf6cca410e2")
+		(uuid "4372d092-bbdf-43c7-878a-8afe1f194cfd")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aeb5ecca-2453-4300-86e8-010b77030556")
+		(uuid "9c57a45e-a959-44e2-9d0a-3accd3181559")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0bc6bb34-21c4-4747-a5c0-a8caba49b3f2")
+		(uuid "e95bc0a9-3e2e-44d7-a2e2-6ba6caa5b4cc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,42 +53,43 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -1.85 -0.5)
-		(end -1.85 0.5)
+		(start -1.95 -0.55)
+		(end -1.95 0.55)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c2b59e2d-0fe7-43e7-af54-44a53e27c754")
+		(uuid "03c7f4c6-a408-4ed9-be05-5d59b7bb84c9")
 	)
 	(fp_rect
-		(start -1.8 -0.95)
-		(end 1.8 0.95)
+		(start -2.2 -0.95)
+		(end 1.9 0.95)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
-		(uuid "cf6c5acd-f49c-4141-8feb-b64f08297668")
+		(layer "F.CrtYd")
+		(uuid "0cc21112-6423-4009-bd30-6e73da2000a6")
 	)
 	(fp_rect
-		(start -1.1 -0.65)
-		(end 1.1 0.65)
+		(start -1 -0.7)
+		(end 1 0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "3a92c4ce-107c-4322-ade6-8cc096d07d3a")
+		(uuid "18f59567-db65-4474-b536-f73da1b366ec")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.2 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "c3d355e2-5a2e-4900-90d5-2140e7b8830b")
+		(uuid "34320eb0-2813-44d5-8979-d9de2dab43b5")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -95,21 +98,21 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.25 0)
-		(size 0.8 0.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "f75bced6-245a-490c-a39b-3a0d1b65c852")
-	)
-	(pad "2" smd roundrect
-		(at 0.65 0)
+		(at -0.65 0)
 		(size 2 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "e3961296-b4c5-459d-a7b6-a37ca9fc9b04")
+		(roundrect_rratio 0.1363636364)
+		(uuid "8bc133e1-4f70-4141-9754-948386d0407d")
+	)
+	(pad "2" smd roundrect
+		(at 1.25 0)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1875)
+		(uuid "b1a57da7-f86e-4982-ac3e-f16d85f0ab41")
 	)
 	(embedded_fonts no)
-	(model "${LAMBO_LIB}/Step/diode/SOD323.step"
+	(model "${LAMBO_LIB}/Step/diode/SOD323HE.step"
 		(offset
 			(xyz 0 0 0)
 		)
