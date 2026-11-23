@@ -1018,7 +1018,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX17320G20+T"
+		(property "Value" "MAX17320G22+"
 			(at 0 -5.334 0)
 			(show_name no)
 			(do_not_autoplace no)
